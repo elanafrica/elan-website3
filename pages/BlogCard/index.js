@@ -8,12 +8,16 @@ function BlogCard() {
   const router = useRouter();
   const { post } = router.query || {};
 
+  if (!post || !post.title) {
+    return null;
+  }
+
   return (
     <div
       key={post.id}
       className="singleCareer group group/item w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#0b2546] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg"
     >
-      {post && post.image && (
+      {post.image && (
         <Image
           src={post.image}
           alt={post.title}
