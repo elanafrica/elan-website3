@@ -1,7 +1,7 @@
 "use client";
 import { useParams } from "next/navigation";
 
-import Image from "next/image";
+// import Image from "next/image";
 import { AiOutlineEye } from "react-icons/ai";
 import { TfiComments } from "react-icons/tfi";
 import { FcLike } from "react-icons/fc";
@@ -14,13 +14,16 @@ function BlogCard() {
       key={post.id}
       className="singleCareer group group/item w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#0b2546] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg"
     >
-      <Image
-        src={post.image}
-        alt={post.title}
-        width={500}
-        height={300}
-        priority
-      />
+      {post && post.image && (
+        <Image
+          src={post.image}
+          alt={post.title}
+          width={500}
+          height={300}
+          priority
+        />
+      )}
+
       <h2 className="text-[16px] font-semibold text-black group-hover:text-white">
         {post.title}
       </h2>
