@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Image from "next/image";
 
 function Post2() {
   const [comments, setComments] = useState([]);
@@ -20,9 +19,7 @@ function Post2() {
       <article className="m-4 mt-9">
         <h2>How to Create a Marketing Plan That Works.</h2>
 
-        <div>
-          <Image />
-        </div>
+        <div></div>
         <div>
           <p>
             Ignoring online marketing is like opening a business but not telling
