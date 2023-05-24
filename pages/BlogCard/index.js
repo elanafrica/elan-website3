@@ -8,7 +8,7 @@ import { FcLike } from "react-icons/fc";
 
 function BlogCard() {
   const params = useParams();
-  const { post } = params;
+  const { post } = params || {};
   return (
     <div
       key={post.id}
