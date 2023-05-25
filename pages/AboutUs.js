@@ -19,12 +19,7 @@ import playns from "../public/assets/playns.png";
 
 import { DiUnitySmall } from "react-icons/di";
 import { BiCodeAlt } from "react-icons/bi";
-import {
-  BsFillCartCheckFill,
-  BsFillPeopleFill,
-  BsSteam,
-  BsPersonCircle,
-} from "react-icons/bs";
+import { BsFillCartCheckFill, BsFillPeopleFill, BsSteam } from "react-icons/bs";
 import { FaAccessibleIcon, FaTripadvisor } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
 import { GrBusinessService } from "react-icons/gr";
