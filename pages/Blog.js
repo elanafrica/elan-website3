@@ -369,55 +369,55 @@ const Blog = () => {
           <Image className="w-full" src={ElanBlogHero} alt="Logo" priority />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
             <div className="text-center absolute top-1/2 left-1/2 bottom-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <p className="px-6 pb-6 text-3xl font-bold">
+              <p className="px-6 pb-6 text-xl md:text-3xl font-bold">
                 Where we share insights and trends on sales, marketing, growth,
                 and creative content.
               </p>
             </div>
           </div>
         </div>
-        <div className="mt-7 m-4 ">
-          <div className=" flex flex-wrap items-center justify-center ">
+        <div className="mt-7 mx-4">
+          <div className="flex flex-wrap items-center justify-center space-x-2 md:space-x-4">
             <Link
               href="/Blog"
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               All Posts
             </Link>
             <Link
               href="/AboutUs"
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Growth Marketing
             </Link>
 
             <Link
               href="/OurWork"
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Business Tips
             </Link>
             <Link
               href="/Blog"
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Growth Marketing Agency
             </Link>
             <Link
               href="/Testimonials"
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Traditional Marketing Methods
             </Link>
             <Link
               href="/ContactUs"
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Marketing Tips
             </Link>
             <div className="relative">
               <button
-                className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 More
@@ -429,25 +429,25 @@ const Blog = () => {
               >
                 <Link
                   href="/ElanAccelerate"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  className="block px-4 py-2 text-sm md:text-base text-gray-700 hover:bg-gray-100"
                 >
                   Business In Africa
                 </Link>
                 <Link
                   href="/ElanDev"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  className="block px-4 py-2 text-sm md:text-base text-gray-700 hover:bg-gray-100"
                 >
                   WorkPlace in Africa
                 </Link>
                 <Link
                   href="/ElanGrowth"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  className="block px-4 py-2 text-sm md:text-base text-gray-700 hover:bg-gray-100"
                 >
                   Founders Care Column
                 </Link>
                 <Link
                   href="/ElanStudio"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  className="block px-4 py-2 text-sm md:text-base text-gray-700 hover:bg-gray-100"
                 >
                   Business Guide
                 </Link>
@@ -456,11 +456,11 @@ const Blog = () => {
           </div>
         </div>
         <div className="mt-9">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post) => (
               <div
                 key={post.id}
-                className="singleCareer group group/item w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#0b2546] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg"
+                className="singleCareer group group/item p-4 bg-white rounded-2xl hover:bg-[#0b2546] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg"
               >
                 <Link href={`/BlogCard/${post.id}`}>
                   <Image
@@ -470,13 +470,13 @@ const Blog = () => {
                     height={300}
                     priority
                   />
-                  <h1 className="text-[16px] font-semibold text-black group-hover:text-white">
+                  <h1 className="text-lg md:text-xl font-semibold text-black group-hover:text-white">
                     {post.title}
                   </h1>
-                  <span className="flex items-center text-[#ccc} gap-1 group-hover:text-white">
+                  <span className="flex items-center text-[#ccc] gap-1 group-hover:text-white">
                     <BiTimeFive /> By {post.name} on {post.date}
                   </span>
-                  <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
+                  <p className="text-sm md:text-base text-[#959595] pt-4 md:pt-6 border-t-2 mt-4 md:mt-6 group-hover:text-white">
                     {post.description}
                   </p>
                   <p>Views: {post.views}</p>

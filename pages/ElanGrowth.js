@@ -33,10 +33,10 @@ function ElanGrowth() {
           <div className="relative">
             <Image className="w-full" src={Logoh} alt="Logo" priority />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <div className="text-center absolute top-1/2 left-1/2 bottom-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <p className="px-6 pb-6 text-3xl font-bold">
                   We boast of a vast network of top talent across various
-                  specialisations.
+                  specializations.
                 </p>
                 <p>
                   Elan Growth is your expert business strategy and execution
@@ -46,23 +46,25 @@ function ElanGrowth() {
             </div>
           </div>
 
-          <div className="mt-7 ">
+          <div className="mt-7">
             <div className="text-center">
               <h2 className="text-[#0b2546] text-4xl mb-2">
                 We Go Above and Beyond
               </h2>
             </div>
-            <div className="flex g-2">
-              <div className="w-1/3 pr-5">
-                <div className=" rounded-lg shadow-lg p-6 mb-4 ">
-                  <h4 className=" text-xl font-bold">Ditch the to-do list!</h4>
+            <div className="flex flex-wrap justify-center gap-4">
+              <div className="w-full sm:w-1/2 lg:w-1/3 pr-5 mb-4">
+                <div className="rounded-lg shadow-lg p-6">
+                  <h4 className="text-xl font-bold">Ditch the to-do list!</h4>
                   <p>
                     We analyze where your business is right now and where you
                     want to be and then engineer your unique growth system.
                   </p>
                 </div>
-                <div className=" rounded-lg shadow-lg p-6  mb-4 ">
-                  <h4 className=" text-xl font-bold">
+              </div>
+              <div className="w-full sm:w-1/2 lg:w-1/3 pr-5 mb-4">
+                <div className="rounded-lg shadow-lg p-6">
+                  <h4 className="text-xl font-bold">
                     Effective Testing Methodology
                   </h4>
                   <p>
@@ -72,17 +74,9 @@ function ElanGrowth() {
                   </p>
                 </div>
               </div>
-              <div className=" mt-9 w-1/3 pr-5">
-                <Image
-                  className="w-72 homepage22"
-                  src={Elangrowth1}
-                  alt="Logo"
-                  priority
-                />
-              </div>
-              <div className="w-1/3 pr-5">
-                <div className=" rounded-lg shadow-lg p-6  mb-4 ">
-                  <h4 className=" text-xl font-bold">Network of top talent.</h4>
+              <div className="w-full sm:w-1/2 lg:w-1/3 pr-5 mb-4">
+                <div className="rounded-lg shadow-lg p-6">
+                  <h4 className="text-xl font-bold">Network of top talent.</h4>
                   <p>
                     Every strategy and its successful implementation relies on
                     the right expertise. It's why at its core, we have built a
@@ -90,8 +84,10 @@ function ElanGrowth() {
                     industries.
                   </p>
                 </div>
-                <div className=" rounded-lg shadow-lg p-6 mb-4 ">
-                  <h4 className=" text-xl font-bold">
+              </div>
+              <div className="w-full sm:w-1/2 lg:w-1/3 pr-5 mb-4">
+                <div className="rounded-lg shadow-lg p-6">
+                  <h4 className="text-xl font-bold">
                     Fully transparent and responsive
                   </h4>
                   <p>
@@ -103,106 +99,106 @@ function ElanGrowth() {
               </div>
             </div>
           </div>
-        </div>
 
-        <div
-          className="mt-9 m-4  flex flex-wrap items-center justify-center"
-          style={{ animation: "fadeIn 1s ease-in-out" }}
-        >
           <div
-            className=" w-1/2 pr-5 mt-7 "
-            data-aos="fade-down"
-            data-aos-delay="400"
-          >
-            <h2 className="text-3xl font-bold text-center">
-              Elan Growth....Our Services
-            </h2>
-            <div className="mt-9">
-              <p>
-                Every business need and strategy is 'unique'. With our growth
-                services, the days of the one size fits all approach is a thing
-                of the past.
-              </p>
-              <p>
-                We’ve got you covered with a wide range of experiences and
-                knowledge, leveraging our team of experts and network of
-                hands-on experience.
-              </p>
-              <p>
-                If your growth expectations are yet to be set in motion, you may
-                want to ta speak with our team.
-              </p>
-            </div>
-          </div>
-          <div className=" w-1/2 pr-5">
-            <Image
-              className="w-full homepage22 mt-9"
-              src={Elangrowth2}
-              alt="elangrowth2"
-              priority
-            />
-          </div>
-        </div>
-
-        <div className="flex mt-9 m-4  flex flex-wrap items-center justify-center ">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Image
-              className="w-full homepage22"
-              src={Elangrowth3}
-              alt="elangrowth3"
-              priority
-            />
-          </div>
-          <div
-            className=" w-1/2 pr-5"
+            className="mt-9 m-4 flex flex-wrap items-center justify-center"
             style={{ animation: "fadeIn 1s ease-in-out" }}
           >
-            <h2 className=" mt-7 text-3xl font-bold text-gray-800 mb-4 ">
-              Business Growth Consultancy.
-            </h2>
-            <div>
-              <p className="mb-4">
-                If you’ve never developed a strategy for growing your firm,
-                that’s okay. Or maybe your strategy needs help and an end-to-end
-                reshape?
-              </p>
-              <p>
-                At ELAN GROWTH, we offer strategies that help set businesses
-                across Africa into motion. We focus on helping you get the
-                growth strategy right, putting the systems or processes in place
-                and everything else becomes easier. Our approach will replace
-                random and opportunistic business development with a reliable
-                and systematic approach to growth across your strategy, teams,
-                output, and business.
-              </p>
+            <div
+              className="w-full sm:w-1/2 pr-5 mt-7"
+              data-aos="fade-down"
+              data-aos-delay="400"
+            >
+              <h2 className="text-3xl font-bold text-center">
+                Elan Growth....Our Services
+              </h2>
+              <div className="mt-9">
+                <p>
+                  Every business need and strategy is 'unique'. With our growth
+                  services, the days of the one size fits all approach is a
+                  thing of the past.
+                </p>
+                <p>
+                  We’ve got you covered with a wide range of experiences and
+                  knowledge, leveraging our team of experts and network of
+                  hands-on experience.
+                </p>
+                <p>
+                  If your growth expectations are yet to be set in motion, you
+                  may want to ta speak with our team.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-100 py-10">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                  Our Approach
-                </h2>
-                <ul className="list-disc pl-6">
-                  <li className="text-gray-700 mb-2">
-                    Boost your prospect penetrating into the market
-                  </li>
-                  <li className="text-gray-700 mb-2">
-                    Gives you an edge over competitors
-                  </li>
-                  <li className="text-gray-700 mb-2">
-                    Create a course of action to increase market share
-                  </li>
-                </ul>
+            <div className="w-full sm:w-1/2 pr-5">
+              <Image
+                className="w-full homepage22 mt-9"
+                src={Elangrowth2}
+                alt="elangrowth2"
+                priority
+              />
+            </div>
+          </div>
+
+          <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
+            <div className="w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <Image
+                className="w-full homepage22"
+                src={Elangrowth3}
+                alt="elangrowth3"
+                priority
+              />
+            </div>
+            <div
+              className="w-full sm:w-1/2 pr-5"
+              style={{ animation: "fadeIn 1s ease-in-out" }}
+            >
+              <h2 className="mt-7 text-3xl font-bold text-gray-800 mb-4">
+                Business Growth Consultancy.
+              </h2>
+              <div>
+                <p className="mb-4">
+                  If you’ve never developed a strategy for growing your firm,
+                  that’s okay. Or maybe your strategy needs help and an
+                  end-to-end reshape?
+                </p>
+                <p>
+                  At ELAN GROWTH, we offer strategies that help set businesses
+                  across Africa into motion. We focus on helping you get the
+                  growth strategy right, putting the systems or processes in
+                  place and everything else becomes easier. Our approach will
+                  replace random and opportunistic business development with a
+                  reliable and systematic approach to growth across your
+                  strategy, teams, output, and business.
+                </p>
+              </div>
+              <div className="bg-gray-100 py-10">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                  <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                    Our Approach
+                  </h2>
+                  <ul className="list-disc pl-6">
+                    <li className="text-gray-700 mb-2">
+                      Boost your prospect penetrating into the market
+                    </li>
+                    <li className="text-gray-700 mb-2">
+                      Gives you an edge over competitors
+                    </li>
+                    <li className="text-gray-700 mb-2">
+                      Create a course of action to increase market share
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-9 m-4   flex flex-wrap items-center justify-center">
-          <div className="w-1/2 pr-5">
+        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
+          <div className="w-full sm:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Growth Marketing Agency.
             </h2>
-            <div className="">
+            <div>
               <p className="mb-4">
                 At its core, the goal is to be responsible for the entire
                 marketing funnel. From awareness and acquisition all the way
@@ -227,9 +223,9 @@ function ElanGrowth() {
               </p>
             </div>
           </div>
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
-              className="w-full homepage22"
+              className="w-full"
               src={Elangrowth4}
               alt="elangrowth4"
               priority
@@ -243,7 +239,7 @@ function ElanGrowth() {
           </div>
           <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">
-              Conversion Optimisation
+              Conversion Optimization
             </p>
           </div>
           <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
@@ -265,8 +261,8 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9 m-4  flex-wrap items-center justify-center">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
+          <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full homepage22"
               src={Elangrowth5}
@@ -274,16 +270,15 @@ function ElanGrowth() {
               priority
             />
           </div>
-          <div className=" w-1/2 pr-5">
+          <div className="w-full sm:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Product Development.
             </h2>
-
             <div>
               <p className="mb-4">
                 At ElanGrowth we bring your product from concept or idea through
                 market release and beyond. We would help you strategically plan,
-                build and take your product to market and measure its success. ​
+                build and take your product to market and measure its success.
               </p>
             </div>
             <div className="bg-gray-100 py-10">
@@ -303,10 +298,9 @@ function ElanGrowth() {
             </div>
           </div>
         </div>
-
         <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
-          <div className=" w-1/2 pr-5">
-            <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
+          <div className="w-full sm:w-1/2 pr-5">
+            <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Brand & Creative Development.
             </h2>
             <div>
@@ -321,22 +315,22 @@ function ElanGrowth() {
                 When we partner with clients to create a winning brand strategy,
                 we get into the weeds. We’ll do a deep dive into the
                 marketplace, find out where the currents are heading, develop a
-                message that matters and get ahead of the curve.{" "}
+                message that matters, and get ahead of the curve.
               </p>
             </div>
             <div className="bg-gray-100 py-10">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <ul className="list-disc pl-6">
                   <li className="text-gray-700 mb-2">
-                    Full brand strategy and design- logos, branding, production,
-                    UI/UX designs, and company documentation, just to mention a
-                    few.
+                    Full brand strategy and design - logos, branding,
+                    production, UI/UX designs, and company documentation, just
+                    to mention a few.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full homepage22"
               src={Elangrowth6}
@@ -346,8 +340,8 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9 m-4  flex-wrap items-center justify-center">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
+          <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full homepage22"
               src={Elangrowth7}
@@ -355,7 +349,7 @@ function ElanGrowth() {
               priority
             />
           </div>
-          <div className=" w-1/2 pr-5">
+          <div className="w-full sm:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               E-Commerce Agency.
             </h2>
@@ -377,7 +371,7 @@ function ElanGrowth() {
                 advertising services. At ELAN, we’ll give it to you for free: ​
               </p>
             </div>
-            <div className="bg-gray-100 py-10 text-[#0b2546] ">
+            <div className="bg-gray-100 py-10 text-[#0b2546]">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <ul className="list-disc pl-6">
                   <li className="text-gray-700 mb-2">Traction</li>
@@ -389,19 +383,19 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9 m-4  flex-wrap items-center justify-center">
-          <div className=" w-1/2 pr-5">
+        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
+          <div className="w-full sm:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               On-Demand CMO, CSO & Growth Managers.
             </h2>
             <div>
               <p className="mb-4">
-                We have observed that many times organisations come to
+                We have observed that many times organizations come to
                 situations they need very skilled expertise in the areas of
                 sales, marketing or growth to scale or solve a business case or
                 need. So, we created a service that gives you access to a
-                hands-on pool of experts and professional to solve your
-                immediate sale, marketing and growth needs.
+                hands-on pool of experts and professionals to solve your
+                immediate sales, marketing, and growth needs.
               </p>
               <p>
                 Our managers will be sure to design and implement predictable &
@@ -409,13 +403,14 @@ function ElanGrowth() {
                 primarily.
               </p>
               <p className="text-[#0b2546]">
-                Your growth plans don't need to challenged with the right expert
-                knowledge to bring business success. Get access to consultants
-                specializing in Startups, SMEs, Tech, and many other businesses.
+                Your growth plans don't need to be challenged with the right
+                expert knowledge to bring business success. Get access to
+                consultants specializing in Startups, SMEs, Tech, and many other
+                businesses.
               </p>
             </div>
           </div>
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full"
               src={Elangrowth8}
@@ -426,7 +421,7 @@ function ElanGrowth() {
         </div>
 
         <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full"
               src={Elangrowth9}
@@ -434,7 +429,7 @@ function ElanGrowth() {
               priority
             />
           </div>
-          <div className=" w-1/2 pr-5">
+          <div className="w-full sm:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Turnkey Sales & Marketing Projects.
             </h2>
@@ -444,14 +439,14 @@ function ElanGrowth() {
                 traditional communication channels and strategies.
               </p>
               <p>
-                Lets put it this way.... While we are laser focused on
-                optimising below-the-line channels and strategies, we are also
+                Lets put it this way.... While we are laser-focused on
+                optimizing below-the-line channels and strategies, we are also
                 very vast in the more traditional marketing channels.
               </p>
               <p className="text-[#0b2546]">
-                Over the years our team have effectively managed combined
+                Over the years, our team has effectively managed combined
                 budgets of millions of dollars towards successful campaigns we
-                can make know upon request.
+                can make known upon request.
               </p>
               <div className="mt-9 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
                 <div className="bg-[#000000] rounded-lg p-4">
@@ -459,7 +454,6 @@ function ElanGrowth() {
                     Marketing Partnership
                   </p>
                 </div>
-
                 <div className="bg-[#000000] rounded-lg p-4">
                   <p className="text-white font-medium text-sm">
                     Media Relations
@@ -493,8 +487,8 @@ function ElanGrowth() {
             SOME KEYWORDS TO REMEMBER US BY ...
           </h1>
         </div>
-        <div className="mt-7 flex m-4   flex-wrap items-center justify-center">
-          <div className="mt-7 w-1/2 pr-5">
+        <div className="mt-7 flex m-4 flex-wrap items-center justify-center">
+          <div className="mt-7 w-full sm:w-1/2 pr-5">
             <p>
               Yes, we are that deep and understand what the basics should be and
               how you scale efficiently.
@@ -504,44 +498,44 @@ function ElanGrowth() {
               keywords
             </p>
           </div>
-          <div className="w-1/2 mb-5 pr-5 ">
+          <div className="w-full sm:w-1/2 mb-5 pr-5">
             <div className="mt-9 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 homepage2">
               <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">
                   Business Growth
                 </p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Sales</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Marketing</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Africa</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Strategy</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Consulting</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Revenue</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">E-Commerce</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Growth Hacking</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Partner</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Performance</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">Traction</p>
               </div>
             </div>
@@ -549,81 +543,22 @@ function ElanGrowth() {
         </div>
       </div>
 
-      <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
-        <div className="w-1/2 pr-5 mt-7 mb-5">
-          <h2 className="text-4xl mb-5">Let's talk</h2>
-          <p>about the hopes and dreams for your business! ​</p>
-          <p>Book a time for your free 30-minute growth consultation call. </p>
-        </div>
-        <div className="w-1/2 pr-5">
-          <form className="bg-gray-100 p-6 rounded-lg">
-            <h4 className="text-xl text-center">Contact Us</h4>
-            <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" for="name">
-                Name:
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="name"
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" for="phone">
-                Phone number:
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="phone"
-                type="tel"
-                name="phone"
-                placeholder="Enter your phone number"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" for="email">
-                Email:
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-gray-700 font-bold mb-2"
-                for="message"
-              >
-                Message:
-              </label>
-              <textarea
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message"
-                name="message"
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-            <div
-              className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
-              style={{ animation: "scaleIn 1s ease-in-out" }}
-            >
-              <Link href="/">
-                <button
-                  className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
-                  data-aos="fade-down"
-                  data-aos-delay="400"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </Link>
-            </div>
-          </form>
+      <div className="mt-7  py-12">
+        <div className="container">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-black">Let's talk</h2>
+            <p className="text-black-300">
+              about the hopes and dreams for your business! ​ Book a time for
+              your free 30-minute growth consultation call.
+            </p>
+          </div>
+          <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center animate-scale-in">
+            <Link href="/ContactUs">
+              <button className="block mt-5 mb-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto animate-fade-in">
+                Contact Us
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </Layout>
