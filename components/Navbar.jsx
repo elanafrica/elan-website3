@@ -6,20 +6,20 @@ import Logo from "../public/logo.png";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const buttontoggleMenu = () => {
+  const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="text-gray-600 body-font max-w-7xl mx-auto">
-      <div className="container mx-auto flex flex-wrap items-center justify-between">
+    <header className="text-gray-600 body-font">
+      <div className="container mx-auto flex flex-wrap items-center justify-between py-4 px-6">
         <Link href="/" className="flex title-font font-medium items-center">
           <Image className="" src={Logo} alt="logo" width={110} priority />
         </Link>
         <button
           className="hamburger-menu md:hidden"
           aria-label="Open Menu"
-          onClick={buttontoggleMenu}
+          onClick={toggleMenu}
         >
           {isOpen ? (
             <svg

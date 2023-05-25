@@ -34,11 +34,11 @@ function ElanTraining() {
             <Image className="w-full" src={Logoh} alt="Logo" priority />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-[#0b2546]">
               <div className="text-center absolute bottom-10 left-0 right-0">
-                <p className="px-6 pb-6 text-3xl font-bold">
+                <p className="px-6 pb-6 text-3xl font-bold sm:text-4xl">
                   Where we build the right tech ecosystem that helps your
                   business scale.
                 </p>
-                <p>
+                <p className="sm:text-lg">
                   We would not just identify the tech needs but also implement
                   them
                 </p>
@@ -81,7 +81,7 @@ function ElanTraining() {
                 <p>
                   In-depth identification and analysis of clients’ knowledge
                   gaps and its needs in specific topics mostly related to sales,
-                  marketing, business growth hacks and customer experience.
+                  marketing, business growth hacks, and customer experience.
                 </p>
               </div>
               <div
@@ -125,8 +125,8 @@ function ElanTraining() {
                 <h1 className="text-xl font-bold mb-3">Top Experts.</h1>
                 <p>
                   This is your Feature section paragraph. Use this space to
-                  present specific credentials, benefits or special features you
-                  offer.
+                  present specific credentials, benefits, or special features
+                  you offer.
                 </p>
               </div>
               <div
@@ -140,8 +140,8 @@ function ElanTraining() {
                 <h1 className="text-xl font-bold mb-3">Feature Title</h1>
                 <p>
                   This is your Feature section paragraph. Use this space to
-                  present specific credentials, benefits or special features you
-                  offer.
+                  present specific credentials, benefits, or special features
+                  you offer.
                 </p>
               </div>
               <div
@@ -155,8 +155,8 @@ function ElanTraining() {
                 <h1 className="text-xl font-bold mb-3">Feature Title</h1>
                 <p>
                   This is your Feature section paragraph. Use this space to
-                  present specific credentials, benefits or special features you
-                  offer.
+                  present specific credentials, benefits, or special features
+                  you offer.
                 </p>
               </div>
             </div>
@@ -168,8 +168,8 @@ function ElanTraining() {
           <h2 className="text-3xl font-bold">Our Training Modules</h2>
         </div>
 
-        <div className="flex m-4  mt-9 flex-wrap items-center justify-center mt-9 animate-fade-in-right">
-          <div className="w-1/2 pr-5">
+        <div className="flex m-4 mt-9 flex-wrap items-center justify-center mt-9 animate-fade-in-right">
+          <div className="w-full md:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4 animate-bounce">
               Sales & Marketing
             </h2>
@@ -187,7 +187,7 @@ function ElanTraining() {
               </p>
             </div>
           </div>
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-right">
+          <div className="mt-7 w-full md:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-right">
             <Image
               className="w-full animate-pulse"
               src={Elantrain3}
@@ -197,8 +197,8 @@ function ElanTraining() {
           </div>
         </div>
 
-        <div className="flex mt-9 m-4  mt-7  flex-wrap items-center justify-center animate-fade-in-left">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-right">
+        <div className="flex mt-9 m-4 mt-7 flex-wrap items-center justify-center animate-fade-in-left">
+          <div className="mt-7 w-full md:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-right">
             <Image
               className="w-full animate-pulse"
               src={Elantrain2}
@@ -206,7 +206,7 @@ function ElanTraining() {
               priority
             />
           </div>
-          <div className="w-1/2 pr-5">
+          <div className="w-full md:w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4 animate-bounce">
               E-Commerce
             </h2>
@@ -242,8 +242,8 @@ function ElanTraining() {
           </div>
         </div>
 
-        <div className="flex mt-9 m-4  mt-7 flex flex-wrap items-center justify-center">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
+        <div className="flex mt-9 m-4 mt-7 flex-wrap items-center justify-center">
+          <div className="mt-7 w-full md:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
             <Image
               className="w-full animate-fade-in-bottom"
               src={Elantrain1}
@@ -251,7 +251,7 @@ function ElanTraining() {
               priority
             />
           </div>
-          <div className=" w-1/2 pr-5 animate-fade-in-right">
+          <div className="w-full md:w-1/2 pr-5 animate-fade-in-right">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4 animate-fade-in-bottom">
               Customer Experience
             </h2>
@@ -269,7 +269,7 @@ function ElanTraining() {
               <p className="mb-4 animate-fade-in-bottom">
                 While building your company's image as a customer-centered
                 organization, your employees would learn how to surpass customer
-                service standards and expectations. ​
+                service standards and expectations.
               </p>
               <p className="animate-fade-in-bottom">
                 This course provides the skills and information needed to
@@ -281,80 +281,22 @@ function ElanTraining() {
         </div>
       </div>
 
-      <div class="flex m-4  mt-9  flex-wrap items-center justify-center m-4 mb-5">
-        <div class="w-1/2 pr-5 mt-7 mb-5">
-          <h2 class="text-2xl mb-5">
-            Leverage our pool of top experts to bridge the knowledge gaps across
-            your organization.
-          </h2>
-          <p>Schedule a Consultation.</p>
-        </div>
-        <div class="w-1/2 pr-5">
-          <form class="bg-gray-100 p-6 rounded-lg bg-[#384A6F] text-white">
-            <h4 class="text-xl text-center mb-4">Contact Us</h4>
-            <div class="mb-4">
-              <label class="block font-bold text-gray-700 mb-2" for="name">
-                Name:
-              </label>
-              <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="name"
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div class="mb-4">
-              <label class="block font-bold text-gray-700 mb-2" for="phone">
-                Phone number:
-              </label>
-              <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="phone"
-                type="tel"
-                name="phone"
-                placeholder="Enter your phone number"
-              />
-            </div>
-            <div class="mb-4">
-              <label class="block font-bold text-gray-700 mb-2" for="email">
-                Email:
-              </label>
-              <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-              />
-            </div>
-            <div class="mb-4">
-              <label class="block font-bold text-gray-700 mb-2" for="message">
-                Message:
-              </label>
-              <textarea
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message"
-                name="message"
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-            <div
-              className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
-              style={{ animation: "scaleIn 1s ease-in-out" }}
-            >
-              <Link href="/">
-                <button
-                  className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
-                  data-aos="fade-down"
-                  data-aos-delay="400"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </Link>
-            </div>
-          </form>
+      <div className="mt-7  py-12">
+        <div className="container">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-black">
+              Leverage our pool of top experts to bridge the knowledge gaps
+              across your organization.
+            </h2>
+            <p className="text-black-300">Schedule a Consultation.</p>
+          </div>
+          <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center animate-scale-in">
+            <Link href="/ContactUs">
+              <button className="block mt-5 mb-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto animate-fade-in">
+                Contact Us
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </Layout>

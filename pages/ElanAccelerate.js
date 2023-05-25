@@ -28,7 +28,7 @@ function ElanAccelerate() {
             <Image className="w-full" src={Logoh} alt="Logo" priority />
 
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <div className="text-center absolute top-1/3 left-1/2  transform -translate-x-1/2 -translate-y-1/2">
+              <div className="text-center absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <p className="px-6 pb-6 text-3xl font-bold">
                   We are launching a new kind of growth affiliate system.
                 </p>
@@ -38,12 +38,12 @@ function ElanAccelerate() {
                 </p>
               </div>
               <div
-                className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center "
+                className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex md:flex justify-center"
                 style={{ animation: "scaleIn 1s ease-in-out" }}
               >
                 <Link href="/">
                   <button
-                    className="block  px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                    className="block px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
@@ -54,64 +54,72 @@ function ElanAccelerate() {
             </div>
           </div>
 
-          <div className="mt-7 ">
+          <div className="mt-7">
             <div className="text-center">
               <h2 className="text-[#0b2546] font-bold text-4xl mb-2">
                 Who Can Take Part?
               </h2>
             </div>
-            <div className="m-4  mt-7 flex flex-wrap items-center justify-center g-2 mt-7">
-              <div className="w-1/3 pr-5 text-center ">
-                <div className=" rounded-lg shadow-lg p-6 mb-4 ">
-                  <Image className="w-72" src={ElanAcce1} alt="Logo" priority />
-                  <h4 className=" text-xl font-bold">STARTUPS</h4>
+            <div className="m-4 mt-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="text-center">
+                <div className="rounded-lg shadow-lg p-6 mb-4">
+                  <Image
+                    className="w-72 mx-auto"
+                    src={ElanAcce1}
+                    alt="Logo"
+                    priority
+                  />
+                  <h4 className="text-xl font-bold">STARTUPS</h4>
                 </div>
               </div>
-              <div className="w-1/3 pr-5 text-center">
-                <div className=" rounded-lg shadow-lg p-6  mb-4 ">
-                  <Image className="w-72" src={ElanAcce2} alt="Logo" priority />
-                  <h4 className=" text-xl font-bold">TECH VISIONARIES</h4>
+              <div className="text-center">
+                <div className="rounded-lg shadow-lg p-6 mb-4">
+                  <Image
+                    className="w-72 mx-auto"
+                    src={ElanAcce2}
+                    alt="Logo"
+                    priority
+                  />
+                  <h4 className="text-xl font-bold">TECH VISIONARIES</h4>
                 </div>
               </div>
-
-              <div className="  w-1/3 pr-5 text-center">
-                <div className=" rounded-lg shadow-lg p-6  mb-4 ">
-                  <Image className="w-72" src={ElanAcce3} alt="Logo" priority />
-                  <h4 className=" text-xl font-bold">SME's</h4>
+              <div className="text-center">
+                <div className="rounded-lg shadow-lg p-6 mb-4">
+                  <Image
+                    className="w-72 mx-auto"
+                    src={ElanAcce3}
+                    alt="Logo"
+                    priority
+                  />
+                  <h4 className="text-xl font-bold">SME's</h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-9" style={{ animation: "fadeIn 1s ease-in-out" }}>
-          <div
-            className="  pr-5 mt-7 bg-[#151414] p-4 text-white"
-            data-aos="fade-down"
-            data-aos-delay="400"
-          >
+        <div className="mt-9">
+          <div className="pr-5 mt-7 bg-[#151414] p-4 text-white">
             <h2 className="text-3xl font-bold text-center mb-7">
               <div className="">
                 <p
-                  className="text-3xl font-bold  inline-block"
-                  style={{
-                    writingMode: "horizontal",
-                  }}
+                  className="text-3xl font-bold inline-block"
+                  style={{ writingMode: "horizontal" }}
                 >
                   How This Works
                 </p>
               </div>
             </h2>
-            <div className="mt-9 flex justify-between gap-2">
-              <div className=" w-2/3 pr-5">
+            <div className="mt-9 grid grid-cols-1 md:grid-cols-2 gap-2">
+              <div className="pr-5">
                 <Image
-                  className="w-full "
+                  className="w-full"
                   src={ElanAcceimg}
                   alt="elanacce"
                   priority
                 />
               </div>
-              <div className="w-1/3 pr-5">
+              <div className="pr-5">
                 <div>
                   <p className="font-bold text-xl mb-4">STEP 1</p>
                   <p>
@@ -120,14 +128,14 @@ function ElanAccelerate() {
                   </p>
                 </div>
                 <div>
-                  <p className="font-bold text-xl  mt-4 mb-4">STEP 2</p>
+                  <p className="font-bold text-xl mt-4 mb-4">STEP 2</p>
                   <p>
                     Full-scale business analysis. Assess applicants and match
                     them up with relevant tech, sales, marketing, and capital.
                   </p>
                 </div>
                 <div>
-                  <p className="font-bold  text-xl  mt-4 mb-4">STEP 3</p>
+                  <p className="font-bold text-xl mt-4 mb-4">STEP 3</p>
                   <p>
                     Brands Fed Through Funnel. Launch pilots between consumer
                     brands & technology.
@@ -135,7 +143,7 @@ function ElanAccelerate() {
                   <p>Fix integrations, design, and marketing</p>
                 </div>
                 <div>
-                  <p className="font-bold  text-xl  mt-4 mb-4">STEP 4</p>
+                  <p className="font-bold text-xl mt-4 mb-4">STEP 4</p>
                   <p>
                     Happy, innovative companies with happy customers and
                     accelerated, sustainable growth.
@@ -217,81 +225,22 @@ function ElanAccelerate() {
         </div>
       </div>
 
-      <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
-        <div className="w-1/2 pr-5 mt-7 mb-5">
-          <h2 className="text-4xl mb-5">Let's talk</h2>
-          <p>about the hopes and dreams for your business! ​</p>
-          <p>Book a time for your free 30-minute growth consultation call. </p>
-        </div>
-        <div className="w-1/2 pr-5">
-          <form className="bg-gray-100 p-6 rounded-lg">
-            <h4 className="text-xl text-center">Contact Us</h4>
-            <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" for="name">
-                Name:
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="name"
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" for="phone">
-                Phone number:
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="phone"
-                type="tel"
-                name="phone"
-                placeholder="Enter your phone number"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" for="email">
-                Email:
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-gray-700 font-bold mb-2"
-                for="message"
-              >
-                Message:
-              </label>
-              <textarea
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message"
-                name="message"
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-            <div
-              className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
-              style={{ animation: "scaleIn 1s ease-in-out" }}
-            >
-              <Link href="/">
-                <button
-                  className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
-                  data-aos="fade-down"
-                  data-aos-delay="400"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </Link>
-            </div>
-          </form>
+      <div className="mt-7  py-12">
+        <div className="container">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-black">Let's talk</h2>
+            <p className="text-black-300">
+              about the hopes and dreams for your business! ​ Book a time for
+              your free 30-minute growth consultation call.
+            </p>
+          </div>
+          <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center animate-scale-in">
+            <Link href="/ContactUs">
+              <button className="block mt-5 mb-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto animate-fade-in">
+                Contact Us
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </Layout>
