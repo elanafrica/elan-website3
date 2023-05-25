@@ -76,6 +76,30 @@ function Navbar() {
           >
             About Us
           </Link>
+          <Link
+            href="/OurWork"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Our Work
+          </Link>
+          <Link
+            href="/Blog"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Blog
+          </Link>
+          <Link
+            href="/Careers"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Careers
+          </Link>
+          <Link
+            href="/ContactUs"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Contact US
+          </Link>
           <div className="relative">
             <button
               className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -125,30 +149,6 @@ function Navbar() {
               </Link>
             </div>
           </div>
-          <Link
-            href="/OurWork"
-            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Our Work
-          </Link>
-          <Link
-            href="/Blog"
-            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Blog
-          </Link>
-          <Link
-            href="/Careers"
-            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Careers
-          </Link>
-          <Link
-            href="/ContactUs"
-            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Contact US
-          </Link>
         </nav>
       </div>
     </header>
