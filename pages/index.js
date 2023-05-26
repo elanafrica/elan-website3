@@ -44,7 +44,7 @@ function Home() {
       <main>
         <Layout title="HomePage">
           <div className="m-4">
-            <div className=" relative flex flex-col sm:flex-row bg-[#0b2546] text-white space-y-4 sm:text-center lg:text-left">
+            <div className="relative flex flex-col sm:flex-row bg-[#0b2546] text-white space-y-4 sm:text-center lg:text-left">
               <div className="w-full sm:w-1/2 pr-5 p-5">
                 <h1 className="text-3xl sm:text-3xl font-bold capitalize mb-5">
                   Everyone Wants to Live on the Moon. Your Business Does Too.
@@ -64,7 +64,7 @@ function Home() {
                   </Link>
                 </div>
               </div>
-              <div className=" w-1/2 pr-5">
+              <div className="w-full sm:w-1/2 pr-5">
                 <div className="absolute inset-0 bg-star-sprinkles opacity-30"></div>
                 <Image
                   className="w-full hero-container z-10"

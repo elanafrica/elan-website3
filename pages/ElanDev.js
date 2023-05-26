@@ -311,11 +311,12 @@ function ElanDev() {
             Some Case Studies
           </h2>
         </div>
-        <div className="flex mt-9 elandev4">
-          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
+
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left sm:w-1/2">
             <Image className="w-full" src={Elandev3} alt="elandev3" priority />
           </div>
-          <div className="w-full pr-5 animate-fade-in-right">
+          <div className="w-full pr-5 animate-fade-in-right sm:w-1/2">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               <span className="animate-flicker">Aerix Group</span>
             </h2>
@@ -331,8 +332,8 @@ function ElanDev() {
           </div>
         </div>
 
-        <div className="flex mt-9 elandev4">
-          <div className="w-full pr-5 animate-fade-in-right">
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="w-full pr-5 animate-fade-in-right sm:w-1/2">
             <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Ruff 'N' Tumble
             </h2>
@@ -346,16 +347,16 @@ function ElanDev() {
               </p>
             </div>
           </div>
-          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-1/2">
             <Image className="w-full" src={Elandev4} alt="elandev4" priority />
           </div>
         </div>
 
-        <div className="flex mt-9 elandev4">
-          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-1/2">
             <Image className="w-full" src={Elandev5} alt="elandev5" priority />
           </div>
-          <div className="w-full pr-5">
+          <div className="w-full pr-5 sm:w-1/2">
             <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Xirea Apparel
             </h2>
@@ -371,8 +372,8 @@ function ElanDev() {
           </div>
         </div>
 
-        <div className="flex mt-9 elandev4">
-          <div className="w-full pr-5">
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="w-full pr-5 sm:w-1/2">
             <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Financial Planning with Kalu Aja
             </h2>
@@ -386,7 +387,7 @@ function ElanDev() {
               </p>
             </div>
           </div>
-          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-1/2">
             <Image className="w-full" src={Elandev6} alt="elandev6" priority />
           </div>
         </div>
