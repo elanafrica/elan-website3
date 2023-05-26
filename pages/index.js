@@ -64,7 +64,7 @@ function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 pr-5">
+              <div className="hidden sm:block w-full sm:w-1/2 pr-5">
                 <div className="absolute inset-0 bg-star-sprinkles opacity-30"></div>
                 <Image
                   className="w-full hero-container z-10"
