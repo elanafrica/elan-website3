@@ -9,30 +9,39 @@ function ContactUs() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [submit, setSubmit] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await fetch('/api/sendEmail', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ to: name, email, subject, text: message }),
-      });
-
-      if (response.ok) {
-        // Email sent successfully
-        console.log('Email sent');
-      } else {
-        // An error occurred while sending the email
-        console.error('Error sending email');
-      }
-    } catch (error) {
-      console.error(error);
+  const handleSubmit = (e) => { 
+    e.preventDefault()
+    
+  let data = {
+      name,
+      email,
+      subject,
+      message
     }
-  }
+
+  fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    }).then((res) => {
+      console.log('Response received')
+      if (res.status === 200) {
+        console.log('Response succeeded!')
+        setName('')
+        setEmail('')
+        setSubject('')
+        setSubmit(true)
+        setBody('')
+      }
+  })
+ }
+
+   
   return (
     <Layout title="ContactUs">
       <div>
@@ -50,7 +59,7 @@ function ContactUs() {
           <div className=" flex flex-col justify-around md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-[rgb(7,39,78)] w-full max-w-6xl p-8 rounded-xl shadow-lg text-white">
             <div className="flex flex-col justify-around">
               <div>
-                <h3 class="font-bold text-4xl">
+                <h3 className="font-bold text-4xl">
                   Reinvent your experience with us
                 </h3>
                 <p className="pt-2 text-white text-xl">
@@ -79,7 +88,7 @@ function ContactUs() {
             <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl text-gray-600 md:w-100">
               <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
                 <div>
-                  <label className="">
+                  <label >
                     Names
                   </label>
                   <input
@@ -91,7 +100,7 @@ function ContactUs() {
                   />
                 </div>
                 <div>
-                  <label className="">
+                  <label>
                     Email
                   </label>
                   <input
@@ -103,7 +112,7 @@ function ContactUs() {
                   />
                 </div>
                 <div>
-                  <label className="">
+                  <label>
                     Subject
                   </label>
                   <input
@@ -115,7 +124,7 @@ function ContactUs() {
                   />
                 </div>
                 <div>
-                  <label className="">
+                  <label>
                     Message
                   </label>
                   <textarea
@@ -129,6 +138,7 @@ function ContactUs() {
                 <button
                   type="submit"
                   className="inline-block self-start bg-[rgb(7,39,78)] text-white font-bold rounded-md px-6 py-2 text-lg"
+                  onClick={(e)=>{handleSubmit(e)}}
                 >
                   Send Message
                 </button>
