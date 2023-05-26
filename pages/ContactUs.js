@@ -1,9 +1,38 @@
 import React from "react";
+import { useState } from "react";
 import Layout from "../components/Layout";
 import { GoLocation } from "react-icons/go";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
 function ContactUs() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ to: name, email, subject, text: message }),
+      });
+
+      if (response.ok) {
+        // Email sent successfully
+        console.log('Email sent');
+      } else {
+        // An error occurred while sending the email
+        console.error('Error sending email');
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
   return (
     <Layout title="ContactUs">
       <div>
@@ -48,35 +77,53 @@ function ContactUs() {
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl text-gray-600 md:w-100">
-              <form action="" className="flex flex-col space-y-4">
+              <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
                 <div>
-                  <label for="" className="">
+                  <label className="">
                     Names
                   </label>
                   <input
                     type="text"
                     placeholder=" Your fullnames"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                   />
                 </div>
                 <div>
-                  <label for="" className="">
+                  <label className="">
                     Email
                   </label>
                   <input
                     type="Email"
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div>
-                  <label for="" className="">
+                  <label className="">
+                    Subject
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Enter your email address"
+                    className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                  />
+                </div>
+                <div>
+                  <label className="">
                     Message
                   </label>
                   <textarea
                     placeholder="Message"
                     row="5"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus-none"
+                    value={subject}
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
                 <button
