@@ -155,7 +155,7 @@ function Home() {
                   <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center md:flex justify-center">
                     <Link href="/">
                       <button
-                        className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                        className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
                         data-aos="fade-down"
                         data-aos-delay="400"
                       >
@@ -182,27 +182,39 @@ function Home() {
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
                       <Image className="" src={Home2} alt="" priority />
-                      <div className="text-xl">Elan Growth</div>
+                      <div className="text-xl font-bold">Elan Growth</div>
                       Elan Growth is your expert business strategy and execution
                       partner.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Learn More
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanGrowth">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
                       <Image className="" src={Home3} alt="" priority />
-                      <div className="text-xl">Elan Dev</div>
+                      <div className="text-xl font-bold">Elan Dev</div>
                       We would not just identify your tech needs but also
                       implement them.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanDev">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
                   </div>
                   <div
@@ -210,37 +222,55 @@ function Home() {
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
                       <Image className="" src={Home4} alt="" priority />
-                      <div className="text-xl">Elan Training</div>
+                      <div className="text-xl font-bold">Elan Training</div>
                       Keep your team updated with current industry trends.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanTraining">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
                       <Image className="" src={Home5} alt="" priority />
-                      <div className="text-xl">Elan Studio</div>
+                      <div className="text-xl font-bold">Elan Studio</div>
                       Where we get obsessed with your brands' storytelling and
                       our creativity is at its peak!
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanStudio">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
                       <Image className="" src={Home5} alt="" priority />
-                      <div className="text-xl">Elan Accelera8</div>
+                      <div className="text-xl font-bold ">Elan Accelera8</div>
                       Our unique growth affiliate system. Growth and scale are
                       integral to your company’s roadmap.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanAccelerate">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
                   </div>
                 </div>
