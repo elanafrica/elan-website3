@@ -2,18 +2,20 @@ import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../public/star3.png";
 import Home1 from "../public/africa.jpg";
-import Home2 from "../public/elangrowth.jpg";
-import Home3 from "../public/elangrowth.jpg";
+import Home2 from "../public/egrowth.jpg";
+import Home3 from "../public/edev.jpg";
 import Home4 from "../public/elangrowth.jpg";
-import Home5 from "../public/elangrowth.jpg";
-import Show1 from "../public/elangrowth.jpg";
-import Show2 from "../public/elangrowth.jpg";
-import Show3 from "../public/elangrowth.jpg";
-import Show4 from "../public/elangrowth.jpg";
-import Show5 from "../public/elangrowth.jpg";
-import Show6 from "../public/elangrowth.jpg";
-import Show7 from "../public/elangrowth.jpg";
-import Show8 from "../public/elangrowth.jpg";
+import Home5 from "../public/estudio.jpg";
+import Home6 from "../public/eaccel8.jpg";
+import Show1 from "../public/eaerix.jpg";
+import Show2 from "../public/eaerix.jpg";
+import Show3 from "../public/efazison.jpg";
+import Show4 from "../public/egomarket.jpg";
+import Show5 from "../public/erma.jpg";
+import Show6 from "../public/entel.jpg";
+import Show7 from "../public/epaj.jpg";
+import Show8 from "../public/erma.jpg";
+import Show9 from "../public/erma.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -44,7 +46,7 @@ function Home() {
       <main>
         <Layout title="HomePage">
           <div className="m-4">
-            <div className=" relative flex flex-col sm:flex-row bg-[#0b2546] text-white space-y-4 sm:text-center lg:text-left">
+            <div className="relative flex flex-col sm:flex-row bg-[#0b2546] text-white space-y-4 sm:text-center lg:text-left">
               <div className="w-full sm:w-1/2 pr-5 p-5">
                 <h1 className="text-3xl sm:text-3xl font-bold capitalize mb-5">
                   Everyone Wants to Live on the Moon. Your Business Does Too.
@@ -64,7 +66,7 @@ function Home() {
                   </Link>
                 </div>
               </div>
-              <div className=" w-1/2 pr-5">
+              <div className="hidden sm:block w-full sm:w-1/2 pr-5">
                 <div className="absolute inset-0 bg-star-sprinkles opacity-30"></div>
                 <Image
                   className="w-full hero-container z-10"
@@ -155,7 +157,7 @@ function Home() {
                   <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center md:flex justify-center">
                     <Link href="/">
                       <button
-                        className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                        className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
                         data-aos="fade-down"
                         data-aos-delay="400"
                       >
@@ -182,27 +184,39 @@ function Home() {
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
                       <Image className="" src={Home2} alt="" priority />
-                      <div className="text-xl">Elan Growth</div>
+                      <div className="text-xl font-bold">Elan Growth</div>
                       Elan Growth is your expert business strategy and execution
                       partner.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Learn More
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanGrowth">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
                       <Image className="" src={Home3} alt="" priority />
-                      <div className="text-xl">Elan Dev</div>
+                      <div className="text-xl font-bold">Elan Dev</div>
                       We would not just identify your tech needs but also
                       implement them.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanDev">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
                   </div>
                   <div
@@ -210,37 +224,55 @@ function Home() {
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
                       <Image className="" src={Home4} alt="" priority />
-                      <div className="text-xl">Elan Training</div>
+                      <div className="text-xl font-bold">Elan Training</div>
                       Keep your team updated with current industry trends.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanTraining">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
                       <Image className="" src={Home5} alt="" priority />
-                      <div className="text-xl">Elan Studio</div>
+                      <div className="text-xl font-bold">Elan Studio</div>
                       Where we get obsessed with your brands' storytelling and
                       our creativity is at its peak!
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanStudio">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
-                      <Image className="" src={Home5} alt="" priority />
-                      <div className="text-xl">Elan Accelera8</div>
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
+                      <Image className="" src={Home6} alt="" priority />
+                      <div className="text-xl font-bold ">Elan Accelera8</div>
                       Our unique growth affiliate system. Growth and scale are
                       integral to your company’s roadmap.
-                      <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white w-full sm:w-72 md:w-auto">
-                        <Link href="/about" className="">
-                          Shop Now
+                      <div className="flex justify-center mt-5">
+                        <Link href="/ElanAccelerate">
+                          <button
+                            className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                            data-aos="fade-down"
+                            data-aos-delay="400"
+                          >
+                            Read More
+                          </button>
                         </Link>
-                      </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -313,6 +345,12 @@ function Home() {
                 <Image
                   className="w-full homepage22"
                   src={Show8}
+                  alt=""
+                  priority
+                />
+                <Image
+                  className="w-full homepage22"
+                  src={Show9}
                   alt=""
                   priority
                 />
