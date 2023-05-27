@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../public/star3.png";
-import Home1 from "../public/emap.jpg";
+import Home1 from "../public/emap.png";
 import Home2 from "../public/egrowth.jpg";
 import Home3 from "../public/edev.jpg";
 import Home4 from "../public/elangrowth.jpg";
@@ -11,11 +11,11 @@ import Show1 from "../public/eaerix.jpg";
 import Show2 from "../public/eaerix.jpg";
 import Show3 from "../public/efazison.jpg";
 import Show4 from "../public/egomarket.jpg";
-import Show5 from "../public/eruffl.jpg";
+import Show5 from "../public/erma.jpg";
 import Show6 from "../public/entel.jpg";
 import Show7 from "../public/epaj.jpg";
 import Show8 from "../public/erma.jpg";
-import Show9 from "../public/eruffl.jpg";
+import Show9 from "../public/erma.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
