@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import aboutHero from "../public/aboutus.jpg";
+import about1 from "../public/elanteam.jpg";
 import founder from "../public/assets/founder.png";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
@@ -84,7 +85,7 @@ function AboutUs() {
         <div className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
           <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
             <Image
-              src={aboutHero}
+              src={about1}
               className="w-full mt-12 sm:w-10/12 lg:w-25"
               data-aos="fade-down"
               data-aos-delay="400"
