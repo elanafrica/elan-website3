@@ -4,44 +4,27 @@ import Layout from "../components/Layout";
 import { GoLocation } from "react-icons/go";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
+const initValues = {name: "", email: "", subject: "", message: ""};
+const initState = { values: initValues};
 function ContactUs() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [submit, setSubmit] = useState(false);
+  const [state, setState] = useState(initState);
+  const { values, isLoading } = state;
 
-  const handleSubmit = (e) => { 
-    e.preventDefault()
-    
-  let data = {
-      name,
-      email,
-      subject,
-      message
-    }
-
-  fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    }).then((res) => {
-      console.log('Response received')
-      if (res.status === 200) {
-        console.log('Response succeeded!')
-        setName('')
-        setEmail('')
-        setSubject('')
-        setSubmit(true)
-        setBody('')
-      }
-  })
- }
-
+  // getting input values
+  const handleChange = ({target}) => setState((prev) => ({
+    ...prev,
+    values: {
+      [target.name]: target.value,
+    },
+  }));
    
+  const onSubmit = async (e) => {
+    e.preventDefault()
+    setState((prev) => ({
+      ...prev
+    }))
+  }
+
   return (
     <Layout title="ContactUs">
       <div>
@@ -86,17 +69,23 @@ function ContactUs() {
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl text-gray-600 md:w-100">
-              <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+              <form 
+                // action="/sendEmail"
+                // method="POST"
+                // onSubmit={handleSubmit} 
+                className="flex flex-col space-y-4">
                 <div>
-                  <label >
+                  <label>
                     Names
                   </label>
                   <input
+                    required
                     type="text"
+                    name="name"
                     placeholder=" Your fullnames"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    value={values.name}
+                    onChange={handleChange}
                   />
                 </div>
                 <div>
@@ -104,11 +93,13 @@ function ContactUs() {
                     Email
                   </label>
                   <input
-                    type="Email"
+                    required
+                    type="email"
+                    name="email"
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    value={values.email}
+                    onChange={handleChange}
                   />
                 </div>
                 <div>
@@ -116,11 +107,13 @@ function ContactUs() {
                     Subject
                   </label>
                   <input
+                    required
                     type="text"
+                    name="subject"
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
-                    value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
+                    value={values.subject}
+                    onChange={handleChange}
                   />
                 </div>
                 <div>
@@ -128,17 +121,19 @@ function ContactUs() {
                     Message
                   </label>
                   <textarea
+                    required
+                    type="text"
+                    name="message"
                     placeholder="Message"
                     row="5"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus-none"
-                    value={subject}
-                    onChange={(e) => setMessage(e.target.value)}
+                    value={values.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
                 <button
-                  type="submit"
                   className="inline-block self-start bg-[rgb(7,39,78)] text-white font-bold rounded-md px-6 py-2 text-lg"
-                  onClick={(e)=>{handleSubmit(e)}}
+                  onClick={onSubmit}
                 >
                   Send Message
                 </button>
