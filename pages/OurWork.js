@@ -4,15 +4,15 @@ import Layout from "../components/Layout";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import ElanWork1 from "../public/eACE.jpg";
+import ElanWork1 from "../public/eace.jpg";
 import ElanWork2 from "../public/eaerix.jpg";
 import ElanWork3 from "../public/efazison.jpg";
 import ElanWork4 from "../public/egomarket.jpg";
-import ElanWork5 from "../public/eKOBO.jpg";
+import ElanWork5 from "../public/ekobo.jpg";
 import ElanWork6 from "../public/entel.jpg";
 import ElanWork7 from "../public/epaj.jpg";
 import ElanWork8 from "../public/erma.jpg";
-import ElanWork9 from "../public/ERUFFL.jpg";
+import ElanWork9 from "../public/eruffl.jpg";
 import ElanWork10 from "../public/elangrowth.jpg";
 import ElanWork11 from "../public/elangrowth.jpg";
 import ElanWork12 from "../public/elangrowth.jpg";

@@ -7,15 +7,15 @@ import Home3 from "../public/edev.jpg";
 import Home4 from "../public/elangrowth.jpg";
 import Home5 from "../public/estudio.jpg";
 import Home6 from "../public/eaccel8.jpg";
-import Show1 from "../public/eACE.jpg";
+import Show1 from "../public/eace.jpg";
 import Show2 from "../public/eaerix.jpg";
 import Show3 from "../public/efazison.jpg";
 import Show4 from "../public/egomarket.jpg";
-import Show5 from "../public/eKOBO.jpg";
+import Show5 from "../public/ekobo.jpg";
 import Show6 from "../public/entel.jpg";
 import Show7 from "../public/epaj.jpg";
 import Show8 from "../public/erma.jpg";
-import Show9 from "../public/ERUFFL.jpg";
+import Show9 from "../public/eruffl.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
