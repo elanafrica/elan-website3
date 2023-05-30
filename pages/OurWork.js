@@ -12,7 +12,7 @@ import ElanWork5 from "../public/eeace.jpg";
 import ElanWork6 from "../public/entel.jpg";
 import ElanWork7 from "../public/epaj.jpg";
 import ElanWork8 from "../public/erma.jpg";
-import ElanWork9 from "../public/ekobo.jpg";
+import ElanWork9 from "../public/erma.jpg";
 import ElanWork10 from "../public/errfl1.jpg";
 // import ElanWork11 from "../public/elangrowth.jpg";
 // import ElanWork12 from "../public/elangrowth.jpg";
