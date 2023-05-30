@@ -8,27 +8,27 @@ import ElanWork1 from "../public/erma.jpg";
 import ElanWork2 from "../public/eaerix.jpg";
 import ElanWork3 from "../public/efazison.jpg";
 import ElanWork4 from "../public/egomarket.jpg";
-import ElanWork5 from "../public/epaj.jpg";
+import ElanWork5 from "../public/eeace.jpg";
 import ElanWork6 from "../public/entel.jpg";
 import ElanWork7 from "../public/epaj.jpg";
 import ElanWork8 from "../public/erma.jpg";
-import ElanWork9 from "../public/entel.jpg";
-import ElanWork10 from "../public/elangrowth.jpg";
-import ElanWork11 from "../public/elangrowth.jpg";
-import ElanWork12 from "../public/elangrowth.jpg";
-import ElanWork13 from "../public/elangrowth.jpg";
-import ElanWork14 from "../public/elangrowth.jpg";
-import ElanWork15 from "../public/elangrowth.jpg";
-import ElanWork16 from "../public/elangrowth.jpg";
-import ElanWork17 from "../public/elangrowth.jpg";
-import ElanWork18 from "../public/elangrowth.jpg";
-import ElanWork19 from "../public/elangrowth.jpg";
-import ElanWork20 from "../public/elangrowth.jpg";
-import ElanWork21 from "../public/elangrowth.jpg";
-import ElanWork22 from "../public/elangrowth.jpg";
-import ElanWork23 from "../public/elangrowth.jpg";
-import ElanWork24 from "../public/elangrowth.jpg";
-import ElanWork25 from "../public/elangrowth.jpg";
+import ElanWork9 from "../public/ekobo.jpg";
+import ElanWork10 from "../public/errfl1.jpg";
+// import ElanWork11 from "../public/elangrowth.jpg";
+// import ElanWork12 from "../public/elangrowth.jpg";
+// import ElanWork13 from "../public/elangrowth.jpg";
+// import ElanWork14 from "../public/elangrowth.jpg";
+// import ElanWork15 from "../public/elangrowth.jpg";
+// import ElanWork16 from "../public/elangrowth.jpg";
+// import ElanWork17 from "../public/elangrowth.jpg";
+// import ElanWork18 from "../public/elangrowth.jpg";
+// import ElanWork19 from "../public/elangrowth.jpg";
+// import ElanWork20 from "../public/elangrowth.jpg";
+// import ElanWork21 from "../public/elangrowth.jpg";
+// import ElanWork22 from "../public/elangrowth.jpg";
+// import ElanWork23 from "../public/elangrowth.jpg";
+// import ElanWork24 from "../public/elangrowth.jpg";
+// import ElanWork25 from "../public/elangrowth.jpg";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -148,7 +148,7 @@ function OurWork() {
               priority
             />
           </div>
-          <div className="relative ">
+          {/* <div className="relative ">
             <Image
               className="w-full rounded-lg shadow-md transition-transform duration-500 transform hover:scale-105"
               src={ElanWork11}
@@ -267,7 +267,7 @@ function OurWork() {
               alt="Work 25"
               priority
             />
-          </div>
+          </div> */}
         </div>
         <div className="mt-9 mb-7  flex justify-center">
           <div
