@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import Layout from "../components/Layout";
-import Hero from "../public/star3.png";
+// import Hero from "../public/star3.png";
 import Home1 from "../public/emap1.jpg";
 import Home2 from "../public/egrowth.jpg";
 import Home3 from "../public/edev.jpg";
@@ -16,6 +16,8 @@ import Show6 from "../public/entel.jpg";
 import Show7 from "../public/epaj.jpg";
 import Show8 from "../public/erma.jpg";
 import Show9 from "../public/eeace.jpg";
+import businessgrowth2 from "../public/businessgrowth2.jpg";
+
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -35,23 +37,26 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Home() {
+
+  // slide effect animation
   useEffect(() => {
     Aos.init({
       duration: 1800,
       offset: 0,
     });
   }, []);
+  
   return (
     <div className="flex-container">
       <main>
         <Layout title="HomePage">
           <div className="m-4">
-            <div className="relative flex flex-col sm:flex-row bg-[#0b2546] text-white space-y-4 sm:text-center lg:text-left">
+            {/* <div className="relative flex flex-col sm:flex-row bg-[#0b2546] text-white space-y-4 sm:text-center lg:text-left">
               <div className="w-full sm:w-1/2 pr-5 p-5">
                 <h1 className="text-3xl sm:text-3xl font-bold capitalize mb-5">
                   Everyone Wants to Live on the Moon. Your Business Does Too.
                 </h1>
-                <p className="text-xl font-light sm:w-80 w-64 mx-auto">
+                <p className="text-xl font-light sm:w-80 w-64">
                   We may just know how to make that happen.
                 </p>
                 <div className="flex justify-center mt-5">
@@ -75,6 +80,34 @@ function Home() {
                   priority
                 />
               </div>
+            </div> */}
+
+            <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
+              <Image
+                className="absolute w-full h-full object-cover mix-blend-overlay"
+                src={businessgrowth2}
+                alt="home hero"
+                priority
+             />
+             <div className="p-6 md:p-24 text-center">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold"> 
+                Everyone Wants to Live on the Moon. Likewise your Business Does Too.
+              </h1>
+              <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+                We may just know how to make that happen.
+              </p>
+              <div className="flex justify-center mt-7">
+                <Link href="/ContactUs">
+                  <button
+                    className="px-6 mt-10 py-2 text-center hover:text-white hover:bg-[#0b2546] bg-white rounded-md mx-auto"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    Get Free Consultation
+                  </button>
+                </Link>
+                </div>
+             </div>
             </div>
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:text-center lg:text-left mt-7">
@@ -127,7 +160,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="m-4 mt-7 flex-1 space-y-4 sm:text-center lg:text-left mt-7 homepage1">
+            <div className="m-4 mt-7 flex-1 space-y-4 sm:text-center lg:text-left homepage1">
               <div className="mt-7 flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 <div className="w-full lg:w-1/2 pr-5">
                   <Image
