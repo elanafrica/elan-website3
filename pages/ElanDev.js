@@ -30,19 +30,22 @@ function ElanDev() {
     <Layout title="ElanDev">
       <div className="m-4">
         <div className="  ">
-          <div className="relative">
-            <Image className="w-full" src={Logoh} alt="Logo" priority />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <div className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <p className="px-6 pb-6 text-3xl font-bold">
-                  Where we build the right tech ecosystem that helps your
-                  business scale.
-                </p>
-                <p>
-                  We would not just identify the tech needs but also implement
-                  them.
-                </p>
-              </div>
+          <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
+            <Image
+              className="absolute w-full h-full object-cover mix-blend-overlay"
+              src={Logoh}
+              alt="Dev hero"
+              priority
+            />
+            <div className="p-6 md:p-24 text-center">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
+                Where we build the right tech ecosystem that helps your business
+                scale.
+              </h1>
+              <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+                We would not just identify the tech needs but also implement
+                them.
+              </p>
             </div>
           </div>
 
@@ -79,9 +82,7 @@ function ElanDev() {
 
           <div className="mt-9 mb-5">
             <div className="text-center">
-              <h2 className="text-[#0b2546] text-4xl mb-2 elandev2">
-                Our Process
-              </h2>
+              <h2 className="text-[#0b2546] text-4xl mb-2 ">Our Process</h2>
               <p>
                 We would leverage the{" "}
                 <span className="font-bold">Elan Clock Model</span> to identify

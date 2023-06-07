@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 // import Hero from "../public/star3.png";
 import Home1 from "../public/emap1.jpg";
@@ -18,7 +18,6 @@ import Show8 from "../public/erma.jpg";
 import Show9 from "../public/eeace.jpg";
 import businessgrowth2 from "../public/businessgrowth2.jpg";
 
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -37,7 +36,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Home() {
-
   // slide effect animation
   useEffect(() => {
     Aos.init({
@@ -45,7 +43,7 @@ function Home() {
       offset: 0,
     });
   }, []);
-  
+
   return (
     <div className="flex-container">
       <main>
@@ -88,26 +86,27 @@ function Home() {
                 src={businessgrowth2}
                 alt="home hero"
                 priority
-             />
-             <div className="p-6 md:p-24 text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold"> 
-                Everyone Wants to Live on the Moon. Likewise your Business Does Too.
-              </h1>
-              <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
-                We may just know how to make that happen.
-              </p>
-              <div className="flex justify-center mt-7">
-                <Link href="/ContactUs">
-                  <button
-                    className="px-6 mt-10 py-2 text-center hover:text-white hover:bg-[#0b2546] bg-white rounded-md mx-auto"
-                    data-aos="fade-down"
-                    data-aos-delay="400"
-                  >
-                    Get Free Consultation
-                  </button>
-                </Link>
+              />
+              <div className="p-6 md:p-24 text-center">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
+                  Everyone Wants to Live on the Moon. Likewise your Business
+                  Does Too.
+                </h1>
+                <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+                  We may just know how to make that happen.
+                </p>
+                <div className="flex justify-center mt-7">
+                  <Link href="/ContactUs">
+                    <button
+                      className="px-6 mt-10 py-2 text-center hover:text-white hover:bg-[#0b2546] bg-white rounded-md mx-auto"
+                      data-aos="fade-down"
+                      data-aos-delay="400"
+                    >
+                      Get Free Consultation
+                    </button>
+                  </Link>
                 </div>
-             </div>
+              </div>
             </div>
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:text-center lg:text-left mt-7">
@@ -213,12 +212,17 @@ function Home() {
                 </div>
                 <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:text-center lg:text-left mt-7 mb-4 mt-7">
                   <div
-                    className="flex flex-col w-full sm:w-1/2 mb-4 px-2"
+                    className="flex flex-col w-full sm:w-1/3 mb-4 px-2"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
-                      <Image className="" src={Home2} alt="" priority />
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
+                      <Image
+                        className="w-full homepage22"
+                        src={Home2}
+                        alt=""
+                        priority
+                      />
                       <div className="text-xl font-bold">Elan Growth</div>
                       Elan Growth is your expert business strategy and execution
                       partner.
@@ -234,8 +238,19 @@ function Home() {
                         </Link>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    className="flex flex-col w-full sm:w-1/3 mb-4 px-2"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
                     <div className="rounded-lg shadow-lg p-6 text-center mb-4">
-                      <Image className="" src={Home3} alt="" priority />
+                      <Image
+                        className="w-full homepage22"
+                        src={Home3}
+                        alt=""
+                        priority
+                      />
                       <div className="text-xl font-bold">Elan Dev</div>
                       We would not just identify your tech needs but also
                       implement them.
@@ -253,12 +268,17 @@ function Home() {
                     </div>
                   </div>
                   <div
-                    className="w-full sm:w-1/2 mb-4 px-2"
+                    className="flex flex-col w-full sm:w-1/3 mb-4 px-2"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
-                      <Image className="" src={Home4} alt="" priority />
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
+                      <Image
+                        className="w-full homepage22"
+                        src={Home4}
+                        alt=""
+                        priority
+                      />
                       <div className="text-xl font-bold">Elan Training</div>
                       Keep your team updated with current industry trends.
                       <div className="flex justify-center mt-5">
@@ -273,8 +293,22 @@ function Home() {
                         </Link>
                       </div>
                     </div>
-                    <div className="rounded-lg shadow-lg p-6 text-center  mb-4">
-                      <Image className="" src={Home5} alt="" priority />
+                  </div>
+                </div>
+
+                <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:text-center lg:text-left mt-7 mb-4 mt-7">
+                  <div
+                    className="flex flex-col w-full sm:w-1/3 mb-4 px-2"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    <div className="rounded-lg shadow-lg p-6 text-center mb-4">
+                      <Image
+                        className="w-full homepage22"
+                        src={Home5}
+                        alt=""
+                        priority
+                      />
                       <div className="text-xl font-bold">Elan Studio</div>
                       Where we get obsessed with your brands' storytelling and
                       our creativity is at its peak!
@@ -290,9 +324,20 @@ function Home() {
                         </Link>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    className="flex flex-col w-full sm:w-1/3 mb-4 px-2"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
                     <div className="rounded-lg shadow-lg p-6 text-center mb-4">
-                      <Image className="" src={Home6} alt="" priority />
-                      <div className="text-xl font-bold ">Elan Accelera8</div>
+                      <Image
+                        className="w-full homepage22"
+                        src={Home6}
+                        alt=""
+                        priority
+                      />
+                      <div className="text-xl font-bold">Elan Accelera8</div>
                       Our unique growth affiliate system. Growth and scale are
                       integral to your company’s roadmap.
                       <div className="flex justify-center mt-5">
