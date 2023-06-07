@@ -54,176 +54,92 @@ function Navbar() {
           )}
         </button>
 
-        {isOpen ? (
-          <nav className="md:ml-auto md:w-auto">
-            <div className="relative inline-block text-left">
-              <button
-                className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                onClick={() => setIsOpen(!isOpen)}
+        <nav
+          className={`${
+            isOpen ? "flex" : "hidden"
+          } md:block md:flex md:items-center md:w-auto mt-4 md:mt-0`}
+        >
+          <Link
+            href="/"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Home
+          </Link>
+          <Link
+            href="/AboutUs"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            About Us
+          </Link>
+          <Link
+            href="/OurWork"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Our Work
+          </Link>
+          <Link
+            href="/Blog"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Blog
+          </Link>
+          <Link
+            href="/Careers"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Careers
+          </Link>
+          <Link
+            href="/ContactUs"
+            className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Contact US
+          </Link>
+          <div className="relative ml-3">
+            <button
+              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              onClick={toggleMenu}
+            >
+              Services
+            </button>
+            <div
+              className={`${
+                isOpen ? "block" : "hidden"
+              } absolute z-10 bg-white p-4 mt-1 rounded-md shadow-lg`}
+            >
+              <Link
+                href="/ElanAccelerate"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
               >
-                <Link
-                  href="/Services"
-                  className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Services
-                </Link>
-              </button>
-              <div className="absolute right-0 mt-2 w-56 bg-white rounded-md shadow-lg z-50">
-                <div className="py-1">
-                  <Link
-                    href="/ElanAccelerate"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                  >
-                    Elan Accelerate
-                  </Link>
-                  <Link
-                    href="/ElanDev"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                  >
-                    Elan Dev
-                  </Link>
-                  <Link
-                    href="/ElanGrowth"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                  >
-                    Elan Growth
-                  </Link>
-                  <Link
-                    href="/ElanStudio"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                  >
-                    Elan Studio
-                  </Link>
-                  <Link
-                    href="/ElanTraining"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                  >
-                    Elan Training
-                  </Link>
-                </div>
-              </div>
+                Elan Accelerate
+              </Link>
+              <Link
+                href="/ElanDev"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+              >
+                Elan Dev
+              </Link>
+              <Link
+                href="/ElanGrowth"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+              >
+                Elan Growth
+              </Link>
+              <Link
+                href="/ElanStudio"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+              >
+                Elan Studio
+              </Link>
+              <Link
+                href="/ElanTraining"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+              >
+                Elan Training
+              </Link>
             </div>
-            <Link
-              href="/"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Home
-            </Link>
-            <Link
-              href="/AboutUs"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              About Us
-            </Link>
-            <Link
-              href="/OurWork"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Our Work
-            </Link>
-            <Link
-              href="/Blog"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Blog
-            </Link>
-            <Link
-              href="/Careers"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Careers
-            </Link>
-            <Link
-              href="/ContactUs"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Contact US
-            </Link>
-          </nav>
-        ) : (
-          <nav className="hidden md:flex md:ml-auto md:w-auto items-center text-base justify-center gap-4 mt-4 md:mt-0">
-            <Link
-              href="/"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Home
-            </Link>
-            <Link
-              href="/AboutUs"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              About Us
-            </Link>
-            <Link
-              href="/OurWork"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Our Work
-            </Link>
-            <Link
-              href="/Blog"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Blog
-            </Link>
-            <Link
-              href="/Careers"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Careers
-            </Link>
-            <Link
-              href="/ContactUs"
-              className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Contact US
-            </Link>
-            <div className="relative">
-              <button
-                className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                Services
-              </button>
-              <div
-                className={`${
-                  isOpen ? "block" : "hidden"
-                } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
-              >
-                <Link
-                  href="/ElanAccelerate"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                >
-                  Elan Accelerate
-                </Link>
-                <Link
-                  href="/ElanDev"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                >
-                  Elan Dev
-                </Link>
-                <Link
-                  href="/ElanGrowth"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                >
-                  Elan Growth
-                </Link>
-                <Link
-                  href="/ElanStudio"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                >
-                  Elan Studio
-                </Link>
-                <Link
-                  href="/ElanTraining"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
-                >
-                  Elan Training
-                </Link>
-              </div>
-            </div>
-          </nav>
-        )}
+          </div>
+        </nav>
       </div>
     </header>
   );
