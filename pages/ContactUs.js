@@ -13,6 +13,7 @@ function ContactUs() {
 
   const handleSubmit = (e) => { 
     e.preventDefault()
+    console.log('Sending');
     
   let data = {
       name,
@@ -21,7 +22,7 @@ function ContactUs() {
       message
     }
 
-  fetch('/api/contact', {
+  fetch('/api/sendEmail', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -41,7 +42,6 @@ function ContactUs() {
   })
  }
 
-   
   return (
     <Layout title="ContactUs">
       <div>
@@ -86,7 +86,7 @@ function ContactUs() {
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl text-gray-600 md:w-100">
-              <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+              <form className="flex flex-col space-y-4">
                 <div>
                   <label >
                     Names
@@ -96,7 +96,7 @@ function ContactUs() {
                     placeholder=" Your fullnames"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    onChange={(e) => {setName(e.target.value)}}
                   />
                 </div>
                 <div>
@@ -108,7 +108,7 @@ function ContactUs() {
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => {setEmail(e.target.value)}}
                   />
                 </div>
                 <div>
@@ -120,7 +120,7 @@ function ContactUs() {
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
+                    onChange={(e) => {setSubject(e.target.value)}}
                   />
                 </div>
                 <div>
@@ -132,7 +132,7 @@ function ContactUs() {
                     row="5"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus-none"
                     value={subject}
-                    onChange={(e) => setMessage(e.target.value)}
+                    onChange={(e) => {setMessage(e.target.value)}}
                   ></textarea>
                 </div>
                 <button
