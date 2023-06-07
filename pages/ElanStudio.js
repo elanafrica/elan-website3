@@ -21,20 +21,21 @@ function ElanStudio() {
   return (
     <Layout title="ElanStudio">
       <div className="m-4">
-        <div className="  ">
-          <div className="relative">
-            <Image className="w-full" src={Logoh} alt="Logo" priority />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-[#0b2546]">
-              <div className="text-center absolute bottom-5 left-0 right-0">
-                <p className="px-6 pb-6 text-3xl font-bold">
-                  Where we get obsessed with your brands' storytelling and our
-                  creativity is at its peak!
-                </p>
-                <p className="px-6 pb-6 text-xl font-bold">
-                  Whether you've got a plan or don't? We got you!
-                </p>
-              </div>
-            </div>
+        <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
+          <Image
+            className="absolute w-full h-full object-cover mix-blend-overlay"
+            src={Logoh}
+            alt="studio hero"
+            priority
+          />
+          <div className="p-6 md:p-24 text-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
+              Where we get obsessed with your brands' storytelling and our
+              creativity is at its peak!
+            </h1>
+            <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+              Whether you've got a plan or don't? We got you!
+            </p>
           </div>
         </div>
         <div className="mt-9 mb-7 text-xl text-center">
@@ -111,6 +112,14 @@ function ElanStudio() {
           </div>
           <div className="m-4 mt-7 flex flex-wrap items-center justify-center">
             <div className="mt-9 w-full sm:w-1/2 lg:w-1/3 pr-5">
+              <Image
+                className="w-full homepage22"
+                src={Elanstud}
+                alt="Logo"
+                priority
+              />
+            </div>
+            <div className="mt-9 w-full sm:w-1/2 lg:w-1/3 pr-5">
               <p className="text-2xl font-bold mb-5">
                 Video Content Production
               </p>
@@ -131,15 +140,6 @@ function ElanStudio() {
                 that visuals are still the most effective way to communicate
                 today.
               </p>
-            </div>
-
-            <div className="mt-9 w-full sm:w-1/2 lg:w-1/3 pr-5">
-              <Image
-                className="w-full homepage22"
-                src={Elanstud}
-                alt="Logo"
-                priority
-              />
             </div>
           </div>
           <div className="m-4 mt-7 flex flex-wrap items-center justify-center">
