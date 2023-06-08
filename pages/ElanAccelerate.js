@@ -5,10 +5,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import Logoh from "../public/elanaccehero.jpg";
-import ElanAcce1 from "../public/elanaccehero.jpg";
-import ElanAcce2 from "../public/elanaccehero.jpg";
-import ElanAcce3 from "../public/elanaccehero.jpg";
-import ElanAcceimg from "../public/elanaccehero.jpg";
+import ElanAcce1 from "../public/startups.jpg";
+import ElanAcce2 from "../public/techvisionaries.jpg";
+import ElanAcce3 from "../public/smes.jpg";
+import ElanAcceimg from "../public/howthisworks.jpg";
 
 import Image from "next/image";
 import Link from "next/link";

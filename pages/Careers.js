@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 import Image from "next/image";
-import careerHero from "../public/careerHero.jpeg";
+import careerHero from "../public/joinourteam.jpg";
 import { BiTimeFive } from "react-icons/bi";
 import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
 
