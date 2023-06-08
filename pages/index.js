@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 // import Hero from "../public/star3.png";
-import Home1 from "../public/emap1.jpg";
+import Home1 from "../public/afrielan.jpg";
 import Home2 from "../public/egrowth.jpg";
 import Home3 from "../public/edev.jpg";
 import Home4 from "../public/etraining.jpg";
@@ -16,7 +16,7 @@ import Show6 from "../public/entel.jpg";
 import Show7 from "../public/epaj.jpg";
 import Show8 from "../public/erma.jpg";
 import Show9 from "../public/eeace.jpg";
-import businessgrowth2 from "../public/businessgrowth2.jpg";
+import businessgrowth2 from "../public/hero.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -123,10 +123,10 @@ function Home() {
                   help your business scale. We help generate scalable and
                   predictable
                 </p>
-                <div className="flex justify-center mt-5">
+                <div className="flex  mt-7">
                   <Link href="/">
                     <button
-                      className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                      className="px-6 py-2 mt-7  text-white bg-[#0b2546] rounded-md"
                       data-aos="fade-down"
                       data-aos-delay="400"
                     >
@@ -163,7 +163,7 @@ function Home() {
               <div className="mt-7 flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 <div className="w-full lg:w-1/2 pr-5">
                   <Image
-                    className="w-full"
+                    className="w-full h-auto"
                     src={Home1}
                     alt=""
                     data-aos="fade-down"
@@ -447,7 +447,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="bg-[#00626F] text-white mt-5  mb-4 text-center homepage22">
+            <div className="bg-[#00626F]  text-white mt-5  mb-7 text-center homepage22">
               <div className=" p-6 text-4xl font-bold ">******</div>
               <div className=" p-6 text-xl font-bold ">
                 It is rare to find an agency that is both creative and
@@ -456,7 +456,7 @@ function Home() {
                 are seeking for a growth team
               </div>
               <div className=" p-6 text-3xl font-bold">Jonathan O.</div>
-              <div className="text-xl mb-3">JRIP UK</div>
+              <div className="text-xl mb-7">JRIP UK</div>
             </div>
 
             <div className="mt-7  ">

@@ -4,8 +4,8 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 
-import aboutHero from "../public/aboutus.jpg";
-import about1 from "../public/elanteam.jpg";
+import aboutHero from "../public/whatweare.jpg";
+import about1 from "../public/ourbusiness.jpg";
 import founder from "../public/assets/founder.png";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
@@ -130,72 +130,36 @@ function AboutUs() {
             model. Tell us where you are, and we’ll meet you there.
           </p>
         </div>
-
         <div>
-          <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
-            <div className="col-span-4 w-full h-full">
+          <div className="max-w-7xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 px-2">
+            <div className="col-span-1 w-full h-full">
               <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4">
                 <h1
                   className="text-white text-xl font-medium py-2"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
-                  Brand & Product Validation
+                  1. Brand & Product Validation
                 </h1>
                 <p
                   className="text-gray-100 sm:text-sm text-xs"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
-                  Our team will identity the winning strategy and mix for your
+                  Our team will identify the winning strategy and mix for your
                   product launch or brand validation.
                 </p>
               </div>
             </div>
-            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-              <div
-                className="h-full w-1 bg-[rgb(7,39,78)]"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              ></div>
-              <div
-                className="absolute w-6 h-6 rounded-full bg-[rgb(7,39,78)] z-10 text-white text-center"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              >
-                1
-              </div>
-            </div>
-            <div
-              className="col-span-4 w-full h-full"
-              data-aos="fade-down"
-              data-aos-delay="400"
-            ></div>
 
-            <div className="col-span-4 w-full h-full"></div>
-            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-              <div
-                className="h-full w-1 bg-[rgb(7,39,78)]"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              ></div>
-              <div
-                className="absolute w-6 h-6 rounded-full bg-[rgb(7,39,78)] z-10 text-white text-center"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              >
-                2
-              </div>
-            </div>
-
-            <div className="col-span-4 w-full h-full">
+            <div className="col-span-1 w-full h-full">
               <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4">
                 <h1
                   className="text-white text-xl font-medium py-2"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
-                  Growth Acceleration
+                  2. Growth Acceleration
                 </h1>
                 <p
                   className="text-gray-100 sm:text-sm text-xs"
@@ -208,40 +172,25 @@ function AboutUs() {
               </div>
             </div>
 
-            <div className="col-span-4 w-full h-full">
+            <div className="col-span-1 w-full h-full">
               <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4">
                 <h1
                   className="text-white text-xl font-medium py-2"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
-                  Market Expansion
+                  3. Market Expansion
                 </h1>
                 <p
                   className="text-gray-100 sm:text-sm text-xs"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
-                  Expanding into a new market, business model or growth
+                  Expanding into a new market, business model, or growth
                   territory? We have got your back.
                 </p>
               </div>
             </div>
-            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-              <div
-                className="h-full w-1 bg-[rgb(7,39,78)]"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              ></div>
-              <div
-                className="absolute w-6 h-6 rounded-full bg-[rgb(7,39,78)] z-10 text-white text-center"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              >
-                3
-              </div>
-            </div>
-            <div className="col-span-4 w-full h-full"></div>
           </div>
         </div>
 
