@@ -365,15 +365,18 @@ const Blog = () => {
   return (
     <Layout title="Blog">
       <div>
-        <div className="relative">
-          <Image className="w-full" src={ElanBlogHero} alt="Logo" priority />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-            <div className="text-center absolute top-1/2 left-1/2 bottom-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <p className="px-6 pb-6 text-xl md:text-3xl font-bold">
-                Where we share insights and trends on sales, marketing, growth,
-                and creative content.
-              </p>
-            </div>
+        <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
+          <Image
+            className="absolute w-full h-full object-cover mix-blend-overlay"
+            src={ElanBlogHero}
+            alt="blog hero"
+            priority
+          />
+          <div className="p-6 md:p-24 text-center">
+            <h1 className="text-3xl md:text-3xl lg:text-4xl text-white font-bold">
+              Where we share insights and trends on sales, marketing, growth,
+              and creative content.
+            </h1>
           </div>
         </div>
         <div className="mt-7 mx-4">

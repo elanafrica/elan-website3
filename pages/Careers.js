@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 import Image from "next/image";
-import careerHero from "../public/careerHero.jpeg";
+import careerHero from "../public/joinourteam.jpg";
 import { BiTimeFive } from "react-icons/bi";
 import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
 
@@ -192,7 +192,7 @@ function Careers() {
               <span className="inline-flex h-1 w-40 bg-[#012169] mt-1"></span>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-3 mt-6 mb-6">
+            <div className=" p-3 mt-6 mb-6">
               <div className="md:mb-10">
                 <p className="text-lg md:text-xl">
                   <span className="font-bold text-lg mr-2 leading-relaxed">
@@ -219,17 +219,18 @@ function Careers() {
                   creative ideas with a resourceful mindset.
                 </p>
               </div>
-            </div>
-            <div className="p-3 md:p-5 flex justify-center items-center text-lg">
-              <p className="">
-                <span className="font-bold text-lg mr-2 leading-relaxed">
-                  Together:
-                </span>
-                We will support, challenge, and develop you. You will be
-                yourself and add your unique DNA to our culture. Together, we
-                will make sure you create your best work and enjoy doing it
-                towards a positive joint result.
-              </p>
+
+              <div className="p-3 md:p-5 flex justify-center items-center text-lg">
+                <p>
+                  <span className="font-bold text-lg mr-2 leading-relaxed">
+                    Together:
+                  </span>
+                  We will support, challenge, and develop you. You will be
+                  yourself and add your unique DNA to our culture. Together, we
+                  will make sure you create your best work and enjoy doing it
+                  towards a positive joint result.
+                </p>
+              </div>
             </div>
           </div>
         </section>

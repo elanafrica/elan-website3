@@ -30,19 +30,22 @@ function ElanDev() {
     <Layout title="ElanDev">
       <div className="m-4">
         <div className="  ">
-          <div className="relative">
-            <Image className="w-full" src={Logoh} alt="Logo" priority />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <div className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <p className="px-6 pb-6 text-3xl font-bold">
-                  Where we build the right tech ecosystem that helps your
-                  business scale.
-                </p>
-                <p>
-                  We would not just identify the tech needs but also implement
-                  them.
-                </p>
-              </div>
+          <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
+            <Image
+              className="absolute w-full h-full object-cover mix-blend-overlay"
+              src={Logoh}
+              alt="Dev hero"
+              priority
+            />
+            <div className="p-6 md:p-24 text-center">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
+                Where we build the right tech ecosystem that helps your business
+                scale.
+              </h1>
+              <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+                We would not just identify the tech needs but also implement
+                them.
+              </p>
             </div>
           </div>
 
@@ -79,9 +82,7 @@ function ElanDev() {
 
           <div className="mt-9 mb-5">
             <div className="text-center">
-              <h2 className="text-[#0b2546] text-4xl mb-2 elandev2">
-                Our Process
-              </h2>
+              <h2 className="text-[#0b2546] text-4xl mb-2 ">Our Process</h2>
               <p>
                 We would leverage the{" "}
                 <span className="font-bold">Elan Clock Model</span> to identify
@@ -311,11 +312,12 @@ function ElanDev() {
             Some Case Studies
           </h2>
         </div>
-        <div className="flex mt-9 elandev4">
-          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
+
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left sm:w-1/2">
             <Image className="w-full" src={Elandev3} alt="elandev3" priority />
           </div>
-          <div className="w-full pr-5 animate-fade-in-right">
+          <div className="w-full pr-5 animate-fade-in-right sm:w-1/2">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               <span className="animate-flicker">Aerix Group</span>
             </h2>
@@ -331,8 +333,8 @@ function ElanDev() {
           </div>
         </div>
 
-        <div className="flex mt-9 elandev4">
-          <div className="w-full pr-5 animate-fade-in-right">
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="w-full pr-5 animate-fade-in-right sm:w-1/2">
             <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Ruff 'N' Tumble
             </h2>
@@ -346,16 +348,16 @@ function ElanDev() {
               </p>
             </div>
           </div>
-          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-1/2">
             <Image className="w-full" src={Elandev4} alt="elandev4" priority />
           </div>
         </div>
 
-        <div className="flex mt-9 elandev4">
-          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-1/2">
             <Image className="w-full" src={Elandev5} alt="elandev5" priority />
           </div>
-          <div className="w-full pr-5">
+          <div className="w-full pr-5 sm:w-1/2">
             <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Xirea Apparel
             </h2>
@@ -371,8 +373,8 @@ function ElanDev() {
           </div>
         </div>
 
-        <div className="flex mt-9 elandev4">
-          <div className="w-full pr-5">
+        <div className="flex flex-col mt-9 elandev4 sm:flex-row">
+          <div className="w-full pr-5 sm:w-1/2">
             <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Financial Planning with Kalu Aja
             </h2>
@@ -386,7 +388,7 @@ function ElanDev() {
               </p>
             </div>
           </div>
-          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="animate-fade-in-right w-full pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-1/2">
             <Image className="w-full" src={Elandev6} alt="elandev6" priority />
           </div>
         </div>

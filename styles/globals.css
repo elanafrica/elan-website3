@@ -53,6 +53,13 @@
     opacity: 1;
   }
 }
+.button {
+  transition: transform 0.2s ease-in-out;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
 
 .homepage1 img {
   animation: fadeIn 1s ease-in-out;

@@ -56,8 +56,8 @@ function Navbar() {
 
         <nav
           className={`${
-            isOpen ? "flex flex-col w-full" : "hidden md:flex md:flex-row"
-          } md:ml-auto md:w-auto items-center text-base justify-center gap-4 mt-4 md:mt-0`}
+            isOpen ? "flex" : "hidden"
+          } md:block md:flex md:items-center md:w-auto mt-4 md:mt-0`}
         >
           <Link
             href="/"
@@ -95,17 +95,17 @@ function Navbar() {
           >
             Contact US
           </Link>
-          <div className="relative">
+          <div className="relative ml-3">
             <button
               className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              onClick={() => setIsOpen(!isOpen)}
+              onClick={toggleMenu}
             >
               Services
             </button>
             <div
               className={`${
                 isOpen ? "block" : "hidden"
-              } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
+              } absolute z-10 bg-white p-4 mt-1 rounded-md shadow-lg`}
             >
               <Link
                 href="/ElanAccelerate"
