@@ -59,29 +59,29 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-200 font-bold text-2xl pb-4">Company</p>
-            <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-6">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-6">
-              <Link href="/AboutUs">About Us</Link>
-            </li>
-            <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-6">
-              <Link href="/OurWork">Our Work</Link>
-            </li>
-            <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-6">
-              <Link href="/Services">Services</Link>
-            </li>
-            <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-6">
-              <Link href="/Blog">Blog</Link>
-            </li>
-            <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-6">
-              <Link href="/Careers">Careers</Link>
-            </li>
-          </ul>
-        </div>
+      <div className="p-5">
+        <ul className="">
+          <p className="text-gray-200 font-bold text-2xl pb-4">Company</p>
+          <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-1">
+            <Link href="/">Home</Link>
+          </li>
+          <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-1">
+            <Link href="/AboutUs">About Us</Link>
+          </li>
+          <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-1">
+            <Link href="/OurWork">Our Work</Link>
+          </li>
+          <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-1">
+            <Link href="/Services">Services</Link>
+          </li>
+          <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-1">
+            <Link href="/Blog">Blog</Link>
+          </li>
+          <li className="text-gray-200 text-md pb-2  hover:text-gray-400 cursor-pointer ml-1">
+            <Link href="/Careers">Careers</Link>
+          </li>
+        </ul>
+      </div>
 
         <div className="p-5">
           <p className="text-gray-200 font-bold text-2xl pb-4">Contact US</p>
