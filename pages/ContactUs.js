@@ -11,7 +11,7 @@ function ContactUs() {
   const [message, setMessage] = useState("");
   const [submit, setSubmit] = useState(false);
 
-  const handleSubmit = (e) => { 
+  const handleSubmit = async (e) => { 
     e.preventDefault()
     console.log('Sending');
     
@@ -22,7 +22,7 @@ function ContactUs() {
       message
     }
 
-  fetch('/api/sendEmail', {
+  await fetch('/api/sendEmail', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -86,14 +86,15 @@ function ContactUs() {
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl text-gray-600 md:w-100">
-              <form className="flex flex-col space-y-4">
+              <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
                 <div>
                   <label >
                     Names
                   </label>
                   <input
+                    required
                     type="text"
-                    placeholder=" Your fullnames"
+                    placeholder=" Your fullNames"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={name}
                     onChange={(e) => {setName(e.target.value)}}
@@ -104,6 +105,7 @@ function ContactUs() {
                     Email
                   </label>
                   <input
+                    required
                     type="Email"
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
@@ -116,6 +118,7 @@ function ContactUs() {
                     Subject
                   </label>
                   <input
+                    required
                     type="text"
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
@@ -128,10 +131,11 @@ function ContactUs() {
                     Message
                   </label>
                   <textarea
+                    required
                     placeholder="Message"
                     row="5"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus-none"
-                    value={subject}
+                    value={message}
                     onChange={(e) => {setMessage(e.target.value)}}
                   ></textarea>
                 </div>
