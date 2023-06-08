@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
-import Home1 from "../public/afrielan.jpg";
+import Home1 from "../public/africanmap.jpg";
 import Home2 from "../public/egrowth.jpg";
 import Home3 from "../public/edev.jpg";
 import Home4 from "../public/etraining.jpg";
@@ -158,7 +158,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="m-4 mt-7 flex-1 space-y-4 sm:text-center lg:text-left homepage1">
+            <div className="m-4 mt-9 flex-1 space-y-4 sm:text-center lg:text-left homepage1">
               <div className="mt-7 flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 <div className="w-full lg:w-1/2 pr-5">
                   <Image
