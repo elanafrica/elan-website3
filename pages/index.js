@@ -44,7 +44,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="flex-container">
+    <div container>
       <main>
         <Layout title="HomePage">
           <div className="m-4">
@@ -79,6 +79,8 @@ function Home() {
               </div>
             </div> */}
 
+              {/* hero section */}
+
             <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
               <Image
                 className="absolute w-full h-full object-cover mix-blend-overlay"
@@ -108,8 +110,9 @@ function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row space-y-4 sm:text-center lg:text-left mt-7">
-              <div className="w-full sm:w-1/2 pr-5">
+              {/* section */}
+            <div className="sm:text-center lg:text-left mt-7">
+              <div className="text-center text-xl lg:mb-20 lg:mt-20 sm:mb-20 md:mb-20">
                 <h2>
                   We foster business growth and sales for{" "}
                   <span className="text-green-300">
@@ -119,13 +122,60 @@ function Home() {
                 </h2>
                 <p>
                   Growth is our assertion. We take a data-driven approach to
-                  help your business scale. We help generate scalable and
+                  help your business scale. <br/> We help generate scalable and
                   predictable
                 </p>
-                <div className="flex  mt-7">
-                  <Link href="/">
+              </div>
+
+              <div
+                className="max-w-7xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 px-2 mt-7 "
+                style={{ animation: "fadeIn 1s ease-in-out" }}
+              >
+                <div className="col-span-1 w-full h-full">
+                  <div 
+                    className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                    >
+                    Data-Driven Insights for Growth.
+                  </div>
+                </div>
+
+                <div className="col-span-1 w-full h-full">
+                  <div 
+                    className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                    >
+                    Proven Experience in Growth Strategy.
+                  </div>
+                </div>
+                  
+                <div className="col-span-1 w-full h-full">
+                  <div 
+                    className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    Hands-on Business Intelligence.
+                  </div>
+                </div>
+
+                <div className="col-span-1 w-full h-full">
+                  <div 
+                    className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    We take your Business quite personal.
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-7 mb-7 text-center">
+                  <Link href="/AboutUs">
                     <button
-                      className="px-6 py-2 mt-7  text-white bg-[#0b2546] rounded-md"
+                      className="px-6 py-2 mt-7  text-white bg-[#0b2546] rounded-md hover:bg-[#042f63]"
                       data-aos="fade-down"
                       data-aos-delay="400"
                     >
@@ -133,33 +183,12 @@ function Home() {
                     </button>
                   </Link>
                 </div>
-              </div>
-
-              <div
-                className="mt-7 "
-                style={{ animation: "fadeIn 1s ease-in-out" }}
-              >
-                <div className="flex">
-                  <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                    Data-Driven Insights for Growth.
-                  </div>
-                  <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                    Proven Experience in Growth Strategy.
-                  </div>
-                </div>
-                <div className="flex">
-                  <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                    Hands-on Business Intelligence.
-                  </div>
-                  <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                    We take your Business quite personal.
-                  </div>
-                </div>
-              </div>
             </div>
 
-            <div className="m-4 mt-9 flex-1 space-y-4 sm:text-center lg:text-left homepage1">
-              <div className="mt-7 flex flex-col lg:flex-row space-y-4 lg:space-y-0">
+              {/* section */}
+
+            <div className="flex-1 space-y-4 sm:text-center lg:text-left homepage1">
+              <div className="mt-10 flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 <div className="w-full lg:w-1/2 pr-5">
                   <Image
                     className="w-full h-auto"
@@ -170,7 +199,8 @@ function Home() {
                     priority
                   />
                 </div>
-                <div className="w-full lg:w-1/2 pl-5">
+
+                <div className="w-full lg:w-1/2 pl-5 mt-7">
                   <div
                     className="p-6 text-xl font-bold"
                     style={{ animation: "slideIn 1s ease-in-out" }}
@@ -180,15 +210,17 @@ function Home() {
                     We believe without a doubt that Africa is ready to birth the
                     next greats.
                   </div>
-                  <div style={{ animation: "slideIn 1s ease-in-out" }}>
+                  <div 
+                    style={{ animation: "slideIn 1s ease-in-out" }}
+                    className="ml-6">
                     Our techniques focus on measurable and a clear understanding
-                    of the basics that matter to your business, whatever and
+                    of the basics that <br /> matter to your business, whatever and
                     wherever you are.
                   </div>
-                  <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center md:flex justify-center">
+                  <div className="space-y-3 sm: flex justify-center md:flex justify-center mt-12">
                     <Link href="/">
                       <button
-                        className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                        className="px-6 py-2 text-center text-white bg-[#0b2546] hover:bg-[#042f63] rounded-md"
                         data-aos="fade-down"
                         data-aos-delay="400"
                       >
@@ -222,7 +254,7 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold">Elan Growth</div>
+                      <div className="text-xl font-bold mt-2">Elan Growth</div>
                       Elan Growth is your expert business strategy and execution
                       partner.
                       <div className="flex justify-center mt-5">
@@ -250,7 +282,7 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold">Elan Dev</div>
+                      <div className="text-xl font-bold mt-2">Elan Dev</div>
                       We would not just identify your tech needs but also
                       implement them.
                       <div className="flex justify-center mt-5">
@@ -278,7 +310,7 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold">Elan Training</div>
+                      <div className="text-xl font-bold mt-2">Elan Training</div>
                       Keep your team updated with current industry trends.
                       <div className="flex justify-center mt-5">
                         <Link href="/ElanTraining">
@@ -308,7 +340,7 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold">Elan Studio</div>
+                      <div className="text-xl font-bold mt-2">Elan Studio</div>
                       Where we get obsessed with your brands' storytelling and
                       our creativity is at its peak!
                       <div className="flex justify-center mt-5">
@@ -336,7 +368,7 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold">Elan Accelera8</div>
+                      <div className="text-xl font-bold mt-2">Elan Accelera8</div>
                       Our unique growth affiliate system. Growth and scale are
                       integral to your company’s roadmap.
                       <div className="flex justify-center mt-5">
