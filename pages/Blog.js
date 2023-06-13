@@ -16,7 +16,7 @@ import ElanBlog10 from "../public/assets/elanblog6.png";
 import ElanBlog11 from "../public/assets/elanblog7.png";
 import ElanBlog12 from "../public/assets/elanblog8.png";
 import ElanBlog13 from "../public/assets/elanblog9.png";
-import ElanBlog14 from "../public/assets/elanblog10.png";
+import ElanBlog14 from "../public/assets/elanblogg.jpg";
 import ElanBlog15 from "../public/assets/elanblog11.png";
 import ElanBlog16 from "../public/assets/elanblog12.png";
 
