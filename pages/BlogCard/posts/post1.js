@@ -101,7 +101,7 @@ function Post1() {
           Humanizing Your brand
         </h2>
         <Image
-          className=" w-full h-full  "
+          className=" w-full h-full relative  bg-cover  "
           src={Hero}
           alt="home hero"
           priority

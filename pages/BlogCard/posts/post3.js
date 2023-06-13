@@ -110,7 +110,7 @@ function Post3() {
           traditional SEO practices obsolete.{" "}
         </p>
         <Image
-          className=" w-full h-full  "
+          className=" w-full h-full relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority

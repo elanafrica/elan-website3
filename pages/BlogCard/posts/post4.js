@@ -103,7 +103,7 @@ function Post4() {
           How to create a Marketing Plan that Works.
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className=" w-full h-full mt-3 mb-4 relative bg-cover "
           src={Hero}
           alt="home hero"
           priority

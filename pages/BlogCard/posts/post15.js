@@ -17,7 +17,7 @@ function Post15() {
   };
 
   return (
-    <div>
+    <div className="container">
       <div className="">
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
@@ -103,65 +103,85 @@ function Post15() {
           All the Talk about the perfect business plan for business growth!
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className="  w-full h-full mt-3 mb-4 relative bg-cover  "
           src={Hero}
           alt="home hero"
           priority
         />
         <p>
-          Marketing plays a crucial role in the growth and success of any
-          business. However, with limited resources and budgets, it can be
-          challenging to determine where to invest for maximum returns. In order
-          to get the most out of your marketing budget, it is essential to
-          carefully assess your options and prioritize your spending. One key
-          factor to consider is your target audience. Depending on who you are
-          trying to reach, certain marketing channels may be more effective than
-          others. For example, if you are targeting a younger demographic,
-          social media advertising may be the way to go. If your audience is
-          older, traditional advertising methods such as television or print ads
-          may still be effective.
+          Everyone refers to a business plan as a road map that guides a
+          business in the right direction. The importance Elan places on your
+          business plan and getting it right will let you know that it’s more
+          than just a road map. A business plan encompasses long-term and
+          short-term goals, sales targets, and expense budgets. The best way we
+          put it is, that your business plan should give a strong perception of
+          your company's future valuation, customer base, and market reach.
         </p>
-        <h4>
-          Here are some tips on how to businesses can maximize their marketing
-          budget
+        <p className="mt-3 mb-3">
+          Both start-ups and already existing businesses need it to scale. It
+          serves as a guide to let you know when you are making the right
+          financial decisions or taking the right steps that will lead you to
+          achieve the goal you had for your business.
+        </p>
+        <h4 className="font-bold text-center text-2xl mt-3 mb-3">
+          The 3 types of business plans we recommend
         </h4>
+        <p className="mb-3 mt-3">
+          Depending on the time frame, the need, or the size of your company,
+          There are 3 types of business plans- A One-page business plan, a Lean
+          business plan, and an External business plan.
+        </p>
         <div>
           <ul>
             <li>
-              Set clear and measurable marketing goals to help you track the
-              effectiveness of your marketing activities.{" "}
+              <span className="font-bold">The one-page business plan:</span>When
+              As a business in its initial stage needs to frame out its ideas,
+              the one-page business plan is advisable, it is also good as a way
+              of introducing your business to investors with a document that
+              contains the necessary information in one glance. This in a sense
+              is the most difficult to aggregate but gives a sign of a business
+              that has been carefully thought out.
             </li>
             <li>
-              Determine your target audience and tailor your marketing efforts
-              specifically to them.{" "}
+              <span className="font-bold">The lean business plan: </span>
+              As the name suggests excludes some information that is already
+              known to members of the organization because this plan is used
+              in-house only. This document goes a long way to sensitize existing
+              teams about company metrics and markets (that actually matter) and
+              should be a source of inspiration about company values and
+              culture.
             </li>
             <li>
-              Invest in high-quality content that can be repurposed across
-              different channels, such as blogs or videos.{" "}
-            </li>
-            <li>
-              Use social media platforms strategically to reach a wider
-              audience. Utilize paid advertising options on these platforms to
-              target specific demographics.{" "}
-            </li>
-            <li>
-              Focus on search engine optimization (SEO) to increase your
-              visibility and rank higher in search engine results pages.{" "}
-            </li>
-            <li>
-              Leverage on email marketing campaigns to keep in touch with
-              existing customers and drive conversions.{" "}
-            </li>
-            <li>
-              Consider partnering with other businesses and influencers to reach
-              new audiences and increase brand awareness.{" "}
-            </li>
-            <li>
-              Evaluate the effectiveness of your marketing campaigns regularly
-              and adjust your strategies as needed to ensure you are getting the
-              most out of your budget.
+              <span className="font-bold">The external business plan: </span>
+              Finally, It is advisable to get an external business plan because
+              this document is helpful in attracting investors and applying for
+              loans, and sensitizing new employees on the company’s operations,
+              structure, and goals. This is the real deal and what most
+              businesses seek to adopt as they launch.
             </li>
           </ul>
+        </div>
+
+        <div className="mt-7 mb-5">
+          <p className="mb-2 mt-2">
+            In the African business environment, There are a good number of
+            funding opportunities available to startups, the question is are you
+            ready to grab these opportunities. The proof of your readiness
+            starts with the outlook of your business or business plan. An
+            excellent business plan can hook the investors and guarantee you're
+            receiving their support.
+          </p>
+          <p className="mb-2 mt-2">
+            A quick example of a start-up that got a head start by having a
+            great business plan is EcoPost, a company owned by Lorna Rutto of
+            Kenya. They won a business plan competition organized by the Cartier
+            Women’s Initiative and received a prize award of nearly $12,000.
+          </p>
+          <p className="mb-2 mt-2">
+            Don't you think it’s time to get started on your plan? It goes
+            without saying that failing to have a plan for your business could
+            mean business failure.
+          </p>
         </div>
       </article>
 
