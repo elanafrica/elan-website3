@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/elanblogg.jpg";
+import Hero from "../../../public/assets/elanblog1.png";
 import Link from "next/link";
 
-function Post4() {
+function Post5() {
   const [comments, setComments] = useState([]);
   const [likes, setLikes] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
@@ -100,7 +100,7 @@ function Post4() {
 
       <article>
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          How to create a Marketing Plan that Works.
+          How to maximize your marketing budget
         </h2>
         <Image
           className=" w-full h-full mt-3 mb-4  "
@@ -185,4 +185,4 @@ function Post4() {
   );
 }
 
-export default Post4;
+export default Post5;
