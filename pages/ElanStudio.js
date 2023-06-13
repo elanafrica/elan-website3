@@ -4,18 +4,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Logoh from "../public/elanstudio.jpg";
-import Elanstud from "../public/elangrowth.jpg";
-import Elanstud2 from "../public/elangrowth.jpg";
-import Elanstud3 from "../public/elangrowth.jpg";
-import Elanstud4 from "../public/elangrowth.jpg";
-import Elanstudcard1 from "../public/elangrowth.jpg";
-import Elanstudcard2 from "../public/elangrowth.jpg";
-import Elanstudcard3 from "../public/elangrowth.jpg";
-import Elanstudcard4 from "../public/elangrowth.jpg";
-import Elanstudcard5 from "../public/elangrowth.jpg";
-import Elanstudcard6 from "../public/elangrowth.jpg";
-import Elanstudcard7 from "../public/elangrowth.jpg";
-import Elanstudcard8 from "../public/elangrowth.jpg";
+import Elanstud from "../public/assets/elanstud.png";
+import Elanstud2 from "../public/assets/elanstud2.png";
+import Elanstud3 from "../public/assets/elanstud.png";
+import Elanstud4 from "../public/assets/elanstud.png";
+import Elanstudcard1 from "../public/assets/show1.png";
+import Elanstudcard2 from "../public/assets/show4.png";
+import Elanstudcard3 from "../public/assets/show5.png";
+import Elanstudcard4 from "../public/assets/show6.png";
+import Elanstudcard5 from "../public/assets/show7.png";
+import Elanstudcard6 from "../public/assets/show8.png";
+import Elanstudcard7 from "../public/assets/show9.png";
+import Elanstudcard8 from "../public/assets/show10.png";
 
 function ElanStudio() {
   return (

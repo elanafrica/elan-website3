@@ -8,15 +8,11 @@ import "aos/dist/aos.css";
 import Logoh from "../public/elandev3.jpg";
 
 import Elandev1 from "../public/elandev2.jpg";
-import Elandev2 from "../public/elandev2.jpg";
-import Elandev3 from "../public/elandev2.jpg";
-import Elandev4 from "../public/elandev2.jpg";
-import Elandev5 from "../public/elandev2.jpg";
-import Elandev6 from "../public/elandev2.jpg";
-import Elandevcard1 from "../public/elandev2.jpg";
-import Elandevcard2 from "../public/elandev2.jpg";
-import Elandevcard3 from "../public/elandev2.jpg";
-import Elandevcard4 from "../public/elandev2.jpg";
+// import Elandev2 from "../public/elandev2.jpg";
+import Elandev3 from "../public/assets/elandev3.png";
+import Elandev4 from "../public/assets/elandev4.png";
+import Elandev5 from "../public/assets/elandev5.png";
+import Elandev6 from "../public/assets/elandev6.png";
 
 function ElanDev() {
   useEffect(() => {
@@ -221,14 +217,14 @@ function ElanDev() {
               <p className="text-white font-medium text-sm">Testing Services</p>
             </div>
           </div>
-          <div className="mt-9 mb-5">
+          {/* <div className="mt-9 mb-5">
             <Image
               className="w-full homepage22"
               src={Elandev2}
               alt="elandev2"
               priority
             />
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-wrap justify-between text-white mt-9">
@@ -275,30 +271,35 @@ function ElanDev() {
             managed teams.
           </p>
           <div className="mt-9 flex justify-center flex-wrap gap-4">
-            <Image
-              className="w-72"
-              src={Elandevcard1}
-              alt="elandevcard1"
-              priority
-            />
-            <Image
-              className="w-72"
-              src={Elandevcard2}
-              alt="elandevcard2"
-              priority
-            />
-            <Image
-              className="w-72"
-              src={Elandevcard3}
-              alt="elandevcard3"
-              priority
-            />
-            <Image
-              className="w-72"
-              src={Elandevcard4}
-              alt="elandevcard4"
-              priority
-            />
+            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
+              <h4 className="text-lg font-bold">Developers</h4>
+              <p className="mt-2">
+                Senior software engineers, coders, and architects with expertise
+                across hundreds of technologies.
+              </p>
+            </div>
+            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
+              <h4 className="text-lg font-bold">Designers</h4>
+              <p className="mt-2">
+                Expert UI, UX, Visual, and Interaction designers as well as a
+                wide range of illustrators, animators, and more.
+              </p>
+            </div>
+            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
+              <h4 className="text-lg font-bold">Project Managers</h4>
+              <p className="mt-2">
+                Digital and technical project managers, scrum masters, and more
+                with expertise in numerous PM tools, frameworks, and styles.
+              </p>
+            </div>
+            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
+              <h4 className="text-lg font-bold">Product Managers</h4>
+              <p className="mt-2">
+                Digital product managers and scrum product owners with expertise
+                in numerous industries like banking, healthcare, ecommerce, and
+                more.
+              </p>
+            </div>
           </div>
         </div>
 
