@@ -102,67 +102,113 @@ function Post12() {
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
           Mental Health in the Workplace: How To Build Safe Spaces...
         </h2>
+        <p className="mb-5 mt-7">
+          A few months ago in Nigeria, several employees took to Twitter to
+          express their frustrations about toxic workplaces and employers. These
+          work environments are usually marked with ill-treatment, verbal abuse,
+          and unreasonable work demands. The recent outcry has forced several
+          team leads and employers to question their work culture and style of
+          leadership.{" "}
+        </p>
+        <p className="mb-2">
+          Interestingly, a survey carried out by WellNewMe shows that 4 in 5
+          employees are at risk of mental health issues. Not surprisingly,
+          anxiety disorders are fast becoming one of the top mental health
+          problems in the workplace. These disorders can range from panic, and
+          excessive fear to unnecessary worry and medication-induced anxiety.
+        </p>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
-        <p>
-          Marketing plays a crucial role in the growth and success of any
-          business. However, with limited resources and budgets, it can be
-          challenging to determine where to invest for maximum returns. In order
-          to get the most out of your marketing budget, it is essential to
-          carefully assess your options and prioritize your spending. One key
-          factor to consider is your target audience. Depending on who you are
-          trying to reach, certain marketing channels may be more effective than
-          others. For example, if you are targeting a younger demographic,
-          social media advertising may be the way to go. If your audience is
-          older, traditional advertising methods such as television or print ads
-          may still be effective.
+        <p className="mt-4 mb-4">
+          As an employer or team leader, it is important to create a safe space
+          for your team. Every employee wants to be in a workplace that makes
+          them feel safe, understood, and appreciated. This, in turn, helps them
+          to increase their productivity and loyalty to their organizations.
         </p>
-        <h4>
-          Here are some tips on how to businesses can maximize their marketing
-          budget
-        </h4>
+        <p className="mb-3 mt-4">
+          In this blog post, we will be sharing five top tips for creating a
+          safe mental health space for your employees.
+        </p>
+
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">
+            1. Create Safe Work Cultures
+          </span>
+          One of the major deterrents to creating a safe space at the workplace
+          is the lack of good work culture. In most organizations, there is no
+          structure protecting employees from verbal abuse, unreasonable work
+          demands, or ill-treatment. As a team leader, you should strive to
+          promote a good work culture. A good work culture should, for example,
+          promote transparency, a growth mindset, trust, respect, fairness, and
+          communication. If you are not certain about your employees' needs, you
+          can schedule meetings to have conversations with them to understand
+          their needs.
+        </p>
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">2. Be A Listener</span>
+          Employees value employers who are willing to listen to them and
+          understand them. This freedom of expression builds more loyalty in
+          them. Moreso, when employees struggle to express themselves, they tend
+          to withdraw emotionally, simply doing their jobs and nothing more. To
+          ensure this does not happen, it's important to create an environment
+          where everyone in your organization can feel heard. You can schedule
+          meetups or hangouts with your team, allowing them to express
+          themselves and share their concerns. You should also work on listening
+          more to them.
+        </p>
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">3. Understand Your Team</span>
+          It is important to understand your team and their needs. Do you have
+          more Gen Zs than Millennials? Are there also baby bloomers? There is a
+          wide difference in how Gen Z, millennials, and baby bloomers expect a
+          safe mental health space should look. For example, Gen Zs prefer a
+          space where they can discuss their fears without any judgment. On the
+          other hand, Millennials appreciate support but enjoy having control as
+          much as possible. Understanding your team can guide how you set up
+          structures or create a healthy work environment for them.
+        </p>
         <div>
+          <p className="mb-4 mt-4">
+            <span className="font-bold text-xl">
+              4. Treat Mistakes Differently
+            </span>
+            Verbal abuse is usually triggered by mistakes made by employees. In
+            most cases, your employees are already overwhelmed by a sense of
+            guilt and shame when they make a mistake, shouting, screaming, or
+            insulting them only makes them feel more ashamed. When this happens,
+            they become afraid to fail or even try anything new for their
+            organization. This can cost your organization a lot as innovation
+            might reduce. You can create a safe space by treating mistakes or
+            errors differently. Here are a few tips on how to handle employee
+            mistakes:
+          </p>
           <ul>
-            <li>
-              Set clear and measurable marketing goals to help you track the
-              effectiveness of your marketing activities.{" "}
-            </li>
-            <li>
-              Determine your target audience and tailor your marketing efforts
-              specifically to them.{" "}
-            </li>
-            <li>
-              Invest in high-quality content that can be repurposed across
-              different channels, such as blogs or videos.{" "}
-            </li>
-            <li>
-              Use social media platforms strategically to reach a wider
-              audience. Utilize paid advertising options on these platforms to
-              target specific demographics.{" "}
-            </li>
-            <li>
-              Focus on search engine optimization (SEO) to increase your
-              visibility and rank higher in search engine results pages.{" "}
-            </li>
-            <li>
-              Leverage on email marketing campaigns to keep in touch with
-              existing customers and drive conversions.{" "}
-            </li>
-            <li>
-              Consider partnering with other businesses and influencers to reach
-              new audiences and increase brand awareness.{" "}
-            </li>
-            <li>
-              Evaluate the effectiveness of your marketing campaigns regularly
-              and adjust your strategies as needed to ensure you are getting the
-              most out of your budget.
-            </li>
+            <li>Teach them to focus on the lessons, not the guilt</li>
+            <li>Speak to them calmly and respectfully.</li>
+            <li>Practice empathy</li>
+            <li>Guide them on what to do.</li>
           </ul>
         </div>
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">
+            5. Educate Your Team on Mental Health
+          </span>
+          Several employees have little knowledge of their mental health. Sadly,
+          some of them are not aware of self-care steps to take. You can invite
+          mental health experts, psychologists, or psychiatrists to speak with
+          your team. These sessions can be quarterly or bi-annual and should
+          allow your employees to have one-on-one sessions with these experts.
+        </p>
+        <p className="mt-3 mb-3">
+          Creating a safe space for your team is a continuous process of
+          improvement and change. As you work to establish healthy structures,
+          your employees become aware that you care about them and can also grow
+          in a healthier work environment.{" "}
+        </p>
       </article>
 
       <div>

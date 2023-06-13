@@ -99,69 +99,70 @@ function Post16() {
       </div>
 
       <article>
+        {/* <p>
+          {post.name} . {post.date} . 2min read
+        </p> */}
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          Customer experience that enhances direct marketing and ...
+          Customer experience that enhances direct marketing and advocacy
         </h2>
+        <p className="mt-4 mb-4">
+          Through the years, business giants have said that great customer
+          service helped their businesses to scale. At Elan, we are concerned
+          about helping small businesses scale and that is why this is a must
+          read for all businesses looking to hack their customer experience
+          game. It is worthy to note that research in South Africa estimated
+          that the cost of people switching from a company because of poor
+          customer service is worth USD47 billion.
+        </p>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
+        <p className="text-center text-2xl font-bold">The simple facts...</p>
         <p>
-          Marketing plays a crucial role in the growth and success of any
-          business. However, with limited resources and budgets, it can be
-          challenging to determine where to invest for maximum returns. In order
-          to get the most out of your marketing budget, it is essential to
-          carefully assess your options and prioritize your spending. One key
-          factor to consider is your target audience. Depending on who you are
-          trying to reach, certain marketing channels may be more effective than
-          others. For example, if you are targeting a younger demographic,
-          social media advertising may be the way to go. If your audience is
-          older, traditional advertising methods such as television or print ads
-          may still be effective.
+          Treating your customers well will convert them from just customers to
+          advocates and this is how you can get referrals. One instance is the
+          case of Printivo whose success came when an International Journalist
+          tweeted about the great customer experience she had with the company.
         </p>
-        <h4>
-          Here are some tips on how to businesses can maximize their marketing
-          budget
-        </h4>
+        <p className="mb-4 mt-4">
+          Temitope Ekundayo, the co-CEO at Printivo had said, "customer service
+          is important to us. For us, it’s about improving the delight of our
+          customers and improving their experience when they order. We always
+          ensure that we keep to the agreement and will move mountains to get it
+          done. The customer experience starts before the order comes in, and
+          continues well after they’ve made their purchase. Whenever we go
+          wrong, we ensure that we make up for it. The goal is to get customers
+          to have such a good experience that makes them come back".
+        </p>
+        <p>
+          At any stage of a business, customer satisfaction is highly important
+          even more at the initial stage because bad reviews will dissuade
+          prospects.{" "}
+        </p>
+        <p className="mt-4 mb-4">
+          According to <i>Hubspot Research,</i>{" "}
+        </p>
+
+        <p className="mb-4">
+          "the amount it costs to acquire a new customer is more for a company
+          that doesn't invest a small percentage of its budget in customer
+          service. They also found out that 72% of customers will share a
+          positive experience with six or more people. "
+        </p>
+        <p className="mb-3">
+          In an infographic compiled by Experience Dynamics, it was noted that
+          “52% of users said that a bad mobile experience made them less likely
+          to engage with a company”, it was also stated that 79% of people who
+          don’t like what they find on one site will go back and search for
+          another site. Your UX is important for a good customer experience and
+          in turn, it is important for marketing and sales.
+        </p>
+
         <div>
-          <ul>
-            <li>
-              Set clear and measurable marketing goals to help you track the
-              effectiveness of your marketing activities.{" "}
-            </li>
-            <li>
-              Determine your target audience and tailor your marketing efforts
-              specifically to them.{" "}
-            </li>
-            <li>
-              Invest in high-quality content that can be repurposed across
-              different channels, such as blogs or videos.{" "}
-            </li>
-            <li>
-              Use social media platforms strategically to reach a wider
-              audience. Utilize paid advertising options on these platforms to
-              target specific demographics.{" "}
-            </li>
-            <li>
-              Focus on search engine optimization (SEO) to increase your
-              visibility and rank higher in search engine results pages.{" "}
-            </li>
-            <li>
-              Leverage on email marketing campaigns to keep in touch with
-              existing customers and drive conversions.{" "}
-            </li>
-            <li>
-              Consider partnering with other businesses and influencers to reach
-              new audiences and increase brand awareness.{" "}
-            </li>
-            <li>
-              Evaluate the effectiveness of your marketing campaigns regularly
-              and adjust your strategies as needed to ensure you are getting the
-              most out of your budget.
-            </li>
-          </ul>
+          <hr className="my-4 border-gray-300" />
         </div>
       </article>
 

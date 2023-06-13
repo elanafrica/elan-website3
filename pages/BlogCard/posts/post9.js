@@ -103,7 +103,7 @@ function Post9() {
           Invest Wisely: 5 Things to Know Before You Start
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority

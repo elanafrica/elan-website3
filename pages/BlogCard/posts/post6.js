@@ -103,7 +103,7 @@ function Post6() {
           11 Marketing Strategies To attract and Retain...
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority

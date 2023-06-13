@@ -103,7 +103,7 @@ function Post10() {
           5 Free Courses Every Founder & Entrepreneur Should ...
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4  "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover  "
           src={Hero}
           alt="home hero"
           priority

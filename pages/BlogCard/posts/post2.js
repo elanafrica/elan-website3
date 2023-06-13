@@ -101,7 +101,7 @@ function Post2() {
           How to Do Social Media Marketing for Small Businesses.
         </h2>
         <Image
-          className=" w-full h-full  "
+          className=" w-full h-full relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
