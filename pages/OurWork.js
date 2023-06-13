@@ -14,21 +14,6 @@ import ElanWork7 from "../public/epaj.jpg";
 import ElanWork8 from "../public/erma.jpg";
 import ElanWork9 from "../public/erma.jpg";
 import ElanWork10 from "../public/errfl1.jpg";
-// import ElanWork11 from "../public/elangrowth.jpg";
-// import ElanWork12 from "../public/elangrowth.jpg";
-// import ElanWork13 from "../public/elangrowth.jpg";
-// import ElanWork14 from "../public/elangrowth.jpg";
-// import ElanWork15 from "../public/elangrowth.jpg";
-// import ElanWork16 from "../public/elangrowth.jpg";
-// import ElanWork17 from "../public/elangrowth.jpg";
-// import ElanWork18 from "../public/elangrowth.jpg";
-// import ElanWork19 from "../public/elangrowth.jpg";
-// import ElanWork20 from "../public/elangrowth.jpg";
-// import ElanWork21 from "../public/elangrowth.jpg";
-// import ElanWork22 from "../public/elangrowth.jpg";
-// import ElanWork23 from "../public/elangrowth.jpg";
-// import ElanWork24 from "../public/elangrowth.jpg";
-// import ElanWork25 from "../public/elangrowth.jpg";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -36,9 +21,6 @@ import VideoPlayer from "../components/VideoPlayer";
 import Testimonials from "@/components/Testimonials";
 
 function OurWork() {
-  const videoUrl =
-    "https://assets.mixkit.co/videos/preview/mixkit-marketing-team-gather-around-laptop-and-smile-at-camera-8960-large.mp4";
-
   useEffect(() => {
     Aos.init({
       duration: 1800,
@@ -49,7 +31,10 @@ function OurWork() {
     <Layout title="OurWork">
       <div className="m-4 relative">
         <div className="w-full h-full object-cover">
-          <VideoPlayer url={videoUrl} />
+          <video className="w-full h-full" controls>
+            <source src="/videos/elanvideo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-[#0b2546]">
