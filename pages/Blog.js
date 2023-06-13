@@ -3,26 +3,76 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import ElanBlogHero from "../public/elanblog.jpg";
-import ElanBlog1 from "../public/elandev2.jpg";
-import ElanBlog2 from "../public/elandev2.jpg";
-import ElanBlog3 from "../public/elandev2.jpg";
-import ElanBlog4 from "../public/elandev2.jpg";
-import ElanBlog5 from "../public/elandev2.jpg";
-import ElanBlog6 from "../public/elandev2.jpg";
-import ElanBlog7 from "../public/elandev2.jpg";
-import ElanBlog8 from "../public/elandev2.jpg";
-import ElanBlog9 from "../public/elandev2.jpg";
-import ElanBlog10 from "../public/elandev2.jpg";
-import ElanBlog11 from "../public/elandev2.jpg";
-import ElanBlog12 from "../public/elandev2.jpg";
-import ElanBlog13 from "../public/elandev2.jpg";
-import ElanBlog14 from "../public/elandev2.jpg";
+import ElanBlog1 from "../public/assets/elanblogg4.jpg";
+import ElanBlog2 from "../public/assets/elanblogg3.jpg";
+import ElanBlog3 from "../public/assets/elanblogg2.jpg";
+import ElanBlog4 from "../public/assets/elanblogg.jpg";
+import ElanBlog5 from "../public/assets/elanblog1.png";
+import ElanBlog6 from "../public/assets/elanblog2.png";
+import ElanBlog7 from "../public/assets/elanblog3.png";
+import ElanBlog8 from "../public/assets/elanblog4.png";
+import ElanBlog9 from "../public/assets/elanblog5.png";
+import ElanBlog10 from "../public/assets/elanblog6.png";
+import ElanBlog11 from "../public/assets/elanblog7.png";
+import ElanBlog12 from "../public/assets/elanblog8.png";
+import ElanBlog13 from "../public/assets/elanblog9.png";
+import ElanBlog14 from "../public/assets/elanblog10.png";
+import ElanBlog15 from "../public/assets/elanblog11.png";
+import ElanBlog16 from "../public/assets/elanblog12.png";
 
 import { BiTimeFive } from "react-icons/bi";
 
 const posts = [
   {
     id: 1,
+    name: "Amabel Ukoko",
+    title: "Humanizing your brand",
+    description:
+      "In today’s digital age, it is more important than ever to humanize your brand. With so many options...",
+    date: "June 8",
+    views: 152,
+    comments: [
+      {
+        name: "Jane Doe",
+        email: "janedoe@example.com",
+        comment:
+          "Great post, John! I couldn't agree more about the importance of exercise. I try to get at least 30 minutes of activity every day, and I've definitely noticed the benefits.",
+      },
+      {
+        name: "Bob Johnson",
+        email: "bjohnson@example.com",
+        comment:
+          "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
+      },
+    ],
+    image: ElanBlog1,
+  },
+  {
+    id: 2,
+    name: "Ruth Torty",
+    title: "How to Do Social Media Marketing for Small Businesses",
+    description:
+      "According to Datareportal, there are now more than 5.18 billion internet individuals, making up...",
+    date: "May 31",
+    views: 152,
+    comments: [
+      {
+        name: "Jane Doe",
+        email: "janedoe@example.com",
+        comment:
+          "Great post, John! I couldn't agree more about the importance of exercise. I try to get at least 30 minutes of activity every day, and I've definitely noticed the benefits.",
+      },
+      {
+        name: "Bob Johnson",
+        email: "bjohnson@example.com",
+        comment:
+          "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
+      },
+    ],
+    image: ElanBlog2,
+  },
+  {
+    id: 3,
     name: "Amabel Ukoko",
     title: "The death of SEO by AI (Debunking the myth)",
     description:
@@ -43,10 +93,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog13,
+    image: ElanBlog3,
   },
   {
-    id: 2,
+    id: 4,
     name: "Ruth Torty",
     title: "How to create a Marketing Plan that Works.",
     description:
@@ -67,10 +117,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog14,
+    image: ElanBlog4,
   },
   {
-    id: 3,
+    id: 5,
     name: "Amabel Ukoko",
     title: "How to maximize your marketing budget",
     description:
@@ -91,10 +141,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog1,
+    image: ElanBlog5,
   },
   {
-    id: 4,
+    id: 6,
     name: "Ruth Torty",
     title: "11 marketing strategies to attract and retain...",
     description:
@@ -115,10 +165,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog2,
+    image: ElanBlog6,
   },
   {
-    id: 5,
+    id: 7,
     name: "Amabel Ukoko",
     title: "Is Email Marketing Dead?",
     description:
@@ -139,10 +189,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog3,
+    image: ElanBlog7,
   },
   {
-    id: 6,
+    id: 8,
     name: "Ruth Torty",
     title: "A Guide to How SMEs Can Ideentify Their Target Audience",
     description:
@@ -163,10 +213,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog4,
+    image: ElanBlog8,
   },
   {
-    id: 7,
+    id: 9,
     name: "Amabel Ukoko",
     title: "Invest Wisely: 5 Things to Know Before You Start",
     description:
@@ -187,10 +237,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog5,
+    image: ElanBlog9,
   },
   {
-    id: 8,
+    id: 10,
     name: "Ruth Torty",
     title: "5 Free Courses Every Founder & Entrepreneur Should...",
     description:
@@ -211,10 +261,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog6,
+    image: ElanBlog10,
   },
   {
-    id: 9,
+    id: 11,
     name: "Ifeoma Okwy-Ejezie",
     title: "B2B Growth Hacking Strategies",
     description:
@@ -235,10 +285,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog7,
+    image: ElanBlog11,
   },
   {
-    id: 10,
+    id: 12,
     name: "Ruth Torty",
     title: "Mental Health in The Workplace: How To Build Safe Spaces Fo...",
     description:
@@ -259,10 +309,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog8,
+    image: ElanBlog12,
   },
   {
-    id: 11,
+    id: 13,
     name: "Ruth Torty",
     title: "11 Tips For Managing Remote Teams In Africa..",
     description:
@@ -283,10 +333,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog9,
+    image: ElanBlog13,
   },
   {
-    id: 12,
+    id: 14,
     name: "Ifeoma Okwy-Ejezie",
     title: "Why your business needs proper growth marketing",
     description:
@@ -307,10 +357,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog10,
+    image: ElanBlog14,
   },
   {
-    id: 13,
+    id: 15,
     name: "Team Elan",
     title: " All the talk about the perfect business plan for business growth!",
     description:
@@ -331,10 +381,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog11,
+    image: ElanBlog15,
   },
   {
-    id: 14,
+    id: 16,
     name: "Afam Anyika",
     title: "Customer experience that enhances direct marketing and...",
     description:
@@ -355,7 +405,7 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog12,
+    image: ElanBlog16,
   },
 ];
 
