@@ -108,60 +108,138 @@ function Post10() {
           alt="home hero"
           priority
         />
-        <p>
-          Marketing plays a crucial role in the growth and success of any
-          business. However, with limited resources and budgets, it can be
-          challenging to determine where to invest for maximum returns. In order
-          to get the most out of your marketing budget, it is essential to
-          carefully assess your options and prioritize your spending. One key
-          factor to consider is your target audience. Depending on who you are
-          trying to reach, certain marketing channels may be more effective than
-          others. For example, if you are targeting a younger demographic,
-          social media advertising may be the way to go. If your audience is
-          older, traditional advertising methods such as television or print ads
-          may still be effective.
+        <p className="mt-5 mb-5">
+          Building a business is hard but it can be easier to navigate if you
+          have the right tools, resources and of course knowledge. At this
+          point, you are either thinking of building your first product or
+          business or are running your business.
         </p>
-        <h4>
-          Here are some tips on how to businesses can maximize their marketing
-          budget
-        </h4>
-        <div>
-          <ul>
-            <li>
-              Set clear and measurable marketing goals to help you track the
-              effectiveness of your marketing activities.{" "}
-            </li>
-            <li>
-              Determine your target audience and tailor your marketing efforts
-              specifically to them.{" "}
-            </li>
-            <li>
-              Invest in high-quality content that can be repurposed across
-              different channels, such as blogs or videos.{" "}
-            </li>
-            <li>
-              Use social media platforms strategically to reach a wider
-              audience. Utilize paid advertising options on these platforms to
-              target specific demographics.{" "}
-            </li>
-            <li>
-              Focus on search engine optimization (SEO) to increase your
-              visibility and rank higher in search engine results pages.{" "}
-            </li>
-            <li>
-              Leverage on email marketing campaigns to keep in touch with
-              existing customers and drive conversions.{" "}
-            </li>
-            <li>
-              Consider partnering with other businesses and influencers to reach
-              new audiences and increase brand awareness.{" "}
-            </li>
-            <li>
-              Evaluate the effectiveness of your marketing campaigns regularly
-              and adjust your strategies as needed to ensure you are getting the
-              most out of your budget.
-            </li>
-          </ul>
+        <p className="mb-4">
+          Usually building a startup or starting your business requires a lot of
+          trial and error which inevitably helps you to grow. However, there are
+          some mistakes you can't afford to make while starting out. There are
+          also certain terminologies and structures you should understand early
+          enough to avoid any future struggles.{" "}
+        </p>
+        <p className="mb-4 mt-4">
+          To ensure you have all you need to start, we are sharing 5 free
+          courses that every founder and entrepreneur should take.{" "}
+        </p>
+
+        <div className="mt-5 mb-5">
+          <p className="font-bold text-xl ">1. Start Your Business by VC4A </p>
+          <p className="mb-3">
+            This course was created for entrepreneurs by VC4A. This course
+            covers picking co-founders, understanding investors' expectations,
+            building a team, knowing your customer and understanding your market
+            landscape. Instructors include Rebecca Enonchong (AppsTech), Emeka
+            Afigbo (Facebook), Ian Carnevale (Andela) and Kola Aina (Ventures
+            Platform). Although the language is English, the transcript is
+            available in French, Somali and Arabic.{" "}
+          </p>
+          <div className="w-full h-full object-cover">
+            <video className="w-full h-full" controls>
+              <source src="https://youtu.be/hsEwq60-5es" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p>
+            Time To Complete: 4-6 hours Course Format: Video and Text Learning
+            Method: Self-paced Assessment: Quizzes Course: Start Your Business
+            by VC4A
+          </p>
+        </div>
+        <div className="mb-5 mt-5">
+          <p className="font-bold text-xl">2. YC Startup School</p>
+          <p>
+            This is an important course for every entrepreneur. The YC Startup
+            school was created by Y Combinator. For the YC startup school, you
+            will learn how to review your startup ideas, navigate co-founder
+            relationships, equity and much more. The lessons are easy to
+            understand with real-life examples that you can relate to.
+          </p>
+          <div className="w-full h-full object-cover">
+            <video className="w-full h-full" controls>
+              <source src="https://youtu.be/BUE-icVYRFU" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p>
+            Estimated Time To Complete: 7 weeks (If you take 1-2 hours a week)
+            Course Format: Video and Text Learning Method: Self-paced Course: YC
+            Startup School{" "}
+          </p>
+        </div>
+        <div className="mb-5 mt-5">
+          <p className="font-bold text-xl ">
+            3. How To Build A Startup by Sam Altman
+          </p>
+          <p className="mb-4 mt-2">
+            This course takes you through the very basics of building a startup
+            with an amazing speaker line up including Kevin Hale and Adora
+            Cheung. You will learn more about building products users love,
+            fundraising, company culture, sales and marketing and even the
+            basics of accounting. Estimated Time To Complete: 6 weeks (if you
+            spend 2-3 hours a week) Course Format: Video and Text Learning
+            Method: Self-paced Course: How To Start A Startup{" "}
+          </p>
+          <p>
+            Estimated Time To Complete: 6 weeks (if you spend 2-3 hours a week)
+            Course Format: Video and Text Learning Method: Self-paced Course:
+            How To Start A Startup
+          </p>
+        </div>
+        <div className="mb-5 mt-5">
+          <p className="font-bold text-xl ">4. Finance Your Business by VC4A</p>
+          <p className="mb-4 mt-2">
+            Understanding financial terminologies can be a headache,
+            particularly if you do not have a finance or accounting background.
+            You can expect to learn how to create financial projections, how to
+            understand capital providers and tips on presenting in public. The
+            course also includes a guide on how to create your pitch deck and
+            the kind of questions you should expect from investors.
+          </p>
+          <p>
+            Estimated Time To Complete it: 3-5 hours Course Format: Video and
+            Text Learning Method: Self-paced Course: Finance Your Business
+          </p>
+        </div>
+        <div className="mb-5 mt-5">
+          <p className="font-bold text-xl ">
+            5. Angel Investing and Venture Capital by Dr Ola Brown.{" "}
+          </p>
+          <p className="mb-4 mt-2">
+            Dr Ola Brown is the founder of The Flying Doctors Healthcare
+            Investment Company. Flying Doctors also invests in
+            technology-enabled early-stage and growth-stage businesses across
+            the healthcare value chain. This course was created to help founders
+            learn to know about angel investment, venture capital and
+            terminologies you should know about fundraising and valuation. You
+            don't want to go into fundraising without this knowledge.
+          </p>
+          <div className="w-full h-full object-cover">
+            <video className="w-full h-full" controls>
+              <source
+                src="https://youtu.be/fqvBazlwXws?list=PL5fMQyC_4GPqqzrUBmtrNGiFmSkUoUcyf"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="mt-5 mb-5">
+            Estimated Time To Complete it: 3-5 hours Course Format: Video and
+            Text Learning Method: Self-paced Course: Finance Your Business
+          </p>
+          <p className="mb-5 mt-5">
+            These courses are not only for founders and entrepreneurs but also
+            for Growth marketers, Operations and Technical Leads. Taking these
+            courses helps to set you on your entrepreneurial journey. Remember,
+            the goal is not to have a stack of courses completed but to pick
+            insightNot sure where to start? Elan Africa offers a free
+            consultation for business owners and founders. You can contact us
+            here. s that can help you on your entrepreneurial journey.{" "}
+          </p>
+          <p className="text-italics mb-4 mt-4"></p>
         </div>
       </article>
 
