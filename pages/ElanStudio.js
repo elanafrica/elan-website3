@@ -34,19 +34,19 @@ function ElanStudio() {
               creativity is at its peak!
             </h1>
             <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
-              Whether you've got a plan or don't? We got you!
+              Whether you've got a plan or not, we got you!
             </p>
           </div>
         </div>
         <div className="mt-9 mb-7 text-xl text-center">
           <p className="mb-3">
-            We've been told by our clients that at{" "}
+            Our Clients tell us that{" "}
             <span className="text-red">ElanStudio</span> we bring the perfect
-            mix of creativity and content strategy.
+            provides the ideal blend of creativity and content strategy.
           </p>
           <p className="mb-4">
-            What's more important to note is we have top experience in marketing
-            performance and public relations.
+            What's more important to note is we have top experience in content
+            creation, marketing performance, and public relations.
           </p>
           <p>This means your content strategy is given a 360 view.</p>
         </div>
@@ -124,39 +124,53 @@ function ElanStudio() {
                 Video Content Production
               </p>
               <p>
-                There is no alternative for imagery when it comes to
+                There is no alternative to imagery when it comes to
+                storytelling. It is no surprise that we desire communications
+                that are personal, powerful, and simple to understand.
+                {/* There is no alternative for imagery when it comes to
                 storytelling. That's why it's no surprise that we desire
                 communications that are personal, powerful, and simple to
-                understand.
+                understand. */}
               </p>
               <p>
                 High-quality video content is critical to every successful
+                business campaign. We specialize in video-based digital content
+                to project authenticity, trustworthiness, and long-term
+                emotional connections with your audiences.
+                {/* High-quality video content is critical to every successful
                 business campaign, and why businesses have grown to rely on it
                 to project authenticity, trustworthiness, and long-term
-                emotional connections with their audiences.
+                emotional connections with their audiences. */}
               </p>
-              <p>
+              {/* <p>
                 We specialize in video-based digital content because we believe
                 that visuals are still the most effective way to communicate
                 today.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="m-4 mt-7 flex flex-wrap items-center justify-center">
             <div className="mt-9 w-full sm:w-1/2 lg:w-1/3 pr-5">
               <p className="text-2xl font-bold mb-5">Photography Suite</p>
               <p>
-                We have a pool of creative artists who produce incredible images
+                The power of photography lies in capturing the images you need
+                and the ones you can't live without. We offer a variety of
+                photography services from billboards to product photos, we love
+                challenges!
+                {/* We have a pool of creative artists who produce incredible images
                 for our clients. From billboards to product photos, there is no
                 job too big for our commercial photography experts. They bring
                 experience, creativity, and out-of-the-box thinking to every job
                 - helping to capture the images you need and the ones you can't
-                live without.
+                live without. */}
               </p>
               <p>
-                Whether you’re looking for photos to utilize on your company
+                Our pool of creative artists bring experience, creativity, and
+                out-of-the-box thinking to every job - to produce incredible
+                images for our clients.
+                {/* Whether you’re looking for photos to utilize on your company
                 website, for social media, or in an advertisement, ElanStudio
-                offers a variety of professional photography services.
+                offers a variety of professional photography services. */}
               </p>
             </div>
             <div className="mt-9 w-full sm:w-1/2 lg:w-1/3 pr-5">
@@ -183,13 +197,19 @@ function ElanStudio() {
               </p>
               <p>
                 Audio content creation is a growing trend in the world of
+                digital marketing. Audio-specific content increases brand
+                awareness and improves lead generation and conversion.
+                {/* Audio content creation is a growing trend in the world of
                 digital marketing. You can use audio-specific content to
                 increase brand awareness, improve lead generation and
-                conversion, and build trust and loyalty among your audiences.
+                conversion, and build trust and loyalty among your audiences. */}
               </p>
               <p>
-                We provide different types of audio content services - podcasts,
-                audiobooks, online radio, voice-over services, etc.
+                Our audio content services range from podcasts, audiobooks, and
+                online radio to voice-over services. We aim to build trust and
+                loyalty among your client-based community.
+                {/* We provide different types of audio content services - podcasts,
+                audiobooks, online radio, voice-over services, etc. */}
               </p>
             </div>
           </div>
@@ -202,8 +222,10 @@ function ElanStudio() {
               </p>
               <p>
                 We develop compelling corporate events and meetings by
+                integrating your messages into the event design.
+                {/* We develop compelling corporate events and meetings by
                 integrating your messages into the event design and engagement
-                strategies for your customers and community.
+                strategies for your customers and community. */}
               </p>
               <p>
                 With the rise of hybrid events, we have successfully
@@ -211,8 +233,8 @@ function ElanStudio() {
                 well as managed all online pre-event and in-event strategies.
               </p>
               <p>
-                Lets us partner with you to create a strategy and program to
-                take your brand to the next level.
+                {/* Lets us partner with you to create a strategy and program to
+                take your brand to the next level. */}
               </p>
             </div>
             <div className="mt-9 w-full sm:w-1/2 lg:w-1/3 pr-5">
@@ -231,7 +253,9 @@ function ElanStudio() {
         <div className="container">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-black">
-              Let's get your brand to that level of creativity you've craved.
+              Let's get your brand to that level of creativity you've always
+              imagined.
+              {/* Let's get your brand to that level of creativity you've craved. */}
             </h2>
             <p className="text-black-300">Schedule a Consultation.</p>
           </div>

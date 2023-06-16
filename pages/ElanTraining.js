@@ -9,9 +9,9 @@ import Elantrain3 from "../public/elantraining2.jpg";
 import { DiUnitySmall } from "react-icons/di";
 import { BiCodeAlt } from "react-icons/bi";
 import { BsFillCartCheckFill } from "react-icons/bs";
-import { FaAccessibleIcon } from "react-icons/fa";
+// import { FaAccessibleIcon } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
-import { GrBusinessService } from "react-icons/gr";
+// import { GrBusinessService } from "react-icons/gr";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -38,12 +38,14 @@ function ElanTraining() {
           />
           <div className="p-6 md:p-24 text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
-              Where we build the right tech ecosystem that helps your business
-              scale.
+              We not only identify the knowledge gaps but provide insights to
+              solve business needs.
+              {/* Where we build the right tech ecosystem that helps your business
+              scale. */}
             </h1>
-            <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+            {/* <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
               We would not just identify the tech needs but also implement them
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -79,9 +81,9 @@ function ElanTraining() {
                 </span>
                 <h1 className="text-xl font-bold mb-3">We Are Analytical.</h1>
                 <p>
-                  In-depth identification and analysis of clients’ knowledge
-                  gaps and its needs in specific topics mostly related to sales,
-                  marketing, business growth hacks, and customer experience.
+                  Expect in-depth analysis and identification of your knowledge
+                  gaps and needs in topics mostly related to sales, marketing,
+                  customer experience, and business growth hacks.
                 </p>
               </div>
               <div
@@ -94,9 +96,11 @@ function ElanTraining() {
                 </span>
                 <h1 className="text-xl font-bold mb-3">Tailored For You.</h1>
                 <p>
-                  Every business need is unique, so are your training needs. We
+                  Learn well-developed courses and training content customized
+                  to meet your business needs and industry standards.
+                  {/* Every business need is unique, so are your training needs. We
                   prepare tailored modules & training materials, specifically to
-                  suit your needs.
+                  suit your needs. */}
                 </p>
               </div>
               <div
@@ -109,9 +113,12 @@ function ElanTraining() {
                 </span>
                 <h1 className="text-xl font-bold mb-3">We Operate SMART.</h1>
                 <p>
-                  We are practical and will work only with insights applicable
+                  Anticipate practical training with relevant and up-to-date
+                  industry insights and case studies suited to help you meet
+                  your business goals.
+                  {/* We are practical and will work only with insights applicable
                   to your own business. We'd use specific case studies,
-                  exclusively prepared to relate to your business’ realities.
+                  exclusively prepared to relate to your business’ realities. */}
                 </p>
               </div>
               <div
@@ -122,14 +129,19 @@ function ElanTraining() {
                 <span className="border rounded-full inline-block p-4 border-slate-800 text-3xl mb-3">
                   <BsFillCartCheckFill />
                 </span>
-                <h1 className="text-xl font-bold mb-3">Top Experts.</h1>
+                <h1 className="text-xl font-bold mb-3">
+                  Top Experts For Training
+                </h1>
                 <p>
-                  This is your Feature section paragraph. Use this space to
+                  Engage with subject matter experts and consultants in
+                  training, gaining insights on how to scale and drive team
+                  success.
+                  {/* This is your Feature section paragraph. Use this space to
                   present specific credentials, benefits, or special features
-                  you offer.
+                  you offer. */}
                 </p>
               </div>
-              <div
+              {/* <div
                 className="shadow-md p-6 rounded-md bg-slate-100"
                 data-aos="fade-down"
                 data-aos-delay="400"
@@ -143,8 +155,8 @@ function ElanTraining() {
                   present specific credentials, benefits, or special features
                   you offer.
                 </p>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className="shadow-md p-6 rounded-md bg-slate-100"
                 data-aos="fade-down"
                 data-aos-delay="400"
@@ -158,7 +170,7 @@ function ElanTraining() {
                   present specific credentials, benefits, or special features
                   you offer.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -175,15 +187,20 @@ function ElanTraining() {
             </h2>
             <div>
               <p className="mb-4 animate-fade-in-left">
-                A sales and marketing training program chiefly aimed to enhance
-                your company’s marketing or sales team’s skills and performance.
+                A sales and marketing training program aims to enhance your
+                company’s marketing or sales team’s skills and performance.
+                {/* A sales and marketing training program chiefly aimed to enhance
+                your company’s marketing or sales team’s skills and performance. */}
               </p>
               <p className="animate-fade-in-left">
                 ElanTraining offers a wide range of Sales and Marketing Training
                 courses that have been thoroughly designed by experienced
+                professionals to help you meet your business goals.
+                {/* ElanTraining offers a wide range of Sales and Marketing Training
+                courses that have been thoroughly designed by experienced
                 professionals in order to enhance your understanding of the
                 various elements that allow for effectual sales and marketing
-                performance within your organizations.
+                performance within your organizations. */}
               </p>
             </div>
           </div>
@@ -212,18 +229,23 @@ function ElanTraining() {
             </h2>
             <div>
               <p className="mb-4 animate-fade-in-right">
-                By taking our e-commerce training classes which teach,
+                Learn the intricacies of managing an e-commerce business:
+                {/* By taking our e-commerce training classes which teach, */}
               </p>
               <div className="bg-gray-100 py-10 animate-fade-in-right">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <ul className="list-disc pl-6">
                     <li className="text-gray-700 mb-2 animate-fade-in-right">
-                      Commercial planning to help prioritize and understand
-                      revenue drivers across the board
+                      ●Commercial planning: Prioritize and understand revenue
+                      drivers across the board.
+                      {/* Commercial planning to help prioritize and understand
+                      revenue drivers across the board */}
                     </li>
                     <li className="text-gray-700 mb-2 animate-fade-in-right">
-                      Category management to better manage your product
-                      assortment/ mix and warehousing
+                      ●Category management: Manage your product assortment/ mix
+                      and warehousing
+                      {/* Category management to better manage your product
+                      assortment/ mix and warehousing */}
                     </li>
                     <li className="text-gray-700 mb-2 animate-fade-in-right">
                       E-commerce campaign and marketing strategies,
@@ -234,10 +256,10 @@ function ElanTraining() {
                   </ul>
                 </div>
               </div>
-              <p className="mb-4 animate-fade-in-right">
+              {/* <p className="mb-4 animate-fade-in-right">
                 Gain mastery of key e-commerce concepts, and discover how to
                 earn more from your business's online store.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -254,9 +276,12 @@ function ElanTraining() {
                 increasingly competitive marketplace.
               </p>
               <p className="animate-fade-in-bottom">
-                This training course on Exceptional Customer Experience intends
+                While building your company's image as a customer-centered
+                organization, your employees would learn how to surpass customer
+                service standards and expectations.
+                {/* This training course on Exceptional Customer Experience intends
                 to assist participants in improving their Customer Service
-                expertise.
+                expertise. */}
               </p>
               <p className="mb-4 animate-fade-in-bottom">
                 While building your company's image as a customer-centered

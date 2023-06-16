@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import careerHero from "../public/joinourteam.jpg";
 import { BiTimeFive } from "react-icons/bi";
-import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
+import { GrGrommet, GrPowerCycle } from "react-icons/gr";
 
 const Data = [
   {
@@ -118,12 +118,14 @@ function Careers() {
           />
           <div className="p-6 md:p-24 text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
-              JOIN OUR TEAM
+              Unlock Your Career Potential: ready to join our team?
             </h1>
             <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-2xl text-white">
-              We are always looking for talented individuals to join our team.
+              Working at Elan Africa is like working with an extended family. Do
+              you have the required skills to be OUR NEXT FAMILY MEMBER?
+              {/* We are always looking for talented individuals to join our team.
               If you are interested in working with us, please email your resume
-              and cover letter to:
+              and cover letter to: */}
               <br />
               <br />
               <span className="text-2xl font-bold">team@elanafrica.com</span>
@@ -131,42 +133,69 @@ function Careers() {
           </div>
         </div>
 
-        <div className="my-10 mx-4 md:mb-16">
-          <h1 className="text-black text-3xl md:text-4xl py-4 md:py-6 font-bold md:w-[400px] block mx-auto">
-            The value that holds us true and accountable
+        <div className="">
+          <h1 className="text-black text-center text-3xl md:text-4xl py-4 md:py-6 font-bold md:w-[400px] block mx-auto">
+            Great work starts with great culture
+            {/* The value that holds us true and accountable */}
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="singleGrid rounded-2xl hover:bg-[#eeedf7] p-6 md:p-8">
+          <p className="text-center mt-2 mb-2">
+            Elan Africa places a premium on diversity, creativity, and
+            innovation. We believe that our most valuable asset is our workforce
+            and that a positive work environment is critical to attracting and
+            retaining top talent. Our goal is to foster an environment that is
+            enjoyable, challenging, and rewarding for everyone who works here.
+          </p>
+          <div className="">
+            <div className=" rounded-2xl hover:bg-[#eeedf7] p-6 md:p-8">
               <div className="flex items-center gap-3">
                 <div className="imgDiv p-2 rounded-full bg-[#dedef8] h-14 w-14 md:h-16 md:w-16 flex items-center justify-center">
                   <GrGrommet className="w-10 md:w-12 text-3xl md:text-4xl" />
                 </div>
                 <span className="font-semibold text-black text-xl md:text-2xl">
-                  Simplicity
+                  Diversity and Inclusion:
                 </span>
               </div>
               <p className="text-base md:text-lg opacity-80 py-4 md:py-6 font-semibold">
-                Things being made beautifully simple are at the heart of
-                everything we do.
+                Our commitment to being the most diverse, equitable, and
+                inclusive marketing agency allows us to implement and improve
+                practices, policies, and behaviors that help everyone succeed
+                personally and professionally. We encourage varied talents to
+                progress in their professions and improve the planet.
+                {/* Things being made beautifully simple are at the heart of
+                everything we do. */}
               </p>
             </div>
 
-            <div className="singleGrid rounded-2xl hover:bg-[#f7edf5] p-6 md:p-8">
+            <div className=" rounded-2xl hover:bg-[#f7edf5] p-6 md:p-8">
               <div className="flex items-center gap-3">
                 <div className="imgDiv p-2 rounded-full bg-[#f7d1e1] h-14 w-14 md:h-16 md:w-16 flex items-center justify-center">
                   <GrPowerCycle className="w-10 md:w-12 text-3xl md:text-4xl" />
                 </div>
                 <span className="font-semibold text-black text-xl md:text-2xl">
-                  Satisfaction
+                  Grow With Us:{/* Satisfaction */}
                 </span>
               </div>
               <p className="text-base md:text-lg opacity-80 py-4 md:py-6 font-semibold">
-                We believe in making things better for everyone, even if just by
-                a little bit!
+                Elan Africa offers professional and personal growth. Join a
+                passionate team that embraces challenges, pushes boundaries, and
+                opens new doors. We provide the best environment for you to
+                succeed with mentorship, support, and growth. Join us and
+                realize your potential.
+                {/* We believe in making things better for everyone, even if just by
+                a little bit! */}
+              </p>
+              <p className="text-base md:text-lg opacity-80 py-4 md:py-6 font-semibold">
+                Want to know more about Elan Africa (Elan Africa will serve as a
+                link redirecting them back to the About page)
+              </p>
+              <p className="text-base md:text-lg opacity-80 py-4 md:py-6 font-semibold">
+                Join our team and be a part of the dynamic and inspiring culture
+                at Elan Africa, where your talents are valued, your ideas are
+                embraced, and your potential is unleashed.
               </p>
             </div>
 
-            <div className="singleGrid rounded-2xl hover:bg-[#fcfae3] p-6 md:p-8">
+            {/* <div className="singleGrid rounded-2xl hover:bg-[#fcfae3] p-6 md:p-8">
               <div className="flex items-center gap-3">
                 <div className="imgDiv p-2 rounded-full bg-[#f3f2ad] h-14 w-14 md:h-16 md:w-16 flex items-center justify-center">
                   <GrAchievement className="w-10 md:w-12 text-3xl md:text-4xl" />
@@ -179,11 +208,11 @@ function Careers() {
                 We work on the basis of creating trust which can be nurtured
                 through authenticity and transparency.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <section>
+        {/* <section>
           <div className="container mx-auto p-6 md:p-10">
             <div className="text-center">
               <h2 className="font-bold text-2xl md:text-3xl mb-2 md:mb-4">
@@ -233,7 +262,7 @@ function Careers() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Jobs Section */}
         <div className="flex gap-4 md:gap-10 justify-center flex-wrap items-center py-6 md:py-10">
