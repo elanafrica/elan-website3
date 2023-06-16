@@ -98,7 +98,7 @@ function Post12() {
         </div>
       </div>
 
-      <article>
+      <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
           Mental Health in the Workplace: How To Build Safe Spaces...
         </h2>

@@ -96,7 +96,7 @@ function Post2() {
         </div>
       </div>
 
-      <article className="m-4 mt-9 container mb-5">
+      <article className="m-4 mt-9 container mb-5 ">
         <h2 className="text-3xl font-bold text-center">
           How to Do Social Media Marketing for Small Businesses.
         </h2>
