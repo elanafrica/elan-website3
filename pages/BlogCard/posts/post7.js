@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/elanblog3.png";
+import Hero from "../../../public/assets/deademailmarketing.jpg";
 import Link from "next/link";
 
 function Post7() {
@@ -100,7 +100,7 @@ function Post7() {
 
       <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          Is Email MArketing Dead?
+          Is Email Marketing Dead?
         </h2>
         <Image
           className=" w-full h-full mt-3 mb-4 relative bg-cover "

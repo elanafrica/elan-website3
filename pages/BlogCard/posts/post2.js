@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/elanblogg3.jpg";
+import Hero from "../../../public/assets/socialmediaforsmallbusinesses.jpg";
 import Link from "next/link";
 
 function Post2() {
