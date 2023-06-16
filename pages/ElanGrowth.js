@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
-import Logoh from "../public/howthisworks.jpg";
-import Elangrowth1 from "../public/growth.jpg";
-import Elangrowth2 from "../public/ourservices.jpg";
+import Logoh from "../public/assets/growthhero.jpg";
+
+import Elangrowth2 from "../public/assets/ourgrowthservices.jpg";
 import Elangrowth3 from "../public/growth.jpg";
-import Elangrowth4 from "../public/growthmarketing.jpg";
+import Elangrowth4 from "../public/assets/growthmarketingagency.jpg";
 import Elangrowth5 from "../public/productdevelopment.jpg";
 import Elangrowth6 from "../public/brand.jpg";
 import Elangrowth7 from "../public/ecommerceagency.jpg";
