@@ -98,7 +98,7 @@ function Post14() {
         </div>
       </div>
 
-      <article>
+      <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
           Why your business needs proper growth marketing.
         </h2>

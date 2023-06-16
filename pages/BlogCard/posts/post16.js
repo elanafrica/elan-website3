@@ -98,7 +98,7 @@ function Post16() {
         </div>
       </div>
 
-      <article>
+      <article className="m-4 mt-9 container mb-5 ">
         {/* <p>
           {post.name} . {post.date} . 2min read
         </p> */}

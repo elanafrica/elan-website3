@@ -98,7 +98,7 @@ function Post5() {
         </div>
       </div>
 
-      <article>
+      <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
           How to maximize your marketing budget
         </h2>
@@ -108,7 +108,7 @@ function Post5() {
           alt="home hero"
           priority
         />
-        <p>
+        <p className="mt-2 mb-5">
           Marketing plays a crucial role in the growth and success of any
           business. However, with limited resources and budgets, it can be
           challenging to determine where to invest for maximum returns. In order
@@ -121,47 +121,159 @@ function Post5() {
           older, traditional advertising methods such as television or print ads
           may still be effective.
         </p>
-        <h4>
+        <h4 className="font-bold text-xl text-center mt-4 mb-4">
           Here are some tips on how to businesses can maximize their marketing
           budget
         </h4>
-        <div>
+        <div className="mt-4 mb-4">
           <ul>
-            <li>
+            <li className="mt-2 mb-2">
               Set clear and measurable marketing goals to help you track the
               effectiveness of your marketing activities.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Determine your target audience and tailor your marketing efforts
               specifically to them.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Invest in high-quality content that can be repurposed across
               different channels, such as blogs or videos.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Use social media platforms strategically to reach a wider
               audience. Utilize paid advertising options on these platforms to
               target specific demographics.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Focus on search engine optimization (SEO) to increase your
               visibility and rank higher in search engine results pages.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Leverage on email marketing campaigns to keep in touch with
               existing customers and drive conversions.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Consider partnering with other businesses and influencers to reach
               new audiences and increase brand awareness.{" "}
             </li>
-            <li>
+            <li className="mt-2 mb-2">
               Evaluate the effectiveness of your marketing campaigns regularly
               and adjust your strategies as needed to ensure you are getting the
               most out of your budget.
             </li>
           </ul>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Ideas on where businesses can invest their marketing budget
+          </h4>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Social media advertising:</span>
+            Social media platforms offer a large audience reach and affordable
+            advertising options. Different social media platforms have different
+            demographics, so businesses should choose the platforms their target
+            audience is most active on. Social media ads, for example differ
+            from platform to platform. Linkedin ads are different from Facebook
+            ads.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Content marketing:</span>
+            Creating valuable, informative, and engaging content can attract
+            customers to a business's website or social media pages, and help
+            establish the business as a thought leader in their industry.
+            Content marketing can done using content in different formats
+            including blog posts, infographics, videos and more.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Email marketing:</span>
+            Email marketing is an effective way to maintain customer
+            relationships and encourage repeat business. Businesses can send
+            weekly or monthly newsletters, promotional emails, and automated
+            emails for abandoned carts or follow-ups after a purchase.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">
+              Search engine optimization (SEO):{" "}
+            </span>
+            SEO involves optimizing a website's content, structure, and metadata
+            to increase its visibility in search engine results pages (SERPs). A
+            higher ranking in SERPs can drive more organic traffic to a website
+            and generate more leads.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Influencer marketing:</span>
+            Businesses partner with social media influencers who have a large
+            following and influence in a particular industry or niche.
+            Influencers can promote a business' products or services to their
+            followers who trust their recommendations and are likely to
+            purchase.
+          </p>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Benefits of maximizing your marketing budget
+          </h4>
+          <Image
+            className=" w-72 h-full mt-3 mb-4 relative  bg-cover "
+            src={Hero}
+            alt="home hero"
+            priority
+          />
+          <p className="mt-5 mb-3">
+            Another consideration is the current market trends and competitors
+            in your industry. It is important to stay up to date with what is
+            working for others in your industry and adapt your own marketing
+            strategies accordingly. This may mean investing in new technology,
+            partnering with influencers, or focusing on content marketing.
+            Ultimately, the key to maximizing your marketing budget is to
+            constantly evaluate your efforts and adjust your strategies as
+            needed. By carefully considering your target audience and the trends
+            in your industry, you can make smart investments that will help you
+            achieve your marketing goals and grow your business.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Brand awareness: </span>
+            Effective marketing strategies can help increase brand awareness and
+            recognition. This is important because it can lead to increased
+            sales and customer loyalty.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Targeted marketing:</span>
+            Maximizing your marketing budget means that you can target your
+            marketing efforts to the right audience. This can help you reach the
+            people who are most likely to be interested in your products or
+            services, which can lead to higher conversion rates and sales.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">ROI:</span>
+            Maximizing your marketing budget means that you're getting the
+            greatest possible return on investment. By investing in strategies
+            that have a proven track record of success, you can ensure that
+            you're getting the most bang for your buck.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Limited resources: </span>
+            For most companies, marketing budgets are limited, so it's important
+            to make the most of them. If you're not maximizing your marketing
+            budget, you could be wasting money on ineffective strategies that
+            aren't reaching your target audience.
+          </p>
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">Competition:</span>
+            Every business is competing for attention, so it's important to make
+            your marketing budget count. If you're not maximizing your budget,
+            your competitors will be able to outspend you and potentially steal
+            customers.
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Conclusion
+          </h4>
+
+          <p className="mt-5 mb-3">
+            Overall, businesses should prioritize marketing strategies that
+            align with their goals and target audience, and track and analyse
+            their marketing performance to optimize their spending.
+          </p>
         </div>
       </article>
 
