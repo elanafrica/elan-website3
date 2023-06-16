@@ -10,15 +10,15 @@ import ElanBlog4 from "../public/assets/marketingplansthatwork.jpg";
 import ElanBlog5 from "../public/assets/maximizebudget.jpg";
 import ElanBlog6 from "../public/assets/11marketingstrategies.jpg";
 import ElanBlog7 from "../public/assets/deademailmarketing.jpg";
-import ElanBlog8 from "../public/assets/elanblog4.png";
-import ElanBlog9 from "../public/assets/elanblog5.png";
-import ElanBlog10 from "../public/assets/elanblog6.png";
-import ElanBlog11 from "../public/assets/elanblog7.png";
-import ElanBlog12 from "../public/assets/elanblog8.png";
+import ElanBlog8 from "../public/assets/smetarget.jpg";
+import ElanBlog9 from "../public/assets/investwisely.jpg";
+import ElanBlog10 from "../public/assets/freecourses.jpg";
+import ElanBlog11 from "../public/assets/b2bgrowthhack.jpg";
+import ElanBlog12 from "../public/assets/mentalhealth.jpg";
 import ElanBlog13 from "../public/assets/remoteteams.jpg";
-import ElanBlog14 from "../public/assets/growthmarketingagency.jpg";
-import ElanBlog15 from "../public/assets/ourgrowthservices.jpg";
-import ElanBlog16 from "../public/assets/elanblog12.png";
+import ElanBlog14 from "../public/assets/propergrowthmarketing.jpg";
+import ElanBlog15 from "../public/assets/perfectbusinessplan.jpg";
+import ElanBlog16 from "../public/assets/customerexperiencedirectmarketing.jpg";
 
 import { BiTimeFive } from "react-icons/bi";
 
