@@ -6,7 +6,8 @@ import Link from "next/link";
 
 import aboutHero from "../public/whatweare.jpg";
 import about1 from "../public/ourbusiness.jpg";
-import founder from "../public/assets/founder.png";
+import founder1 from "../public/assets/afam.jpg";
+import founder2 from "../public/assets/kelechi.jpg";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
 import max from "../public/assets/max.png";
@@ -38,48 +39,39 @@ function AboutUs() {
   return (
     <Layout title="AboutUs">
       <div>
-        <div className="bg-[rgb(7,39,78)] text-white">
-          <section className="container items-center px-4 pb-12 mt-9 lg:flex md:px-40">
-            <div className="flex-1 space-y-4 sm:text-center lg:text-left">
-              <h1
-                className="text-4xl font-bold text-teal-400 md: flex justify-center lg:justify-start"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              >
-                What we are
-              </h1>
-              <p
-                className="max-w-xl leading-relaxed text-gray-300 text-2xl font-bold sm:mx-auto lg:ml-0 lg:mr-15"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              >
-                Your business is unique, likewise your growth, technology and
-                your brand communication. You are in the right place for your
-                business ecosystem reflection .
-              </p>
-              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
-                <Link href="/">
-                  <button
-                    className="block px-6 py-2 text-center text-white bg-teal-500 rounded-md"
-                    data-aos="fade-down"
-                    data-aos-delay="400"
-                  >
-                    Learn More
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
-              <Image
-                src={aboutHero}
-                className="w-full mt-6 sm:w-10/12 lg:w-full"
-                data-aos="fade-down"
-                data-aos-delay="400"
-                alt="hero"
-                priority
-              />
-            </div>
-          </section>
+        <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
+          <Image
+            className="absolute w-full h-full object-cover mix-blend-overlay"
+            src={aboutHero}
+            alt="home hero"
+            priority
+          />
+          <div className="p-6 md:p-24 text-center">
+            <h1 className="text-3xl text-4xl font-bold text-[#0b2546] md:text-4xl lg:text-5xl  font-bold">
+              What we are
+            </h1>
+            <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
+              Elan Africa is a hybrid agency & consultancy. We are made up of a
+              team of experts vast in the areas of growth strategy, sales,
+              marketing, tech development, and multimedia production. We build a
+              team tailored to your goals at the right budget and offer
+              strategic insights to scale your business.
+              {/* Your business is unique, likewise your growth, technology and your
+              brand communication. You are in the right place for your business
+              ecosystem reflection .. */}
+            </p>
+            {/* <div className="flex justify-center mt-7">
+              <Link href="/ContactUs">
+                <button
+                  className="px-6 mt-10 py-2 text-center text-white  bg-[#0b2546] hover:text-[#0b2546] hover:bg-white rounded-md mx-auto"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                >
+                  Learn More
+                </button>
+              </Link>
+            </div> */}
+          </div>
         </div>
 
         <div className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
@@ -106,13 +98,16 @@ function AboutUs() {
               data-aos="fade-down"
               data-aos-delay="400"
             >
-              Elan Africa is a hybrid agency & consultancy. We are made up of a
+              Our approach is lean and streamlined and is a delight for your
+              budget. We build growth and marketing systems for long-term
+              success while maximizing revenue potential.
+              {/* Elan Africa is a hybrid agency & consultancy. We are made up of a
               team of experts vast in the areas of growth strategy, sales,
               marketing, tech development, and multimedia production. We support
               your execution and offer strategic 'experienced' insight to scale
               your business. We work on a monthly retainer or specific projects.
               We build a team tailored to your goals at the right budget. Our
-              approach is lean and streamlined and should be a .
+              approach is lean and streamlined and should be a . */}
             </p>
           </div>
         </div>
@@ -127,7 +122,10 @@ function AboutUs() {
           </h1>
           <p data-aos="fade-down" data-aos-delay="400">
             We work with companies of every size, growth stage, and business
-            model. Tell us where you are, and we’ll meet you there.
+            model.
+          </p>
+          <p data-aos="fade-down" data-aos-delay="400">
+            Tell us where you are, and we’ll meet you there.
           </p>
         </div>
         <div>
@@ -187,7 +185,7 @@ function AboutUs() {
                   data-aos-delay="400"
                 >
                   Expanding into a new market, business model, or growth
-                  territory? We have got your back.
+                  territory? We've got your back.
                 </p>
               </div>
             </div>
@@ -206,8 +204,8 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">STARTUP</h1>
               <p>
-                Launch a product test market fit. Rapidly scale to explore new
-                markets and acquire customers.
+                Conducting thorough market research, identifying a unique value
+                proposition, and developing a solid business plan.
               </p>
             </div>
             <div
@@ -220,8 +218,8 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">TECH</h1>
               <p>
-                Test product features, attract new customers to imporving
-                adoption and retention.
+                Leveraging technological advancements to streamline operations,
+                enhance productivity and unlock more growth opportunities.
               </p>
             </div>
             <div
@@ -234,8 +232,8 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">SMEs</h1>
               <p>
-                Test product features. Refresh business model, attract new
-                customers. Improve adoption and retention
+                Facilitating access to markets and networks and implementing
+                business development strategies.
               </p>
             </div>
             <div
@@ -248,8 +246,9 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">E-COMMERCE</h1>
               <p>
-                Start or scale commercial planning team training process
-                optimization and marketing automation.
+                Harnessing the power of e-commerce to unlock exponential
+                business growth, expanding reach, and driving sales across
+                borders.
               </p>
             </div>
             <div
@@ -262,7 +261,7 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">B2B</h1>
               <p>
-                Attract leads and automate the appointment booking process.
+                Attracting leads and automating the appointment booking process.
                 Improve customer success and engagement.
               </p>
             </div>
@@ -274,10 +273,10 @@ function AboutUs() {
               <span className="border rounded-full inline-block p-4 border-slate-800 text-3xl mb-3">
                 <GrBusinessService />
               </span>
-              <h1 className="text-xl font-bold mb-3">SERVICE</h1>
+              <h1 className="text-xl font-bold mb-3">SALES</h1>
               <p>
-                Maximum customer engagement & retention generate engaged leads,
-                automate sales process and accelerate leads.
+                Ensuring maximum customer engagement & retention. Generate
+                leads, and automate the sales process.
               </p>
             </div>
             <div
@@ -290,8 +289,9 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">STAFFING</h1>
               <p>
-                Attract top talent leveraging our vast network of industry
-                specialists and managers.
+                Attracting and retaining top talents, ensuring a skilled
+                workforce that delivers exceptional results, drives innovation,
+                and propels business growth.
               </p>
             </div>
             <div
@@ -304,9 +304,9 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">PARTNERSHIP</h1>
               <p>
-                Teaming up gives your business access to the other business’s
-                curated audience. The increased visibility leads to a higher
-                probability of conversions.
+                Collaborating with like-minded organizations, aligning goals to
+                create win-win opportunities that propel businesses to new
+                heights and unlock untapped potentials.
               </p>
             </div>
             <div
@@ -319,9 +319,8 @@ function AboutUs() {
               </span>
               <h1 className="text-xl font-bold mb-3">CONSULTANCY</h1>
               <p>
-                Develop a marketing plan to meeting your business goals,
-                branding and strategic planning to increase sales and customer
-                retention
+                Providing guidance, insights, and tailored solutions to optimize
+                operations, overcome challenges and maximize profitability.
               </p>
             </div>
           </div>
@@ -343,7 +342,7 @@ function AboutUs() {
               <div classsName="ml-0 rounded-md">
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
-                    src={founder}
+                    src={founder1}
                     alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
@@ -373,7 +372,7 @@ function AboutUs() {
               >
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
-                    src={founder}
+                    src={founder2}
                     alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"

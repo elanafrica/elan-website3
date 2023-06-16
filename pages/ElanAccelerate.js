@@ -128,23 +128,30 @@ function ElanAccelerate() {
                 <div>
                   <p className="font-bold text-xl mt-4 mb-4">STEP 2</p>
                   <p>
-                    Full-scale business analysis. Assess applicants and match
-                    them up with relevant tech, sales, marketing, and capital.
+                    Commence full-scale business analysis. We assess your needs
+                    and match you up with relevant resources including tech,
+                    sales, marketing, and capital.
+                    {/* Full-scale business analysis. Assess applicants and match
+                    them up with relevant tech, sales, marketing, and capital. */}
                   </p>
                 </div>
                 <div>
                   <p className="font-bold text-xl mt-4 mb-4">STEP 3</p>
                   <p>
-                    Brands Fed Through Funnel. Launch pilots between consumer
-                    brands & technology.
+                    We create, fix and implement integrations, designs, and
+                    marketing.
+                    {/* Brands Fed Through Funnel. Launch pilots between consumer
+                    brands & technology. */}
                   </p>
                   <p>Fix integrations, design, and marketing</p>
                 </div>
                 <div>
                   <p className="font-bold text-xl mt-4 mb-4">STEP 4</p>
                   <p>
-                    Happy, innovative companies with happy customers and
-                    accelerated, sustainable growth.
+                    We ensure happy, innovative companies with happy customers
+                    and accelerated, sustainable growth.
+                    {/* Happy, innovative companies with happy customers and
+                    accelerated, sustainable growth. */}
                   </p>
                 </div>
               </div>
@@ -161,10 +168,15 @@ function ElanAccelerate() {
                 <p className="text-xl font-bold">Go-To Market</p>
                 <p>
                   Our Go-to-market strategies help anticipate the challenges of
+                  your product's competitive space. We identify the target
+                  market, articulate the product’s value proposition, craft a
+                  marketing plan, and develop a strategy for your product's
+                  sales and distribution channels.
+                  {/* Our Go-to-market strategies help anticipate the challenges of
                   your product's competitive space by thoroughly identifying the
                   target market, articulating the product’s value proposition,
                   crafting a marketing plan, and developing a strategy for your
-                  product's sales and distribution channels.
+                  product's sales and distribution channels. */}
                 </p>
               </div>
             </div>
@@ -177,9 +189,12 @@ function ElanAccelerate() {
               <div>
                 <p className="text-xl font-bold">HyperGrowth</p>
                 <p>
-                  This is your Service description. Use this space to describe
+                  Our strategies are structured to drive business growth. We
+                  review growth pipelines and implement strategies to grow your
+                  business.
+                  {/* This is your Service description. Use this space to describe
                   what the service entails, its benefits for users, and any
-                  other important information.
+                  other important information. */}
                 </p>
               </div>
             </div>
@@ -191,12 +206,18 @@ function ElanAccelerate() {
               <div>
                 <p className="text-xl font-bold">Team Building</p>
                 <p>
-                  We would help you create and organize a simple method of
+                  Our exclusive training programs are tailored to fit your
+                  team's needs and culture. Enjoy the robust curriculum with
+                  current industry insights provided by seasoned professionals
+                  across various disciplines. If you haven’t considered
+                  integrating team-building activities into your workplace
+                  grind, now is your chance.
+                  {/* We would help you create and organize a simple method of
                   connecting your employees and colleagues with the mission of
                   your organization and with each other, a fun, simple way to
                   share ideas, and engage with one another. If you haven’t
                   considered integrating team-building activities into your
-                  workplace grind, now is your chance.
+                  workplace grind, now is your chance. */}
                 </p>
               </div>
             </div>
@@ -209,10 +230,14 @@ function ElanAccelerate() {
               <div>
                 <p className="text-xl font-bold">Partnerships</p>
                 <p>
-                  At ELAN we are open to collaborations. This can increase brand
+                  At Elan, we are open to collaborations. We believe
+                  collaborations can increase brand awareness, generate website
+                  and social media traffic, grow your number of conversions, and
+                  aid customer acquisition and retention.
+                  {/* At ELAN we are open to collaborations. This can increase brand
                   awareness, generate more website and social media traffic,
                   grow your number of conversions, and aid customer acquisition
-                  and retention.
+                  and retention. */}
                 </p>
               </div>
             </div>
@@ -223,12 +248,18 @@ function ElanAccelerate() {
           <div className="bg-white rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-4">
               <div>
-                <p className="text-xl font-bold">Product Dev</p>
+                <p className="text-xl font-bold">Product Development</p>
                 <p>
-                  We would take your idea from concept to delivery. This would
+                  Your idea could be the next game-changer. We leverage our
+                  trusted product development strategies to bring your concepts
+                  to products. Our strategies are tailored to fit your industry
+                  and growing market demand for the product. We follow the
+                  concept's lifecycle from plans, product creation, release, and
+                  review.
+                  {/* We would take your idea from concept to delivery. This would
                   involve brainstorming the initial concept to strategically
                   planning, building, and releasing your product to the market
-                  and then measuring its success.
+                  and then measuring its success. */}
                 </p>
               </div>
             </div>
@@ -239,10 +270,11 @@ function ElanAccelerate() {
       <div className="mt-7  py-12">
         <div className="container">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-black">Let's talk</h2>
+            <h2 className="text-3xl font-bold text-black">
+              Let's bring your business dreams to life!
+            </h2>
             <p className="text-black-300">
-              about the hopes and dreams for your business! ​ Book a time for
-              your free 30-minute growth consultation call.
+              Book a time for your free 30-minute growth consultation call.
             </p>
           </div>
           <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center animate-scale-in">

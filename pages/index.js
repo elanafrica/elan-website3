@@ -79,7 +79,7 @@ function Home() {
               </div>
             </div> */}
 
-              {/* hero section */}
+            {/* hero section */}
 
             <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
               <Image
@@ -94,7 +94,7 @@ function Home() {
                   Does Too.
                 </h1>
                 <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
-                  We may just know how to make that happen.
+                  We work towards making this happen.
                 </p>
                 <div className="flex justify-center mt-7">
                   <Link href="/ContactUs">
@@ -110,21 +110,23 @@ function Home() {
               </div>
             </div>
 
-              {/* section */}
+            {/* section */}
             <div className="sm:text-center lg:text-left mt-7">
               <div className="text-center text-xl lg:mb-20 lg:mt-20 sm:mb-20 md:mb-20">
                 <h2>
-                  We foster business growth and sales for{" "}
+                  We foster growth and sales for{" "}
                   <span className="text-green-300">
                     Startups, Tech Companies and SME's
                   </span>{" "}
                   across Africa.
                 </h2>
                 <p>
-                  Growth is our assertion. We take a data-driven approach to
-                  help your business scale. <br/> We help generate scalable and
-                  predictable
+                  Growth is our assertion. We take a data-driven approach to
+                  ensure business progression.
+                  <br /> We help generate scalable growth for ambitious
+                  startups, e-commerce, and SMEs.
                 </p>
+                <p>Discover the best growth action plan for your business. </p>
               </div>
 
               <div
@@ -132,27 +134,27 @@ function Home() {
                 style={{ animation: "fadeIn 1s ease-in-out" }}
               >
                 <div className="col-span-1 w-full h-full">
-                  <div 
+                  <div
                     className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
                     data-aos="fade-down"
                     data-aos-delay="400"
-                    >
+                  >
                     Data-Driven Insights for Growth.
                   </div>
                 </div>
 
                 <div className="col-span-1 w-full h-full">
-                  <div 
+                  <div
                     className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
                     data-aos="fade-down"
                     data-aos-delay="400"
-                    >
+                  >
                     Proven Experience in Growth Strategy.
                   </div>
                 </div>
-                  
+
                 <div className="col-span-1 w-full h-full">
-                  <div 
+                  <div
                     className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
                     data-aos="fade-down"
                     data-aos-delay="400"
@@ -162,30 +164,30 @@ function Home() {
                 </div>
 
                 <div className="col-span-1 w-full h-full">
-                  <div 
+                  <div
                     className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-7 md:pl-4 text-gray-100 text-lg text-center"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
-                    We take your Business quite personal.
+                    We take your Business quite personally.
                   </div>
                 </div>
               </div>
 
-              <div className="mt-7 mb-7 text-center">
-                  <Link href="/AboutUs">
-                    <button
-                      className="px-6 py-2 mt-7  text-white bg-[#0b2546] rounded-md hover:bg-[#042f63]"
-                      data-aos="fade-down"
-                      data-aos-delay="400"
-                    >
-                      Read More
-                    </button>
-                  </Link>
-                </div>
+              {/* <div className="mt-7 mb-7 text-center">
+                <Link href="/AboutUs">
+                  <button
+                    className="px-6 py-2 mt-7  text-white bg-[#0b2546] rounded-md hover:bg-[#042f63]"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    Read More
+                  </button>
+                </Link>
+              </div> */}
             </div>
 
-              {/* section */}
+            {/* section */}
 
             <div className="flex-1 space-y-4 sm:text-center lg:text-left homepage1">
               <div className="mt-10 flex flex-col lg:flex-row space-y-4 lg:space-y-0">
@@ -205,19 +207,29 @@ function Home() {
                     className="p-6 text-xl font-bold"
                     style={{ animation: "slideIn 1s ease-in-out" }}
                   >
-                    Africa is a hub for entrepreneurs of many disciplines, and
-                    with the unique resilience that guides the African spirit.
-                    We believe without a doubt that Africa is ready to birth the
-                    next greats.
+                    Africa is a hub for entrepreneurs of many disciplines, with
+                    the unique resilience that guides the African spirit.
                   </div>
-                  <div 
+                  <div
                     style={{ animation: "slideIn 1s ease-in-out" }}
-                    className="ml-6">
-                    Our techniques focus on measurable and a clear understanding
-                    of the basics that <br /> matter to your business, whatever and
-                    wherever you are.
+                    className="ml-6"
+                  >
+                    We are driven by <span className="font-bold">Passion</span>{" "}
+                    and <span className="font-bold">Performance,</span> made for
+                    every business, we are ever ready to take that business to
+                    the next level.
                   </div>
-                  <div className="space-y-3 sm: flex justify-center md:flex justify-center mt-12">
+                  <div
+                    style={{ animation: "slideIn 1s ease-in-out" }}
+                    className="ml-6"
+                  >
+                    Our techniques focus on a measurable and clear understanding
+                    of the basics that make a remarkable difference to your
+                    business, whoever and wherever you are.
+                    We are passionate about growing your business and putting it
+                    on the map.
+                  </div>
+                  {/* <div className="space-y-3 sm: flex justify-center md:flex justify-center mt-12">
                     <Link href="/">
                       <button
                         className="px-6 py-2 text-center text-white bg-[#0b2546] hover:bg-[#042f63] rounded-md"
@@ -227,7 +239,7 @@ function Home() {
                         Read More
                       </button>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -255,8 +267,8 @@ function Home() {
                         priority
                       />
                       <div className="text-xl font-bold mt-2">Elan Growth</div>
-                      Elan Growth is your expert business strategy and execution
-                      partner.
+                      {/* Elan Growth is your expert business strategy and execution
+                      partner. */}
                       <div className="flex justify-center mt-5">
                         <Link href="/ElanGrowth">
                           <button
@@ -283,8 +295,8 @@ function Home() {
                         priority
                       />
                       <div className="text-xl font-bold mt-2">Elan Dev</div>
-                      We would not just identify your tech needs but also
-                      implement them.
+                      {/* We would not just identify your tech needs but also
+                      implement them. */}
                       <div className="flex justify-center mt-5">
                         <Link href="/ElanDev">
                           <button
@@ -310,8 +322,10 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold mt-2">Elan Training</div>
-                      Keep your team updated with current industry trends.
+                      <div className="text-xl font-bold mt-2">
+                        Elan Training
+                      </div>
+                      {/* Keep your team updated with current industry trends. */}
                       <div className="flex justify-center mt-5">
                         <Link href="/ElanTraining">
                           <button
@@ -341,8 +355,8 @@ function Home() {
                         priority
                       />
                       <div className="text-xl font-bold mt-2">Elan Studio</div>
-                      Where we get obsessed with your brands' storytelling and
-                      our creativity is at its peak!
+                      {/* Where we get obsessed with your brands' storytelling and
+                      our creativity is at its peak! */}
                       <div className="flex justify-center mt-5">
                         <Link href="/ElanStudio">
                           <button
@@ -368,9 +382,11 @@ function Home() {
                         alt=""
                         priority
                       />
-                      <div className="text-xl font-bold mt-2">Elan Accelera8</div>
-                      Our unique growth affiliate system. Growth and scale are
-                      integral to your company’s roadmap.
+                      <div className="text-xl font-bold mt-2">
+                        Elan Accelera8
+                      </div>
+                      {/* Our unique growth affiliate system. Growth and scale are
+                      integral to your company’s roadmap. */}
                       <div className="flex justify-center mt-5">
                         <Link href="/ElanAccelerate">
                           <button
@@ -404,80 +420,6 @@ function Home() {
               </div>
             </div>
 
-            <div className="mt-7 homepage2">
-              <div className="p-6 text-3xl font-bold text-center">
-                What we get up to!
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pr-5">
-                <Image
-                  className="w-full homepage22"
-                  src={Show1}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show2}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show3}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show4}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show5}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show6}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show7}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show8}
-                  alt=""
-                  priority
-                />
-                <Image
-                  className="w-full homepage22"
-                  src={Show9}
-                  alt=""
-                  priority
-                />
-              </div>
-
-              <div className="flex justify-center mt-5 ">
-                <Link href="/ourwork">
-                  <button
-                    className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
-                    data-aos="fade-down"
-                    data-aos-delay="400"
-                  >
-                    View Showcase
-                  </button>
-                </Link>
-              </div>
-            </div>
-
             <div className="bg-[#00626F]  text-white mt-5  mb-7 text-center homepage22">
               <div className=" p-6 text-4xl font-bold ">******</div>
               <div className=" p-6 text-xl font-bold ">
@@ -493,13 +435,87 @@ function Home() {
             <div className="mt-7  ">
               <div className="">
                 <div className="p-6 text-3xl font-bold text-center pr-5  homepage2">
-                  Brands we’ve worked with, for, and built awesome memories...
+                  Brands we’ve built awesome memories with...
                 </div>
                 <hr></hr>
                 <p className="p-6 text-xl text-center pr-5  homepage2">
-                  Over the years we have been opportune to lead various growth,
-                  sales, creative and marketing efforts through the years.
+                  Over the years we have consistently helped grow various
+                  businesses through our professional, creative, and marketing
+                  efforts.
                 </p>
+              </div>
+              <div className="mt-7 homepage2">
+                {/* <div className="p-6 text-3xl font-bold text-center">
+                  What we get up to!
+                </div> */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pr-5">
+                  <Image
+                    className="w-full homepage22"
+                    src={Show1}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show2}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show3}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show4}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show5}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show6}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show7}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show8}
+                    alt=""
+                    priority
+                  />
+                  <Image
+                    className="w-full homepage22"
+                    src={Show9}
+                    alt=""
+                    priority
+                  />
+                </div>
+
+                <div className="flex justify-center mt-5 ">
+                  <Link href="/ourwork">
+                    <button
+                      className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                      data-aos="fade-down"
+                      data-aos-delay="400"
+                    >
+                      View Showcase
+                    </button>
+                  </Link>
+                </div>
               </div>
               <div className="slider my-10 ">
                 <div className="slideTrack">

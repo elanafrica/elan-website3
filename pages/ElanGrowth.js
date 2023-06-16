@@ -10,7 +10,7 @@ import Elangrowth5 from "../public/productdevelopment.jpg";
 import Elangrowth6 from "../public/brand.jpg";
 import Elangrowth7 from "../public/ecommerceagency.jpg";
 import Elangrowth8 from "../public/ondemandcmo.jpg";
-import Elangrowth9 from "../public/marketingprojects.jpg";
+// import Elangrowth9 from "../public/marketingprojects.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -72,8 +72,11 @@ function ElanGrowth() {
                   </h4>
                   <p>
                     We approach campaign management like scientists. We're
-                    constantly hypothesizing, experimenting, and seeking
+                    constantly testing, probing, experimenting, and seeking
                     iterative improvements.
+                    {/* We approach campaign management like scientists. We're
+                    constantly hypothesizing, experimenting, and seeking
+                    iterative improvements. */}
                   </p>
                 </div>
               </div>
@@ -81,10 +84,14 @@ function ElanGrowth() {
                 <div className="rounded-lg shadow-lg p-6">
                   <h4 className="text-xl font-bold">Network of top talent.</h4>
                   <p>
-                    Every strategy and its successful implementation relies on
+                    We source and hire from our network of subject matter
+                    experts to successfully implement your strategies. This is
+                    why at its core, we have built a network of top talent
+                    across varying disciplines and industries.
+                    {/* Every strategy and its successful implementation relies on
                     the right expertise. It's why at its core, we have built a
                     network of top talent across varying disciplines and
-                    industries.
+                    industries. */}
                   </p>
                 </div>
               </div>
@@ -94,9 +101,12 @@ function ElanGrowth() {
                     Fully transparent and responsive
                   </h4>
                   <p>
-                    Built to be highly autonomous or fully collaborative,
+                    We stay autonomous or fully collaborative, becoming an
+                    always-on extension of your team. And, bottom line: we are
+                    always available and transparent.
+                    {/* Built to be highly autonomous or fully collaborative,
                     becoming an always-on extension of your team. And, bottom
-                    line: we’re laser-focused on revenue.
+                    line: we’re laser-focused on revenue. */}
                   </p>
                 </div>
               </div>
@@ -117,11 +127,13 @@ function ElanGrowth() {
               </h2>
               <div className="mt-9">
                 <p>
-                  Every business need and strategy is 'unique'. With our growth
+                  Every business need and strategy is 'unique'. Our growth
+                  services are customized to solve your business needs.
+                  {/* Every business need and strategy is 'unique'. With our growth
                   services, the days of the one size fits all approach is a
-                  thing of the past.
+                  thing of the past. */}
                 </p>
-                <p>
+                {/* <p>
                   We’ve got you covered with a wide range of experiences and
                   knowledge, leveraging our team of experts and network of
                   hands-on experience.
@@ -129,7 +141,7 @@ function ElanGrowth() {
                 <p>
                   If your growth expectations are yet to be set in motion, you
                   may want to ta speak with our team.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="w-full sm:w-1/2 pr-5">
@@ -160,18 +172,23 @@ function ElanGrowth() {
               </h2>
               <div>
                 <p className="mb-4">
-                  If you’ve never developed a strategy for growing your firm,
+                  We help businesses to develop and reshape growth strategies.
+                  Our consultations and solutions are personalized to fit your
+                  needs.
+                  {/* If you’ve never developed a strategy for growing your firm,
                   that’s okay. Or maybe your strategy needs help and an
-                  end-to-end reshape?
+                  end-to-end reshape? */}
                 </p>
                 <p>
-                  At ELAN GROWTH, we offer strategies that help set businesses
+                  At Elan Growth, we offer insights and strategies that help set
+                  businesses across Africa into motion.
+                  {/* At ELAN GROWTH, we offer strategies that help set businesses
                   across Africa into motion. We focus on helping you get the
                   growth strategy right, putting the systems or processes in
                   place and everything else becomes easier. Our approach will
                   replace random and opportunistic business development with a
                   reliable and systematic approach to growth across your
-                  strategy, teams, output, and business.
+                  strategy, teams, output, and business. */}
                 </p>
               </div>
               <div className="bg-gray-100 py-10">
@@ -180,6 +197,10 @@ function ElanGrowth() {
                     Our Approach
                   </h2>
                   <ul className="list-disc pl-6">
+                    <li className="text-gray-700 mb-2">
+                      Review your existing growth efforts.
+                      {/* Boost your prospect penetrating into the market */}
+                    </li>
                     <li className="text-gray-700 mb-2">
                       Boost your prospect penetrating into the market
                     </li>
@@ -203,27 +224,34 @@ function ElanGrowth() {
             </h2>
             <div>
               <p className="mb-4">
-                At its core, the goal is to be responsible for the entire
+                At its core, we are responsible for the entire marketing funnel.
+                From awareness, acquisition, retention, and referral, to
+                marketing partnerships, we ensure there are no loose ends.
+                {/* At its core, the goal is to be responsible for the entire
                 marketing funnel. From awareness and acquisition all the way
                 down to activation, revenue, retention, revenue, referral, and
-                marketing partnerships.
+                marketing partnerships. */}
               </p>
-              <p>
+              {/* <p>
                 We help businesses establish full-funnel approaches to reaching,
                 converting, and retaining customers.
-              </p>
+              </p> */}
               <p>
-                A marketing plan should be diverse and agile, even when your
+                Our marketing plans are diverse and agile, even when your budget
+                is lean. Our key expertise includes Go-to-market, Market
+                Expansion, Campaign Marketing across the board, Performance, and
+                Digital Marketing.
+                {/* A marketing plan should be diverse and agile, even when your
                 budget is lean. That’s why we take on a growth marketing
                 mentality and pursue results from all angles, starting with the
                 low-hanging opportunities and optimizing further existing
-                marketing channels and processes.
+                marketing channels and processes. */}
               </p>
-              <p className="text-[#0b2546]">
+              {/* <p className="text-[#0b2546]">
                 Our key expertise includes Go to market, Market Expansion,
                 Campaign Marketing across the board, Performance, and Digital
                 Marketing.
-              </p>
+              </p> */}
             </div>
             <div className="mt-9 homepage22 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
               <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
@@ -238,7 +266,9 @@ function ElanGrowth() {
                 <p className="text-white font-medium text-sm">Value Props</p>
               </div>
               <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
-                <p className="text-white font-medium text-sm">Email</p>
+                <p className="text-white font-medium text-sm">
+                  Email Marketing
+                </p>
               </div>
               <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
                 <p className="text-white font-medium text-sm">Google Ads</p>
@@ -278,9 +308,16 @@ function ElanGrowth() {
             </h2>
             <div>
               <p className="mb-4">
-                At ElanGrowth we bring your product from concept or idea through
-                market release and beyond. We would help you strategically plan,
+                We bring your product from ideation through market release and
+                beyond.{" "}
+              </p>
+              <p className="mb-4">
+                We provide a thorough process covering in-depth market research,
+                user journey, and more. We also help you strategically plan,
                 build and take your product to market and measure its success.
+                {/* At ElanGrowth we bring your product from concept or idea through
+                market release and beyond. We would help you strategically plan,
+                build and take your product to market and measure its success. */}
               </p>
             </div>
             <div className="bg-gray-100 py-10">
@@ -308,19 +345,25 @@ function ElanGrowth() {
             <div>
               <p className="mb-4">
                 The most popular brands don't appear out of anywhere, fully
+                developed. Their missions and values are created and then
+                redefined to reflect their insight, analysis, and empathy.
+                {/* The most popular brands don't appear out of anywhere, fully
                 developed. Their missions are created and then redefined, their
                 communications are written, tested, and fine-tuned, and their
                 values change as a result of a combination of insight, analysis,
-                and empathy.
+                and empathy. */}
               </p>
               <p>
-                When we partner with clients to create a winning brand strategy,
+                Our full brand strategy and design services include logo
+                creation, branding, production, UI/UX designs, and company
+                documentation, just to mention a few.
+                {/* When we partner with clients to create a winning brand strategy,
                 we get into the weeds. We’ll do a deep dive into the
                 marketplace, find out where the currents are heading, develop a
-                message that matters, and get ahead of the curve.
+                message that matters, and get ahead of the curve. */}
               </p>
             </div>
-            <div className="bg-gray-100 py-10">
+            {/* <div className="bg-gray-100 py-10">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <ul className="list-disc pl-6">
                   <li className="text-gray-700 mb-2">
@@ -330,7 +373,7 @@ function ElanGrowth() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
@@ -358,20 +401,23 @@ function ElanGrowth() {
             <div>
               <p className="mb-4">
                 We have a proven track record as a top-performing eCommerce
-                agency.
+                marketing agency.
               </p>
               <p>
-                We use an active management and marketing process to stay on top
+                We use an active management and marketing strategy and process
+                to stay on top of the information you need to outperform your
+                sales goals. At ELAN, we give you:
+                {/* We use an active management and marketing process to stay on top
                 of the information you need to outperform your sales goals. We
                 would provide a sound e-commerce strategy that can help you
                 build brand awareness, drive customer loyalty, and ultimately
-                increase online sales.
+                increase online sales. */}
               </p>
-              <p className="text-[#0b2546]">
+              {/* <p className="text-[#0b2546]">
                 Some eCommerce marketing companies might try to sell you on a
                 proprietary formula for the “magical potion” to successful
                 advertising services. At ELAN, we’ll give it to you for free: ​
-              </p>
+              </p> */}
             </div>
             <div className="bg-gray-100 py-10 text-[#0b2546]">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -392,24 +438,42 @@ function ElanGrowth() {
             </h2>
             <div>
               <p className="mb-4">
-                We have observed that many times organizations come to
+                Several organizations need very skilled expertise in the areas
+                of sales, marketing, or growth to scale or solve a business case
+                or need.
+                {/* We have observed that many times organizations come to
                 situations they need very skilled expertise in the areas of
                 sales, marketing or growth to scale or solve a business case or
                 need. So, we created a service that gives you access to a
                 hands-on pool of experts and professionals to solve your
-                immediate sales, marketing, and growth needs.
+                immediate sales, marketing, and growth needs. */}
               </p>
               <p>
-                Our managers will be sure to design and implement predictable &
+                Get access to a hands-on pool of subject matter experts and
+                professionals to solve your immediate sales, marketing, and
+                growth needs.
+                {/* Our managers will be sure to design and implement predictable &
                 scalable growth strategies to accelerate customer acquisition
-                primarily.
+                primarily. */}
               </p>
-              <p className="text-[#0b2546]">
+              {/* <p className="text-[#0b2546]">
                 Your growth plans don't need to be challenged with the right
                 expert knowledge to bring business success. Get access to
                 consultants specializing in Startups, SMEs, Tech, and many other
                 businesses.
-              </p>
+              </p> */}
+            </div>
+            <div className="bg-gray-100 py-10 text-[#0b2546]">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <ul className="list-disc pl-6">
+                  <li className="text-gray-700 mb-2">Marketing Partnership</li>
+                  <li className="text-gray-700 mb-2">Media Relations</li>
+                  <li className="text-gray-700 mb-2">Awards Bureau</li>
+                  <li className="text-gray-700 mb-2">Media Placements</li>
+                  <li className="text-gray-700 mb-2">Exhibitions</li>
+                  <li className="text-gray-700 mb-2">Event Bureau</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -422,7 +486,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
+        {/* <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
           <div className="mt-7 w-full sm:w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-2/3 homepage22"
@@ -480,7 +544,7 @@ function ElanGrowth() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="mt-9 mb-5 bg-[#000000] text-white">
@@ -491,10 +555,10 @@ function ElanGrowth() {
         </div>
         <div className="mt-7 flex m-4 flex-wrap items-center justify-center">
           <div className="mt-7 w-full sm:w-1/2 pr-5">
-            <p>
+            {/* <p>
               Yes, we are that deep and understand what the basics should be and
               how you scale efficiently.
-            </p>
+            </p> */}
             <p>
               When you think of how we can serve you, think of the following
               keywords
@@ -548,10 +612,11 @@ function ElanGrowth() {
       <div className="mt-7  py-12">
         <div className="container">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-black">Let's talk</h2>
+            <h2 className="text-3xl font-bold text-black">
+              Let's talk about the hopes and dreams for your business!
+            </h2>
             <p className="text-black-300">
-              about the hopes and dreams for your business! ​ Book a time for
-              your free 30-minute growth consultation call.
+              aBook a time for your free 30-minute growth consultation call.
             </p>
           </div>
           <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center animate-scale-in">
