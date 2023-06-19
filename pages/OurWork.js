@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import Layout from "../components/Layout";
 //importing animate on scrol
 import Aos from "aos";
@@ -17,7 +18,7 @@ import ElanWork10 from "../public/errfl1.jpg";
 
 import Image from "next/image";
 import Link from "next/link";
-import VideoPlayer from "../components/VideoPlayer";
+
 import Testimonials from "@/components/Testimonials";
 
 function OurWork() {
@@ -31,9 +32,8 @@ function OurWork() {
     <Layout title="OurWork">
       <div className="m-4 relative">
         <div className="w-full h-full object-cover">
-          <video className="w-full h-full" controls>
+          <video controls>
             <source src="/videos/elanvideo.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
         </div>
 
