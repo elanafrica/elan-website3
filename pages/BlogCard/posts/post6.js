@@ -16,6 +16,7 @@ function Post6() {
     setLikes(likes + 1);
   };
 
+  const src = "https://youtu.be/pLENOvUVbz8";
   return (
     <div>
       <div className="">
@@ -252,10 +253,18 @@ function Post6() {
                 and increased engagement for the brand.
               </li>
               <div className="w-full h-full object-cover">
-                <video className="w-full h-full" controls>
+                {/* <video className="w-full h-full" controls>
                   <source src="https://youtu.be/pLENOvUVbz8" type="video/mp4" />
                   Your browser does not support the video tag.
-                </video>
+                </video> */}
+                <iframe
+                  width="560"
+                  height="315"
+                  src={src}
+                  title="Youtube Player"
+                  frameborder="0"
+                  allowFullScreen
+                />
               </div>
               <li>
                 <span className="font-bold">Video Marketing:: </span>
