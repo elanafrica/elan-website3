@@ -7,15 +7,23 @@ function Post12() {
   const [comments, setComments] = useState([]);
   const [likes, setLikes] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
+  const [commentInput, setCommentInput] = useState("");
 
-  const handleAddComment = (newComment) => {
-    setComments([...comments, newComment]);
+  const handleAddComment = () => {
+    if (commentInput.trim() !== "") {
+      const commentObject = {
+        id: comments.length + 1,
+        text: commentInput,
+        // You can add additional properties to the comment object like name, timestamp, etc.
+      };
+      setComments((prevComments) => [...prevComments, commentObject]);
+      setCommentInput(""); // Clear the comment input after adding the comment
+    }
   };
 
   const handleLike = () => {
-    setLikes(likes + 1);
+    setLikes((prevLikes) => (prevLikes ? prevLikes - 1 : prevLikes + 1));
   };
-
   return (
     <div>
       <div className="">
@@ -213,14 +221,16 @@ function Post12() {
 
       <div>
         <h3>Comments:</h3>
-        {comments.map((comment, index) => (
-          <p key={index}>{comment}</p>
+        {comments.map((comment) => (
+          <p key={comment.id}>{comment.text}</p>
         ))}
         <input
           type="text"
           placeholder="Add a comment..."
-          onChange={(e) => handleAddComment(e.target.value)}
+          value={commentInput}
+          onChange={(e) => setCommentInput(e.target.value)}
         />
+        <button onClick={handleAddComment}>Add Comment</button>
       </div>
 
       <div>
