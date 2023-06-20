@@ -12,12 +12,14 @@ function Navbar() {
 
   return (
     <header className="text-gray-600 body-font">
-      <div className="container mx-auto flex flex-wrap items-center justify-between py-4 px-6">
-        <Link href="/" className="flex title-font font-medium items-center">
-          <Image className="" src={Logo} alt="logo" width={110} priority />
-        </Link>
+      <div className="container mx-auto flex flex-wrap items-center justify-between py-4 px-6 relative z-10">
+        <div className="flex items-center ">
+          <Link href="/" className="flex title-font font-medium items-center">
+            <Image className="" src={Logo} alt="logo" width={110} priority />
+          </Link>
+        </div>
         <button
-          className="hamburger-menu md:hidden"
+          className="hamburger-menu ml-auto md:hidden relative z-20"
           aria-label="Open Menu"
           onClick={toggleMenu}
         >
@@ -56,8 +58,8 @@ function Navbar() {
 
         <nav
           className={`${
-            isOpen ? "flex" : "hidden"
-          } sm:flex sm:items-center sm:w-auto mt-4 sm:mt-0`}
+            isOpen ? "flex flex-col items-start mt-4" : "hidden"
+          } absolute top-0 left-0 right-0 bg-white p-4 mt-1 rounded-md shadow-lg z-10 md:static md:flex md:flex-row md:items-center md:mt-0`}
         >
           <Link
             href="/"
@@ -100,7 +102,9 @@ function Navbar() {
               className="text-black-300 hover:bg-[rgb(7,39,78)] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               onClick={toggleMenu}
             >
-              Services
+              <Link href="/Services" className="">
+                Services
+              </Link>
             </button>
             <div
               className={`${

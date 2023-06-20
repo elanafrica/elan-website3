@@ -51,7 +51,7 @@ function ContactUs() {
   return (
     <Layout title="ContactUs">
       <div>
-        <div className="container text-center my-12">
+        <div className="container text-center my-12 mb-7">
           <h3 className="font-bold text-4xl mb-7">
             Let's explore business opportunities together.
           </h3>
