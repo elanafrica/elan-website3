@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import { GoLocation } from "react-icons/go";
 import { HiOutlineMailOpen } from "react-icons/hi";
@@ -9,11 +8,12 @@ function ContactUs() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const [submit, setSubmit] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Sending");
+    setSubmitting(true);
 
     let data = {
       name,
@@ -22,24 +22,30 @@ function ContactUs() {
       message,
     };
 
-    await fetch("/api/sendEmail", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Response received");
-      if (res.status === 200) {
-        console.log("Response succeeded!");
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
         setName("");
         setEmail("");
         setSubject("");
-        setSubmit(true);
-        setBody("");
+        setMessage("");
+        setSubmitted(true);
+      } else {
+        console.log("Response failed!");
       }
-    });
+    } catch (error) {
+      console.log("Error occurred:", error);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -50,7 +56,7 @@ function ContactUs() {
             Let's explore business opportunities together.
           </h3>
           <p className="text-xl">
-            Tell us where you are and where you want to be. 
+            Tell us where you are and where you want to be.
           </p>
           <p className="text-xl">We’ll be glad to take you there.</p>
         </div>
@@ -86,7 +92,7 @@ function ContactUs() {
                   <input
                     required
                     type="text"
-                    placeholder=" Your fullNames"
+                    placeholder="Your full name"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={name}
                     onChange={(e) => {
@@ -98,7 +104,7 @@ function ContactUs() {
                   <label>Email</label>
                   <input
                     required
-                    type="Email"
+                    type="email"
                     placeholder="Enter your email address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={email}
@@ -112,7 +118,7 @@ function ContactUs() {
                   <input
                     required
                     type="text"
-                    placeholder="Enter your email address"
+                    placeholder="Enter the subject"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:none mt-2"
                     value={subject}
                     onChange={(e) => {
@@ -125,7 +131,7 @@ function ContactUs() {
                   <textarea
                     required
                     placeholder="Message"
-                    row="5"
+                    rows="5"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus-none"
                     value={message}
                     onChange={(e) => {
@@ -136,12 +142,15 @@ function ContactUs() {
                 <button
                   type="submit"
                   className="inline-block self-start bg-[rgb(7,39,78)] text-white font-bold rounded-md px-6 py-2 text-lg"
-                  onClick={(e) => {
-                    handleSubmit(e);
-                  }}
+                  disabled={submitting}
                 >
-                  Send Message
+                  {submitting ? "Submitting..." : "Send Message"}
                 </button>
+                {submitted && (
+                  <div className="text-green-500">
+                    Message submitted successfully!
+                  </div>
+                )}
               </form>
             </div>
           </div>
