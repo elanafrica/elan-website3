@@ -57,7 +57,7 @@ function Navbar() {
         <nav
           className={`${
             isOpen ? "flex" : "hidden"
-          } md:block md:flex md:items-center md:w-auto mt-4 md:mt-0`}
+          } sm:flex sm:items-center sm:w-auto mt-4 sm:mt-0`}
         >
           <Link
             href="/"
@@ -109,31 +109,31 @@ function Navbar() {
             >
               <Link
                 href="/ElanAccelerate"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+                className="block py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
               >
                 Elan Accelerate
               </Link>
               <Link
                 href="/ElanDev"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+                className="block py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
               >
                 Elan Dev
               </Link>
               <Link
                 href="/ElanGrowth"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+                className="block py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
               >
                 Elan Growth
               </Link>
               <Link
                 href="/ElanStudio"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+                className="block py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
               >
                 Elan Studio
               </Link>
               <Link
                 href="/ElanTraining"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
+                className="block py-2 text-sm text-gray-700 hover:bg-[rgb(7,39,78)] hover:text-white"
               >
                 Elan Training
               </Link>
