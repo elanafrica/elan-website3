@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactPlayer from "react-player";
 import Image from "next/image";
 import Hero from "../../../public/assets/freecourses.jpg";
 import Link from "next/link";
@@ -146,10 +147,11 @@ function Post10() {
             available in French, Somali and Arabic.{" "}
           </p>
           <div className="w-full h-full object-cover">
-            <video className="w-full h-full" controls>
-              <source src="https://youtu.be/hsEwq60-5es" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <ReactPlayer
+              url="https://youtu.be/hsEwq60-5es"
+              className="w-full h-full"
+              controls
+            />
           </div>
           <p>
             Time To Complete: 4-6 hours Course Format: Video and Text Learning
@@ -167,10 +169,11 @@ function Post10() {
             understand with real-life examples that you can relate to.
           </p>
           <div className="w-full h-full object-cover">
-            <video className="w-full h-full" controls>
-              <source src="https://youtu.be/BUE-icVYRFU" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <ReactPlayer
+              url="https://youtu.be/BUE-icVYRFU"
+              className="w-full h-full"
+              controls
+            />
           </div>
           <p>
             Estimated Time To Complete: 7 weeks (If you take 1-2 hours a week)
@@ -226,13 +229,11 @@ function Post10() {
             don't want to go into fundraising without this knowledge.
           </p>
           <div className="w-full h-full object-cover">
-            <video className="w-full h-full" controls>
-              <source
-                src="https://youtu.be/fqvBazlwXws?list=PL5fMQyC_4GPqqzrUBmtrNGiFmSkUoUcyf"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <ReactPlayer
+              url="https://youtu.be/fqvBazlwXws?list=PL5fMQyC_4GPqqzrUBmtrNGiFmSkUoUcyf"
+              className="w-full h-full mx-auto"
+              controls
+            />
           </div>
           <p className="mt-5 mb-5">
             Estimated Time To Complete it: 3-5 hours Course Format: Video and
