@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactPlayer from "react-player";
 import Image from "next/image";
 import Hero from "../../../public/assets/11marketingstrategies.jpg";
 import Link from "next/link";
@@ -150,7 +151,7 @@ function Post6() {
           </h2>
 
           <Image
-            className=" w-72 h-full mt-3 mb-4 relative  bg-cover "
+            className=" w-full h-full mt-3 mb-4 relative  bg-cover "
             src={Hero}
             alt="home hero"
             priority
@@ -262,17 +263,10 @@ function Post6() {
                 and increased engagement for the brand.
               </li>
               <div className="w-full h-full object-cover">
-                {/* <video className="w-full h-full" controls>
-                  <source src="https://youtu.be/pLENOvUVbz8" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video> */}
-                <iframe
-                  width="560"
-                  height="315"
-                  src={src}
-                  title="Youtube Player"
-                  frameborder="0"
-                  allowFullScreen
+                <ReactPlayer
+                  url="https://youtu.be/pLENOvUVbz8"
+                  className="w-full h-full"
+                  controls
                 />
               </div>
               <li>

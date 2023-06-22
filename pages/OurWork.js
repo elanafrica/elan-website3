@@ -16,8 +16,11 @@ import ElanWork8 from "../public/erma.jpg";
 import ElanWork9 from "../public/erma.jpg";
 import ElanWork10 from "../public/errfl1.jpg";
 
+// import workVideo from "../public/videos/myvideo.mp4";
+
 import Image from "next/image";
 import Link from "next/link";
+// import ReactPlayer from "react-player";
 
 import Testimonials from "@/components/Testimonials";
 
@@ -33,8 +36,9 @@ function OurWork() {
       <div className="m-4 relative">
         <div className="w-full h-full object-cover">
           <video controls>
-            <source src="/videos/elanvideo.mp4" type="video/mp4" />
+            <source src={"/videos/elanvideo.mp4"} />
           </video>
+          {/* <ReactPlayer url="/videos/elanvideo.mp4" /> */}
         </div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-[#0b2546]">

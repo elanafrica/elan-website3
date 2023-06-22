@@ -31,7 +31,7 @@ function Testimonials() {
             </p>
             <span className="inline-flex h-1 w-14 rounded bg-[rgb(7,39,78)] mt-4 mb-2"></span>
             <h2 className="text-lg font-bold tracking-wider text">John Doe</h2>
-            <p clasName="text-sm text-gray-500 ">Brand Marketer</p>
+            <p className="text-sm text-gray-500 ">Brand Marketer</p>
           </div>
 
           <div className="h-full text-center text-white ml-5 p-5 bg-[rgb(7,39,78)] rounded-lg cursor-pointer hover:rotate-1">
@@ -51,7 +51,7 @@ function Testimonials() {
             </p>
             <span className="inline-flex h-1 w-14 rounded bg-[rgb(7,39,78)] mt-4 mb-2"></span>
             <h2 className="font-bold text-lg tracking-wider">John Doe</h2>
-            <p clasName="text-sm text-gray-500">Brand Marketer</p>
+            <p className="text-sm text-gray-500">Brand Marketer</p>
           </div>
 
           <div className="h-full text-center text-white ml-5 p-5 bg-[rgb(7,39,78)] rounded-lg cursor-pointer hover:rotate-1">
@@ -73,7 +73,7 @@ function Testimonials() {
             <h2 className="title-font font-bold text-lg tracking-wider">
               John Doe
             </h2>
-            <p clasName="text-sm text-gray-500">Brand Marketer</p>
+            <p className="text-sm text-gray-500">Brand Marketer</p>
           </div>
         </div>
       </section>
