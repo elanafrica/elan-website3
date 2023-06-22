@@ -146,11 +146,13 @@ function Post10() {
             Platform). Although the language is English, the transcript is
             available in French, Somali and Arabic.{" "}
           </p>
-          <div className="w-full h-full object-cover">
+          <div className="w-full h-full player-wrapper">
             <ReactPlayer
               url="https://youtu.be/hsEwq60-5es"
-              className="w-full h-full"
-              controls
+              className="react-player"
+              width="100%"
+              height="100%"
+              controls={true}
             />
           </div>
           <p>
@@ -168,11 +170,13 @@ function Post10() {
             relationships, equity and much more. The lessons are easy to
             understand with real-life examples that you can relate to.
           </p>
-          <div className="w-full h-full object-cover">
+          <div className="w-full h-full player-wraper">
             <ReactPlayer
               url="https://youtu.be/BUE-icVYRFU"
-              className="w-full h-full"
-              controls
+              className="react-player"
+              width="100%"
+              height="100%"
+              controls={true}
             />
           </div>
           <p>
@@ -228,11 +232,13 @@ function Post10() {
             terminologies you should know about fundraising and valuation. You
             don't want to go into fundraising without this knowledge.
           </p>
-          <div className="w-full h-full object-cover">
+          <div className="w-full h-full player-wrapper">
             <ReactPlayer
               url="https://youtu.be/fqvBazlwXws?list=PL5fMQyC_4GPqqzrUBmtrNGiFmSkUoUcyf"
-              className="w-full h-full mx-auto"
-              controls
+              className="react-player"
+              width="100%"
+              height="100%"
+              controls={true}
             />
           </div>
           <p className="mt-5 mb-5">

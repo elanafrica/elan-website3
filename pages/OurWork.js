@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 import Layout from "../components/Layout";
 //importing animate on scrol
@@ -16,15 +16,19 @@ import ElanWork8 from "../public/erma.jpg";
 import ElanWork9 from "../public/erma.jpg";
 import ElanWork10 from "../public/errfl1.jpg";
 
-// import workVideo from "../public/videos/myvideo.mp4";
-
 import Image from "next/image";
 import Link from "next/link";
-// import ReactPlayer from "react-player";
 
 import Testimonials from "@/components/Testimonials";
 
 function OurWork() {
+  const videoRef = useRef();
+
+  useEffect(() => {
+    setTimeout(() => {
+      videoRef.current.play();
+    }, 5000);
+  }, []);
   useEffect(() => {
     Aos.init({
       duration: 1800,
@@ -34,20 +38,19 @@ function OurWork() {
   return (
     <Layout title="OurWork">
       <div className="m-4 relative">
-        <div className="w-full h-full object-cover">
-          <video controls>
+        <div className="w-full h-full player-wrapper">
+          <video ref={videoRef} loop muted controls>
             <source src={"/videos/elanvideo.mp4"} />
           </video>
-          {/* <ReactPlayer url="/videos/elanvideo.mp4" /> */}
         </div>
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-[#0b2546]">
+        {/* <div className="absolute inset-0 flex flex-col items-center justify-center text-[#0b2546]">
           <div className="text-center">
-            <p className="px-6 pb-6 text-3xl font-bold">
+            <p className="px-6 pb-6 text-3xl  text-white font-bold">
               We build timeless experiences.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="container mx-auto">

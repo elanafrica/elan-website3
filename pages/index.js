@@ -506,7 +506,7 @@ function Home() {
                 </div>
 
                 <div className="flex justify-center mt-5 ">
-                  <Link href="/ourwork">
+                  <Link href="/OurWork">
                     <button
                       className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
                       data-aos="fade-down"

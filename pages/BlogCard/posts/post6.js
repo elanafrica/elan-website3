@@ -262,11 +262,13 @@ function Post6() {
                 an amazing video. This sparked #suitchallenge on social media
                 and increased engagement for the brand.
               </li>
-              <div className="w-full h-full object-cover">
+              <div className="w-full h-full player-wrapper">
                 <ReactPlayer
                   url="https://youtu.be/pLENOvUVbz8"
-                  className="w-full h-full"
-                  controls
+                  className="react-player"
+                  width="100%"
+                  height="100%"
+                  controls={true}
                 />
               </div>
               <li>
