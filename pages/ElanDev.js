@@ -23,9 +23,9 @@ function ElanDev() {
   }, []);
 
   return (
-    <Layout title="ElanDev">
-      <div className="m-4">
-        <div className="  ">
+    <Layout title="ElanDev - Tech and Development Services">
+      <div className="">
+        <div className=" m-4 ">
           <div className="relative bg-gradient-to-tr from-gray-500 to-gray-700 w-full bg-cover">
             <Image
               className="absolute w-full h-full object-cover mix-blend-overlay"
@@ -40,8 +40,6 @@ function ElanDev() {
               </h1>
               <p className="p-4 mt-2 md:mt-4 text-lg md:text-xl lg:text-3xl text-white">
                 We not only identify the tech needs but also implement them.
-                {/* We would not just identify the tech needs but also implement
-                them. */}
               </p>
             </div>
           </div>
@@ -57,20 +55,11 @@ function ElanDev() {
                   working with trusted tech-stack developers. Moreso, in today's
                   business world, internal and external success and growth rely
                   on the accurate use of the right tools or technology.
-                  {/* Top companies and startups achieve their business needs by
-                  working with trusted tech-stack developers to impact business
-                  goals & revenue positively and augment their programming teams
-                  for all tech development, web development, and other software
-                  development projects. */}
                 </p>
                 <p>
                   Every company's need is unique and we design from scratch
                   ensuring your speed is commensurate with expected business
                   outcomes.
-                  {/* In today's business world, it goes without saying that the
-                  success and major factor for growth both internally and
-                  externally rely on the deliberate and accurate use of the
-                  right tools or technology. */}
                 </p>
               </div>
             </div>
@@ -92,11 +81,6 @@ function ElanDev() {
                 <span className="font-bold">Elan Clock Model</span> to identify
                 your business's tech needs. We provide your tech solutions by
                 developing a full tech stack to help your business scale.
-                {/* to identify
-                your business's tech needs as a way of providing solutions to
-                developing a proper tech stack that would take care of your
-                business needs and help it scale. Free growth consultancy for
-                African businesses. */}
               </p>
             </div>
             <div className="m-4 mt-9 grid grid-cols-1 sm:grid-cols-2 gap-6 text-white mb-5">
@@ -111,9 +95,6 @@ function ElanDev() {
                   <p className="font-bold">
                     Kick-off development by defining all system requirements,
                     identifying business needs, and capturing user personas.
-                    {/* Kick off development by defining all system requirements,
-                    making initial technology decisions, and capturing user
-                    roles and personas. */}
                   </p>
                 </div>
               </div>
@@ -128,9 +109,6 @@ function ElanDev() {
                   <p className="font-bold">
                     Determine your product's look and feel, model the user
                     experience and journey, and prioritize features.
-                    {/* Determine your product's initial look and feel, model the
-                    user experience and journey, prioritize features, and plan
-                    for the release. */}
                   </p>
                 </div>
               </div>
@@ -161,9 +139,6 @@ function ElanDev() {
                     Throughout the product development phase, track quality
                     assurance, DevOps, and updates using your preferred project
                     management tool.
-                    {/* Throughout the product development phase, track quality
-                    assurance, DevOps, and deployment updates using your
-                    preferred project management tool. */}
                   </p>
                 </div>
               </div>
@@ -172,52 +147,18 @@ function ElanDev() {
         </div>
 
         <div className="mt-9 text-center mb-9">
-          <h2 className="text-4xl font-bold mb-5 text-[#82A0AA]">
+          <h2 className="text-4xl font-bold mb-5 ">
             Our Industry-Specific Full-Stack Development Services
           </h2>
-          <p className="text-xl mb-5">
+          <p className=" mb-5">
             Hire ElanDev for your full-stack development services. We conduct a
             thorough assessment to ensure the delivery of high-quality web
             development, along with testing applications and products.
-            {/* Hire ElanDev for your full-stack development services, we conduct a
-            thorough assessment of all factors to ensure the delivery of
-            high-quality web development, along with testing applications and
-            products.{" "} */}
           </p>
         </div>
 
-        <div className="mt-9 bg-[#EEEDFF]">
-          {/* <div className="mt-7 mb-5">
-            <h4 className="text-2xl font-bold text-center mt-7 mb-5">
-              It all starts with your UI/UX design!
-            </h4>
-            <p className="text-xl mt-7 mb-3">
-              Taking you on a journey of future possibilities.
-            </p>
-            <p className="mb-3">
-              Here we show you what we propose your new web identity should be.
-            </p>
-            <p className="mb-3">
-              The days of building without design are long gone. We aim to show
-              you how your tech stack can gain increased user experience and
-              conversions.
-            </p>
-            <p className="mb-5">
-              Every company's need is unique and we design from scratch ensuring
-              your speed is commensurate with expected business outcomes.
-            </p>
-          </div> */}
+        <div className="mt-9 mb-7">
           <div className="mt-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            <div className="bg-[#000000] rounded-lg p-4">
-              <p className="text-white font-medium text-sm">
-                Tech Stack Development
-              </p>
-            </div>
-            <div className="bg-[#000000] rounded-lg p-4">
-              <p className="text-white font-medium text-sm">
-                E-Commerce Development
-              </p>
-            </div>
             <div className="bg-[#000000] rounded-lg p-4">
               <p className="text-white font-medium text-sm">Web Design</p>
             </div>
@@ -235,74 +176,51 @@ function ElanDev() {
               <p className="text-white font-medium text-sm">UI/UX</p>
             </div>
             <div className="bg-[#000000] rounded-lg p-4">
-              <p className="text-white font-medium text-sm">Testing Services</p>
+              <p className="text-white font-medium text-sm">Testing </p>
+            </div>
+            <div className="bg-[#000000] rounded-lg p-4">
+              <p className="text-white font-medium text-sm">
+                Improvement and Maintenance{" "}
+              </p>
             </div>
           </div>
-          {/* <div className="mt-9 mb-5">
-            <Image
-              className="w-full homepage22"
-              src={Elandev2}
-              alt="elandev2"
-              priority
-            />
-          </div> */}
         </div>
 
-        <div className="flex flex-wrap justify-between text-white mt-9">
-          <div className="bg-[#47817F] rounded-lg p-4 w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 sm:mb-0">
+        <div className="flex flex-wrap justify-between mt-9">
+          <div className="rounded-lg p-4 w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 sm:mb-0 shadow-lg">
             <p className="text-xl font-bold mb-5">Agile Development</p>
             <p className="">
               Leverage agile methodologies to bring transparency and flexibility
               to your product development. We help build Scrum teams or add
               talents to an existing one to drive success.
-              {/* Work with Scrum teams using agile methodologies to bring
-              transparency and flexibility to product development. ElanDev can
-              help your company easily build a new Scrum team or bring
-              additional talent to an existing one. */}
             </p>
           </div>
-          <div className="bg-[#47817F] rounded-lg p-4 w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 sm:mb-0">
+          <div className="rounded-lg p-4 w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 sm:mb-0 shadow-lg">
             <p className="text-xl font-bold mb-5">Tailored Web Development</p>
             <p className="">
               Create an intuitive and responsive website to improve your
               scalability.
-              {/* Having an intuitive and responsive website is the difference
-              between hitting goals and losing engagement. Top developers allow
-              you to effectively improve your performance and scalability by
-              building additional functionalities, integrating APIs, and
-              increasing engagement on site. */}
             </p>
             <p className="">
               We provide access to top developers to build additional
               functionalities, integrate APIs, and provide technical support on
               your site.
-              {/* Having an intuitive and responsive website is the difference
-              between hitting goals and losing engagement. Top developers allow
-              you to effectively improve your performance and scalability by
-              building additional functionalities, integrating APIs, and
-              increasing engagement on site. */}
             </p>
           </div>
-          <div className="bg-[#47817F] rounded-lg p-4 w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3">
+          <div className="rounded-lg p-4 w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 shadow-lg">
             <p className="text-xl font-bold mb-5">Customized Solutions</p>
             <p className="">
               Enjoy tech services tailored to suit your needs from requirements
               review to development.
-              {/* From requirements review to development, ElanDev’s full-stack
-              experts ensure your team will employ the latest technologies in
-              Javascript frameworks (e.g. React.js, Ember.js, Node.js,
-              Backbone.js), mean stack, and database technologies such as MySQL,
-              NoSQL, PostgreSQL, and MongoDB. */}
             </p>
             <p className="">
-              Our full-stack experts employ the latest technologies in
-              Javascript frameworks, and database technologies to provide
-              customized solutions.
+              Our full-stack experts employ the latest technologies and database
+              technologies to provide customized solutions.
             </p>
           </div>
         </div>
 
-        <div className="mt-9 mb-5">
+        <div className="flex flex-wrap justify-between text-white mt-9 mb-5">
           <h4 className="text-2xl font-bold mb-7 text-center">
             Expertly Matched Talent
           </h4>
@@ -314,43 +232,7 @@ function ElanDev() {
             We build teams with top software developers, and product managers
             from our global talent network, customized to fit your business
             needs and business processes.
-            {/* We build teams with top software developers, designers, and product
-            managers from our global talent network, customized to fit your
-            business needs and business processes. Each person is selected for
-            subject matter expertise and their years of experience working in
-            managed teams. */}
           </p>
-          {/* <div className="mt-9 flex justify-center flex-wrap gap-4">
-            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
-              <h4 className="text-lg font-bold">Developers</h4>
-              <p className="mt-2">
-                Senior software engineers, coders, and architects with expertise
-                across hundreds of technologies.
-              </p>
-            </div>
-            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
-              <h4 className="text-lg font-bold">Designers</h4>
-              <p className="mt-2">
-                Expert UI, UX, Visual, and Interaction designers as well as a
-                wide range of illustrators, animators, and more.
-              </p>
-            </div>
-            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
-              <h4 className="text-lg font-bold">Project Managers</h4>
-              <p className="mt-2">
-                Digital and technical project managers, scrum masters, and more
-                with expertise in numerous PM tools, frameworks, and styles.
-              </p>
-            </div>
-            <div className="card bg-white shadow-md rounded-lg p-4 w-full md:w-1/2 lg:w-1/4">
-              <h4 className="text-lg font-bold">Product Managers</h4>
-              <p className="mt-2">
-                Digital product managers and scrum product owners with expertise
-                in numerous industries like banking, healthcare, ecommerce, and
-                more.
-              </p>
-            </div>
-          </div> */}
         </div>
 
         <div className="mt-9 text-center">
