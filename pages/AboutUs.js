@@ -326,7 +326,29 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className="mt-2 bg-[rgb(7,39,78)] lg:h-full md:h-full">
+        <div className="mt-2 bg-[rgb(7,39,78)] lg:h-full md:h-full text-white">
+          <div className="text-center">
+            <h2
+              className="text-3xl text-center font-bold mx-auto py-10"
+              data-aos="fade-down"
+              data-aos-delay="400"
+            >
+              Experienced Leadership.
+            </h2>
+            <p>
+              Our leadership comprises decades of experience in sales, growth,
+              marketing, and technology.
+            </p>
+            <p>
+              They have an extensive network of top professionals that can bring
+              critical value to your project.
+            </p>
+            <p>
+              We believe in building partnerships that create exceptional value
+              for brands across Africa.
+            </p>
+          </div>
+
           <div className="flex flex-wrap p-2">
             <h3
               className="text-2xl font-bold mx-auto text-white py-10"
@@ -364,6 +386,15 @@ function AboutUs() {
                 >
                   Co-Founder
                 </p>
+                <p>
+                  Afam Anyika is an expert in marketing, communications,
+                  branding, and growth. With over 14 years of experience, he has
+                  held senior management positions in startups and technology
+                  sectors across Africa. His expertise spans public relations,
+                  communications, marketing, media, and various industries,
+                  including entertainment, construction, eCommerce, retail,
+                  telecommunications, and health tech.
+                </p>
               </div>
               <div
                 className="m-5 rounded-md"
@@ -393,6 +424,16 @@ function AboutUs() {
                   data-aos-delay="400"
                 >
                   Co-Founder
+                </p>
+                <p>
+                  Kelechi Onwumere is an expert with 20 years of experience in
+                  Sales and Category management, commercial planning and
+                  Procurement. Worked as a part of teams in starting a number of
+                  Startups that are now industry giants such as Honeywell
+                  Superfine Foods ltd (now merged with Honeywell Superfine Flour
+                  Ltd), Leenford Group, Konga.com, Jumia.com.ng, Yudala.com and
+                  Inlaks ltd. he has been recognized with several awards during
+                  his career.
                 </p>
               </div>
             </div>
