@@ -359,33 +359,33 @@ function AboutUs() {
             </h3>
           </div>
           <hr />
-          <div className=" flex flex-wrap justify-between mt-3">
-            <div className="w-full flex justify-center justify-around items-center md:flex-cols-1 py-10">
-              <div classsName="ml-0 rounded-md">
-                <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
-                  <Image
-                    src={founder1}
-                    alt="founder"
-                    className="lg:w-20 rounded-full"
-                    data-aos="fade-down"
-                    data-aos-delay="400"
-                    priority
-                  />
-                </div>
+          <div className="flex flex-wrap justify-center mt-3">
+            <div className="w-full mx-auto md:w-1/2 justify-center  py-10">
+              <div className=" mx-auto bg-[rgb(7,39,78)]  rounded-full w-40 h-40 ">
+                <Image
+                  src={founder1}
+                  alt="founder"
+                  className="rounded-full "
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                  priority
+                />
                 <h3
-                  className="font-bold text-xl text-center mt-5 text-white"
+                  className="font-bold text-xl  mt-5 text-white"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
                   AFAM ANYIKA
                 </h3>
-                <p
-                  className="m-2 text-center text-xl text-white"
+                {/* <p
+                  className="m-2  text-xl text-white"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
                   Co-Founder
-                </p>
+                </p> */}
+              </div>
+              <div className="ml-4 mt-7">
                 <p>
                   Afam Anyika is an expert in marketing, communications,
                   branding, and growth. With over 14 years of experience, he has
@@ -396,44 +396,42 @@ function AboutUs() {
                   telecommunications, and health tech.
                 </p>
               </div>
-              <div
-                className="m-5 rounded-md"
-                data-aos="fade-down"
-                data-aos-delay="400"
-              >
-                <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
-                  <Image
-                    src={founder2}
-                    alt="founder"
-                    className="lg:w-20 rounded-full"
-                    data-aos="fade-down"
-                    data-aos-delay="400"
-                    priority
-                  />
-                </div>
+            </div>
+            <div className="w-full md:w-1/2 mx-auto justify-center py-10">
+              <div className="mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full w-40 h-40 ">
+                <Image
+                  src={founder2}
+                  alt="founder"
+                  className="rounded-full "
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                  priority
+                />
                 <h3
-                  className="font-bold text-xl text-center mt-5 text-white"
+                  className="font-bold text-xl  mt-5 text-white"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
                   KELECHI ONWUMERE
                 </h3>
-                <p
-                  className="m-2 text-center text-xl text-white"
+                {/* <p
+                  className="m-2  text-xl text-white"
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
                   Co-Founder
-                </p>
+                </p> */}
+              </div>
+              <div className="ml-4 mt-7">
                 <p>
                   Kelechi Onwumere is an expert with 20 years of experience in
-                  Sales and Category management, commercial planning and
-                  Procurement. Worked as a part of teams in starting a number of
-                  Startups that are now industry giants such as Honeywell
-                  Superfine Foods ltd (now merged with Honeywell Superfine Flour
-                  Ltd), Leenford Group, Konga.com, Jumia.com.ng, Yudala.com and
-                  Inlaks ltd. he has been recognized with several awards during
-                  his career.
+                  Sales and Category management, commercial planning, and
+                  Procurement. He has worked as part of teams in starting a
+                  number of startups that are now industry giants such as
+                  Honeywell Superfine Foods Ltd (now merged with Honeywell
+                  Superfine Flour Ltd), Leenford Group, Konga.com, Jumia.com.ng,
+                  Yudala.com, and Inlaks Ltd. He has been recognized with
+                  several awards during his career.
                 </p>
               </div>
             </div>
