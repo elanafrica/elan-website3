@@ -424,14 +424,22 @@ function AboutUs() {
               </div>
               <div className="ml-4 mt-7">
                 <p>
-                  Kelechi Onwumere is an expert with 20 years of experience in
-                  Sales and Category management, commercial planning, and
-                  Procurement. He has worked as part of teams in starting a
-                  number of startups that are now industry giants such as
-                  Honeywell Superfine Foods Ltd (now merged with Honeywell
-                  Superfine Flour Ltd), Leenford Group, Konga.com, Jumia.com.ng,
-                  Yudala.com, and Inlaks Ltd. He has been recognized with
-                  several awards during his career.
+                  Kelechi Onwumere is a data-driven and creative Project and
+                  Business manager with over 20 years of experience and 10 years
+                  of management experience. He has advanced experience building
+                  and strengthening teams of professionals to provide unique
+                  campaigns that reach target audiences and engages users. He
+                  has worked numerous organisations including May&Bakers,
+                  Honeywell group, inlaks, konga.com, jumia.com.ng,  yudala.com,
+                  and Genesis group. Kelechi is a strong and adaptable manager
+                  always looking to bring his leadership skills to new teams of
+                  driven professionals.Holds a BSc in Biochemistry from the
+                  University of Calabar and an MBA from ESUT Business School
+                  Enugu.Has 18 different professional international
+                  certifications across project management, business analysis,
+                  design thinking, Six sigma, Sales, Marketing, and Information
+                  Security Management.Has a Black belt in Taekwondo from
+                  Kukkiwon. He reads in his spare time.
                 </p>
               </div>
             </div>
