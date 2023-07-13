@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/marketingplansthatwork.jpg";
+import Hero from "../../../public/assets/socialmediaforsmallbusinesses.jpg";
 import Link from "next/link";
 
 function Post4() {
@@ -26,369 +26,456 @@ function Post4() {
   };
 
   return (
-    <div>
-      <div className="">
-        <div className="mt-9 flex flex-wrap items-center justify-center ">
-          <Link
-            href="/Blog"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            All Posts
-          </Link>
-          <Link
-            href="/AboutUs"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Growth Marketing
-          </Link>
+    <div className="">
+      <div className="mt-9 flex flex-wrap items-center justify-center ">
+        <Link
+          href="/Blog"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          All Posts
+        </Link>
+        <Link
+          href="/AboutUs"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Growth Marketing
+        </Link>
 
-          <Link
-            href="/OurWork"
+        <Link
+          href="/OurWork"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Business Tips
+        </Link>
+        <Link
+          href="/Blog"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Growth Marketing Agency
+        </Link>
+        <Link
+          href="/Testimonials"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Traditional Marketing Methods
+        </Link>
+        <Link
+          href="/ContactUs"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Marketing Tips
+        </Link>
+        <div className="relative">
+          <button
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            onClick={() => setIsOpen(!isOpen)}
           >
-            Business Tips
-          </Link>
-          <Link
-            href="/Blog"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            More
+          </button>
+          <div
+            className={`${
+              isOpen ? "block" : "hidden"
+            } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
           >
-            Growth Marketing Agency
-          </Link>
-          <Link
-            href="/Testimonials"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Traditional Marketing Methods
-          </Link>
-          <Link
-            href="/ContactUs"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Marketing Tips
-          </Link>
-          <div className="relative">
-            <button
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              onClick={() => setIsOpen(!isOpen)}
+            <Link
+              href="/ElanAccelerate"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
-              More
-            </button>
-            <div
-              className={`${
-                isOpen ? "block" : "hidden"
-              } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
+              Business In Africa
+            </Link>
+            <Link
+              href="/ElanDev"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
-              <Link
-                href="/ElanAccelerate"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                Business In Africa
-              </Link>
-              <Link
-                href="/ElanDev"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                WorkPlace in Africa
-              </Link>
-              <Link
-                href="/ElanGrowth"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                Founders Care Column
-              </Link>
-              <Link
-                href="/ElanStudio"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                Business Guide
-              </Link>
-            </div>
+              WorkPlace in Africa
+            </Link>
+            <Link
+              href="/ElanGrowth"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            >
+              Founders Care Column
+            </Link>
+            <Link
+              href="/ElanStudio"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            >
+              Business Guide
+            </Link>
           </div>
         </div>
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          How to create a Marketing Plan that Works.
+        <h2 className="text-3xl font-bold text-center">
+          How to Do Social Media Marketing for Small Businesses.
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative bg-cover "
+          className=" w-full h-full relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
-        <p className="mt-2 mb-5 font-italics">
-          gnoring online marketing is like opening a business but not telling
-          anyone. — KB Marketing Agency
+        <p className="mt-5 mb-2">
+          According to Datareportal, there are now more than 5.18 billion
+          internet individuals, making up almost 65% of the world’s population!
         </p>
-        <p className="mt-4 mb-4">
-          Several entrepreneurs and businesses are often too focused on building
-          a viable and amazing product or service. While this is good, a major
-          pitfall is that most of them ignore or put less effort into their
-          marketing plan.
-        </p>
-        <p className="mt-4 mb-4">
-          Although the term 'marketing' is broad, it is generally defined as the
-          process of promoting and selling products or services. Marketing
-          includes traditional advertising, social media marketing, blogging,
-          influencer marketing, and podcast as well. To create a good plan, it's
-          important to find a good marketing framework to guide you.
-        </p>
-        <h4 className="font-bold text-xl text-center mt-4 mb-4">
-          But first, what's a marketing framework or mix?
-        </h4>
-        <p className="mt-4 mb-4">
-          Marketing involves different tools that businesses use to achieve
-          their objectives. The mixture of these tools is known as a marketing
-          mix. These mixes help us to understand the product and guide the
-          marketing plan. Although there are several marketing mixes including
-          5Ps, 7Ps, and 8Ps, the 4Ps are the foundational framework for most
-          marketing plans.
-        </p>
-        <p className="mt-2 mb-4">
-          The 4Ps of the marketing mix are product, price, placement, and
-          promotion.
-        </p>
-        <div className="mt-4 mb-4">
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">1. Product:</span>
-            This involves a service or product that is designed to satisfy a
-            user's needs and wants. Before creating your marketing plan, you
-            will need to understand the product or service. Here are some
-            questions that can be a guide:
-          </p>
-          <ul>
-            <li className="mt-2 mb-2">
-              Is it a specific product or a service?
-            </li>
-            <li className="mt-2 mb-2">What problem does the product solve?</li>
-            <li className="mt-2 mb-2">
-              Who are the target customers for the product/service?
-            </li>
-            <li className="mt-2 mb-2">What makes the product stand out?</li>
-          </ul>
-        </div>
-        <div className="mt-4 mb-4">
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">2. Price: </span>
-            This is the cost a customer pays for the product or service. Several
-            businesses focus only on their competitors' prices rather than
-            evaluating their customer's needs and product value. To understand
-            pricing in marketing, it's essential to ask these questions:
-          </p>
-          <ul>
-            <li className="mt-2 mb-2">
-              What value does the product or service offer?
-            </li>
-            <li className="mt-2 mb-2">
-              How much do the competitors charge for similar products?
-            </li>
-            <li className="mt-2 mb-2">
-              What can your target consumers afford?
-            </li>
-            <li className="mt-2 mb-2">
-              What is the lowest and highest price that the product can sell
-              for?
-            </li>
-          </ul>
-        </div>
-        <div className="mt-4 mb-4">
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">3. Placement: </span>
-            This answers the question of where the product or service can be
-            found or marketed. Several years ago, products would be in a store
-            or a TV Ad, however, digital innovations have changed marketing and
-            distribution. Products can be marketed on social media, magazines,
-            or even podcasts. For this part of the framework, you will need to
-            consider where your product would be placed. Here are some questions
-            to guide you:
-          </p>
-          <ul>
-            <li className="mt-2 mb-2">
-              Where is your target audience (online and offline)?
-            </li>
-            <li className="mt-2 mb-2">
-              Where will products and services be placed?
-            </li>
-            <li className="mt-2 mb-2">
-              How accessible are the products and services?
-            </li>
-          </ul>
-        </div>
-        <div className="mt-4 mb-4">
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">4. Promotion:</span>
-            The last of the 4Ps framework is promotion. This covers all the
-            tactics and efforts involved in reaching the right audience at the
-            right time. For example, an African e-commerce store that sells
-            back-to-school items would have its peak sales just before school
-            resumption. To use the promotion framework, increasing their
-            marketing efforts to parents and guardians a few weeks before
-            resumption would boost sales. This is the effect of reaching the
-            right audience at the right time. Promotion tactics include word of
-            mouth, blogging, paid advertising, and email marketing.
-          </p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            5 Steps To Building A Marketing Plan That Works.
-          </h4>
-          <p className="mt-4 mb-4">
-            Once you understand the framework, it becomes easier to market the
-            product and service. Marketing plans are developed with different
-            goals in mind, depending on the business objectives and product
-            nature.
-          </p>
-          <p className="mt-4 mb-4">
-            For example, the marketing goal of a fashion brand during the
-            holiday season would be sales while a confectionery store yet to
-            launch might want engagement and awareness.
-          </p>
-          <p className="mt-4 mb-4">
-            Here are 5 steps to creating a marketing plan that works.
-          </p>
-        </div>
-        <div className="mt-5 mb-5">
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Conduct a SWOT Analysis
-          </h4>
-          <p className="mt-4 mb-4">
-            You should analyze both the business and its past marketing efforts.
-            SWOT analyses are quite detailed and help you to focus on important
-            details. Were the past marketing efforts successful? If not, you
-            will need to understand what went wrong in order to prevent it from
-            happening again. For example, if a KidsWear brand has had
-            unsuccessful marketing campaigns for footwear products, you might
-            have to review the product, the marketing tactics, and most
-            importantly the audience's reaction to it. A detailed SWOT analysis
-            can provide this.{" "}
-          </p>
-        </div>
-        <div className="mt-5 mb-5">
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Define Your Goals
-          </h4>
-          <p className="mt-4 mb-4">
-            Your goals are what you hope to achieve through the marketing plan.
-            To create a marketing plan that works, your goals should be SMART.
-            SMART goals are specific, measurable, attainable, relevant, and
-            time-bound.{" "}
-          </p>
-          <p className="mt-4 mb-4">
-            "Increase email subscribers" is not a SMART goal.
-          </p>
-          <p className="mt-4 mb-4">
-            "Increase email subscribers by 10% in 3 months." is a SMART goal.
-          </p>
-          <p className="mt-4 mb-4">
-            It is specific, measurable, and can be achieved within a time frame.
-            It's important to note that a marketing plan can have more than one
-            goal and your goals should define what tactic you employ.
-          </p>
-        </div>
-        <div className="mt-5 mb-5">
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Define Your Target Audience.{" "}
-          </h4>
-          <p className="mt-4 mb-4">
-            Your target audience are your potential customers. These are the
-            people you want to attract to your product or service. Oftentimes,
-            your target audience cuts across a wide demographic and can be a lot
-            to document. Using buyer personas can save time and help you gain
-            clarity on customer needs.
-          </p>
-          <p className="mt-4 mb-4">
-            Buyer personas show at a glance, information about your customer,
-            their pain points, and needs. These are several free buyer persona
-            templates you can use in your marketing plan.
-          </p>
-        </div>
-        <div className="mt-5 mb-5">
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Plan Your Strategy
-          </h4>
-          <p className="mt-4 mb-4">
-            Once you define your target audience and goals, you can set your
-            marketing strategy. Strategies involve the right channels, content,
-            and action items for your marketing.{" "}
-          </p>
-          <p className="mt-4 mb-4">
-            For example, if your goal is to increase email subscribers, you can
-            create a free resource, a personalized quiz, or award points for
-            email referrals.
-          </p>
-          <p className="mt-4 mb-4">
-            For example, Piggyvest, a Nigerian tech startup created a comic
-            series showcasing the lives of young Nigerians and how they navigate
-            their finances. This content strategy increased Ad clicks for the
-            brand. It also shows their target audience enjoys good storytelling
-            and Piggyvest created a creative platform to share it.
-          </p>
-          <p className="mt-4 mb-4">
-            Adding a creative touch and keeping your target audience in mind
-            while creating these strategies help you build a successful
-            marketing plan.
-          </p>
-        </div>
-        <div className="mt-5 mb-5">
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Set Your Budget
-          </h4>
-          <p className="mt-3 mb-4">
-            This defines what can run and what strategy might have to be
-            adjusted.{" "}
-          </p>
-          <p className="mt-4 mb-4">
-            Your marketing budget should include the cost of running each
-            strategy and marketing efforts. For example, your budget can include
-            Ad costs, influencer rates, the cost of marketing tools like SEMrush
-            payment, and much more.
-          </p>
-          <p className="mt-4 mb-4">
-            A budget also helps you to know how much you are investing in the
-            marketing plan.
-          </p>
-        </div>
-        <div className="mt-5 mb-5">
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Measuring Success{" "}
-          </h4>
-          <p className="mt-2 mb-4">
-            It's important to note that marketing plans differ in goals and what
-            success metrics are used to run them. A marketing plan designed for
-            boosting engagement and awareness should not use sales success
-            metrics as a tool.{" "}
-          </p>
-          <p className="mt-4 mb-4">
-            It's important to identify what tools work for which plan. For
-            example, marketing plans for awareness are often measured by social
-            media metrics, search ranking on search engines, and brand mentions.
-          </p>
-          <p className="mt-4 mb-4">
-            Finally, once you get your results, you should analyze them and make
-            changes to improve your work.
-          </p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Conclusion
-          </h4>
 
-          <p className="mt-2 mb-3">
-            Creating a marketing plan that works involves understanding and
-            implementing the right framework. Applying the 4Ps marketing mix to
-            understand the product, price, placement, and promotion guides your
-            plans. It's important to understand how to create a marketing plan
-            that works and use the right tools to measure and analyze your
-            progress.
+        <div>
+          <p className="mb-2">
+            Several small businesses are expanding their marketing efforts
+            digitally, using social media as a tool to reach a wide audience and
+            increase visibility. In this article, we will review what social
+            media marketing is, the right platforms to use, best practices for
+            social media, and common mistakes you should avoid.
           </p>
-          <p className="mt-3 mb-5">
-            Want to create a marketing plan that works? Contact us to learn
-            more.
+        </div>
+        <div>
+          <h4 className="font-bold text-center text-xl mb-4">
+            What is Social Media Marketing?
+          </h4>
+          <p>
+            Social media marketing is the use of social media platforms and
+            websites to promote a product or service. It is simply the use of
+            social media to market your products or services.
           </p>
+        </div>
+        <div>
+          <h4 className="text-xl font-bold mb-4 mt-4">
+            What Social Media Platforms Should Small Businesses Use?{" "}
+          </h4>
+          <p className="mb-2">
+            Although it is common practice to have a business page on as many
+            social media platforms as possible, this is not a requirement for
+            success.
+          </p>
+          <p className="mb-2">
+            It's more important to review which platforms your target audience
+            use the most and what is most suited for your business. For example,
+            a pastry business would find most of its target audience on
+            Instagram, Facebook, YouTube, and Pinterest. These platforms are the
+            top choices for customers looking to buy pastries.{" "}
+          </p>
+          <p className="mb-2">
+            Another detail to consider is understanding how these social media
+            platforms work. Here are details you should know:{" "}
+          </p>
+          <div>
+            <p>
+              1. Facebook: Facebook continues to be the most used social media
+              platform globally. It boasts over 2.989 billion monthly active
+              users (Data in April 2023). It also has the largest demographic of
+              users ranging from boomers to Gen Zs.
+            </p>
+            <p className="mb-2">
+              Best Content Format: Long posts, photos, and videos usually
+              perform well on Facebook.
+            </p>
+            <p className="mb-2">
+              Pros: Works well for online advertising and running campaigns.
+              Meta also offers a wide range of tools for small businesses.
+            </p>
+            <p className="mb-2">
+              Cons: It is more of a generalist platform. Also, most younger
+              users tend to spend less time on the platform.
+            </p>
+          </div>
+          <div>
+            <p className="mt-2 mb-2">
+              2. Instagram: Functioning under the parent company Meta, Instagram
+              is mostly used by a younger audience and works best for more
+              specialized businesses.{" "}
+            </p>
+            <p className=" mb-2">
+              Best Content Format: Visual content including videos, photos, and
+              graphic designs works best on this platform. Although hashtags
+              also matter, general visual aesthetics are very important to the
+              audience. Several brands use a specific grid layout to achieve the
+              look on their feeds.{" "}
+            </p>
+            <p className="mb-2">
+              Pros: It can be linked to Facebook, allowing you to easily share
+              your posts on both platforms. Instagram also works well for online
+              advertising and has different features to support small
+              businesses.
+            </p>
+            <p className="mb-2">
+              Cons: Individuals older than 44 are not usually on this platform.
+              Moreso, due to the demand for visual content, not all small
+              businesses can effectively use the platform.{" "}
+            </p>
+          </div>
+          <div className="mt-2 mb-2">
+            <p className="mb-2">
+              3. Twitter: Twitter is the 'conversation powerhouse'. Usually, the
+              most important conversations happen on Twitter in tweets of less
+              than 280 characters. This audience has more Millennials and Gen Zs
+              than boomers.{" "}
+            </p>
+            <p className="mb-2">
+              Best Content Format: Written content works best on this platform.
+              Although visual or audio content can be posted, tweets are more
+              likely to receive engagement.
+            </p>
+            <p className="mb-2">
+              Pros: It's a great platform to practice social listening. Twitter
+              is also good for community building and engagement.
+            </p>
+            <p className="mb-2">
+              Cons: Small businesses that depend on the use of visuals to
+              showcase their products might be at a disadvantage. The age grades
+              active on the platform are limited.{" "}
+            </p>
+          </div>
+          <div className="mt-2 mb-2">
+            <p className="mb-2">
+              4. LinkedIn: With over 900 million professionals accessing this
+              platform across the globe, LinkedIn remains the biggest platform
+              for professionals.{" "}
+            </p>
+            <p className="mb-2">
+              Best Content Format: Long posts, photos, and videos work well on
+              this platform.
+            </p>
+            <p className="mb-2">
+              Pros: LinkedIn allows paid advertising. Encouraging employees to
+              post about the business can also increase visibility. Moreso,
+              small businesses in the B2B sector might find LinkedIn more suited
+              for them.{" "}
+            </p>
+            <p className="mb-2">
+              Cons: This platform is mostly viewed as a place for company PR
+              than an actual sales platform.
+            </p>
+          </div>
+          <div className="mt-2 mb-2">
+            <p className="mb-2">
+              5. YouTube: This is mostly used for educational and entertainment
+              purposes.{" "}
+            </p>
+            <p className="mb-2">
+              Best Content Format: Visual content particularly videos work best
+              on YouTube. Other content formats might not perform well.
+            </p>
+            <p className="mb-2">
+              Pros: Both long-form and short-form video content work well on the
+              platform. The YouTube video 'comment' section is an amazing place
+              to engage with customers. Several users prefer to read comments
+              first before watching a video of interest.
+            </p>
+            <p className="mb-2">
+              Cons: YouTube is majorly for videos. Small businesses might find
+              it strenuous to keep up with their post frequency on this
+              platform.
+            </p>
+          </div>
+          <div className="mt-2 mb-2">
+            <p className="mb-2">
+              6. TikTok: Mostly used by the younger generation, TikTok is also a
+              fast-growing social media platform.{" "}
+            </p>
+            <p className="mb-2">Best Content Format: Video content.</p>
+            <p className="mb-2">
+              Pros: It offers a sense of community. TikTok is also the place to
+              stay updated about what is trending.{" "}
+            </p>
+            <p className="mb-2">
+              Cons: Most of its users are relatively young. This might be
+              restrictive if your target audience are boomers. You might also
+              face privacy issues due to personal data insecurity.{" "}
+            </p>
+          </div>
+          <div className="mt-2 mb-2">
+            <p className="mb-2">
+              7. Pinterest: This platform is dubbed as the place to find
+              'inspiration'. Fashion designers, cake makers, and other creatives
+              use this platform to display their art. Most users explore it for
+              ideas, entertainment, and inspiration.{" "}
+            </p>
+            <p className="mb-2">
+              Best Content Format: Visual content, particularly images.{" "}
+            </p>
+            <p className="mb-2">
+              Pros: Helps with brand visibility and sales. Pinterest pins can be
+              discovered by anyone and you can easily drive traffic to your
+              online store from the platform.
+            </p>
+            <p className="mb-2">
+              Cons: Overnight success is not common on the platform, marketing
+              results might take some time to show. Due to the nature of the
+              content, images have to be creative and of high quality.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-bold text-center text-xl mb-4">
+              Mistakes To Avoid Using Social Media Marketing For Small
+              Businesses
+            </h4>
+
+            <div>
+              <ul>
+                <li>
+                  <span className="font-bold">
+                    Sharing content in the same format:{" "}
+                  </span>
+                  Several small businesses often share their content on
+                  different platforms in the same formats. This reduces the
+                  level of engagement they receive on these platforms and makes
+                  it less interesting. For example, a witty tweet would perform
+                  better on Twitter than sharing a graphic design from
+                  Instagram.
+                </li>
+                <li>
+                  <span className="font-bold">Ignoring Page Analytics: </span>
+                  Page analytics are a great way to understand your post and
+                  page performance. By reviewing this data, you can analyze your
+                  best-performing posts and understand what your audience wants
+                  to see.
+                </li>
+                <li>
+                  <span className="font-bold">
+                    Jumping on everything trending:{" "}
+                  </span>
+                  This is a constant 'trend' with small businesses to jump on
+                  everything that is trending on social media. Although this
+                  might give more visibility and exposure, it's usually
+                  temporary and might even be contradictory to your brand
+                  values. Rather than jumping on a trending mental health issue,
+                  you can focus on how to build a supportive and sustainable
+                  mental health community.
+                </li>
+                <li>
+                  <span className="font-bold">Ignoring negative reviews:</span>
+                  Bad publicity is still publicity. By responding to negative
+                  reviews in a professional manner and following up with action,
+                  you can increase your credibility and trust. This also shows
+                  your customers that you are always listening
+                </li>
+                <li>
+                  <span className="font-bold">Posting inconsistently: </span>
+                  Inconsistent posts are often the reason why small businesses
+                  are not growing. To increase mental availability, you must
+                  ensure you maintain the same posting frequency. You can decide
+                  how many times you want to post every week, this helps you to
+                  show up more consistently.
+                </li>
+                <li>
+                  <span className="font-bold">Lack of brand authenticity:</span>
+                  It's important to establish your brand identity early and also
+                  stick to it.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-4 mb-4">
+            <h4 className="font-bold text-center text-xl mb-4">
+              Best Practices For Small Businesses Doing Social Media Marketing
+            </h4>
+
+            <div>
+              <ul>
+                <li>
+                  <span className="font-bold">Understand Your Goals:</span>
+                  Your goals are what you aim to achieve and will guide your
+                  social media marketing strategy. It's important to set SMART
+                  goals and also consistently review them. Important goals for
+                  small businesses include brand awareness, visibility, and
+                  sales.
+                </li>
+                <li>
+                  <span className="font-bold">Understand Your Audience: </span>
+                  Based on your target audience research, you should invest time
+                  in understanding your audience, the kind of content they
+                  enjoy, and which platforms they are most likely to be on. A
+                  good way to do this is by checking your competitors' pages to
+                  see what their customers enjoy. You can also check online
+                  forums to view frequently asked questions and other queries.
+                </li>
+                <li>
+                  <span className="font-bold">Practice Social Listening:</span>
+                  Social listening allows you to learn and jump on conversations
+                  related to your brand. There are different free social
+                  listening tools that small businesses can use for their social
+                  media marketing.
+                </li>
+                <li>
+                  <span className="font-bold">Have a Content Plan:</span>
+                  Winging content is not healthy for social media marketing.
+                  It's important to have a content calendar or plan covering a
+                  number of days, weeks, or months. This helps content flow and
+                  reduces inconsistencies.
+                </li>
+                <li>
+                  <span className="font-bold">
+                    Repurpose content into different formats:
+                  </span>
+                  Creating a carousel post from a blog post or transcribing a
+                  podcast episode into a newsletter are good ways to repurpose
+                  content into different formats. By doing this, you can keep
+                  your content flowing and also ensure your target audience can
+                  access it in whichever format they prefer.
+                </li>
+              </ul>
+            </div>
+            <div className="mt-4 mb-4">
+              <p className="text-italics">
+                Disclaimer: Repurposing can be exhausting for small businesses
+                with small marketing teams. It's important to focus on what
+                format would best give value.
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 mb-4">
+            <div>
+              <ul>
+                <li>
+                  <span className="font-bold">
+                    Focus on building a community:
+                  </span>
+                  By building a community from your target audience, you can
+                  interact with them and share new products and services
+                  directly with them. You can receive feedback and share
+                  important information with them.
+                </li>
+                <li>
+                  <span className="font-bold">
+                    Focus on sustainability not virality:
+                  </span>
+                  Contrary to popular opinion, virality might give a small
+                  business visibility however it does not grant sustainability.
+                  It's important to focus on long-term growth rather than
+                  short-term. This helps build trust and strengthen your
+                  community.
+                </li>
+                <li>
+                  <span className="font-bold">
+                    Analyze results and make adjustments:{" "}
+                  </span>
+                  Consistent review of your social media performance can help
+                  you to understand what kind of content is helpful. It is also
+                  important to constantly adjust your content plan accordingly.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-5 mb-5">
+            <p className="text-2xl font-bold text-center mb-3">Conclusion </p>
+            <p className="mb-3">
+              Social media marketing can be fun for small businesses, it gives
+              you freedom to be creative and connect directly with your
+              customers. By implementing some of the best practices,
+              understanding the platforms, and avoiding mistakes, small
+              businesses can use social media to grow and make sales.
+            </p>
+          </div>
+          <div>
+            <hr className="my-4 border-gray-300" />
+          </div>
         </div>
       </article>
-
+      <div>
+        <p>Recent Posts</p>
+      </div>
       <div>
         <h3>Comments:</h3>
         {comments.map((comment) => (

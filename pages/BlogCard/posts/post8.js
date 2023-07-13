@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import ReactPlayer from "react-player";
 import Image from "next/image";
-import Hero from "../../../public/assets/smetarget.jpg";
-import Hero1 from "../../../public/assets/elanblog4.png";
+import Hero from "../../../public/assets/11marketingstrategies.jpg";
 import Link from "next/link";
 
 function Post8() {
@@ -26,6 +26,7 @@ function Post8() {
     setLikes((prevLikes) => (prevLikes ? prevLikes - 1 : prevLikes + 1));
   };
 
+  const src = "https://youtu.be/pLENOvUVbz8";
   return (
     <div>
       <div className="">
@@ -110,223 +111,244 @@ function Post8() {
 
       <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          A Guide to How SMEs can identify Their Target Audience
+          11 Marketing Strategies To attract and Retain...
         </h2>
+        <p className="mt-2 mb-5">
+          Increasing revenue is principal to the growth of any business. It's
+          not enough to have a viable product, build an excellent team or even
+          receive the right investment for your business–marketing allows your
+          target audience to know you exist. As with different aspects of
+          business growth and development, having a strategy for every form of
+          marketing allows you to maximize opportunities better.
+        </p>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative bg-cover "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
-        <p className="mt-4 mb-4">
-          Small and medium-sized enterprises are currently on the rise. Aside
-          from the crucial role they play in the economy, SMEs are effective for
-          personalized sales and can quickly adjust to growing market demands.
-          Sub-saharan Africa alone has 44 million micro, small, and medium
-          enterprises; they are also responsible for an estimated 80% of jobs
-          across the continent.
+        <p className="mt-2 mb-3">But first, what is a marketing strategy?</p>
+        <p className="mt-5 mb-3">
+          A marketing strategy is defined as an organization's promotional
+          efforts to increase sales and achieve its business goals. It
+          encompasses all the marketing efforts on different platforms and
+          channels to achieve the company's goals. It's important to have more
+          than one marketing strategy to diversify marketing efforts.{" "}
         </p>
-        <p className="mt-4 mb-4">
-          One of the most important factors for success for SMEs is to identify
-          their target audience. Identifying your target audience helps you to
-          create effective marketing strategies.
+        <p className="mt-5 mb-3">
+          A company must understand its target market to appeal to them, as well
+          as how they behave and make decisions. Companies can create a
+          marketing plan to achieve certain goals by keeping them in mind. The
+          goals of a corporation are encapsulated in a marketing plan, and the
+          marketing strategy consists of the plan's constituent parts and
+          executes them. Because they feature value propositions and brand
+          dynamics that don't vary much over time, marketing strategies often
+          have longer lifespans and serve as an advisor to the marketing plan.
         </p>
-        <h4 className="font-bold text-2xl text-center mt-4 mb-4">
-          But first, who is your target audience?
-        </h4>
-        <p className="mt-4 mb-4">
-          A target audience is a group (specific) of consumers targeted by your
-          marketing efforts. These are the people who will most likely need or
-          buy your product or service. Your service or product will not be
-          needed by everyone, defining and identifying your target audience
-          saves time, and effort and generally allows you to increase revenue.
-        </p>
-        <p className="mt-4 mb-4">
-          Here is a complete guide on how you can identify your target audience.
-        </p>
-
         <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Define Your Product & Service
-          </h4>
-          <p className="mt-4 mb-4">
-            Defining and understanding your product and service is a crucial
-            step to identifying your target audience. Here are a few details and
-            questions that can guide you:
-          </p>
-          <ol className="mt-3 mb-3">
-            <li>What problems are you solving?</li>
+          <h2 className="font-bold text-2xl text-center mt-4 mb-4">
+            How does a marketing strategy work?
+          </h2>
 
-            <li>What makes your product or service unique?</li>
-            <li>What are the benefits of your product?</li>
-          </ol>
-          <p className="mt-4 mb-4">
-            The next step is to review your answers by comparing them to the
-            real needs in your environment. You should ensure your product and
-            service are relevant to your environment. For example, an African
-            skincare brand in Lagos–the busiest city in Nigeria–offering
-            logistics services can solve the problem of slow deliveries. The
-            same brand can be unique in its product packaging by adding
-            personalized notes alongside deliveries.
-          </p>
           <Image
-            className=" w-full h-full mt-3 mb-4 relative bg-cover "
-            src={Hero1}
+            className=" w-full h-full mt-3 mb-4 relative  bg-cover "
+            src={Hero}
             alt="home hero"
             priority
           />
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Research Your Target Market
-          </h4>
-          <p className="mt-3 mb-2">
-            There are different methods for finding your target market and
-            whilst there is no one-size-fits-all method, thorough research is
-            still important. You can take the digital route by using several
-            resources including online databases, industry reports, and surveys.
-            You can also use social media to monitor conversations and
-            activities. Another method is to do some physical surveys depending
-            on your niche. Using the African skincare brand example, industry
-            reports and research papers on skin care issues in Nigeria can
-            provide insights. A social media platform like Twitter would also be
-            useful for social listening and tracking conversations. You can also
-            include interviews with people who use a similar product to
-            understand them better. It's advisable to use multiple channels to
-            conduct your market research to get as much information as possible.{" "}
+          <p className="mt-2 mb-5">
+            The AIDAR model shows how a marketing strategy works:
           </p>
-          <p className="mt-3 mb-2"></p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Analyze Your Competitors
-          </h4>
-          <p className="mt-3 mb-2">
-            Competitor analysis is the process of evaluating your competitors'
-            business, products, and marketing strategies. To understand the
-            target audience, you can review your competitors' audience on social
-            media to learn more about the people engaging with their posts. It's
-            important to note you should not rely on your competitors' analysis
-            as a standalone method. However, it helps you to narrow down your
-            target audience and create personas from them.
-          </p>
-          <p className="mt-3 mb-2"></p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Research Customer Demographics
-          </h4>
-          <p className="mt-3 mb-2">
-            Demographics usually include basic and important information about
-            your potential customers. These details also narrow down your target
-            audience and allow you to decide which category you are going for.
-            These details can include:
-          </p>
-          <div className="mt-3 mb-3">
+          <div className="mt-5 mb-3">
             <ul>
-              <li className="mt-2 mb-2">Age</li>
-              <li className="mt-2 mb-2">Location</li>
-              <li className="mt-2 mb-2">Marital status</li>
-              <li className="mt-2 mb-2">Income</li>
-              <li className="mt-2 mb-2">Education</li>
-              <li className="mt-2 mb-2">Employment status</li>
+              <li>
+                <span className="font-bold">Awareness </span>
+                is the act of creating attention for the brand or service
+                through various mediums
+              </li>
+              <li>
+                <span className="font-bold">Interest</span>
+                is the step of generating interest to encourage buyers to want
+                to know more
+              </li>
+              <li>
+                <span className="font-bold">Desire </span>
+                means creating an emotional connection to the buyer so they want
+                the product or like the brand
+              </li>
+              <li>
+                <span className="font-bold">Action </span>
+                can be different things for the company. It could be a step when
+                the buyer picks up a brochure, calls to learn more, or makes a
+                purchase
+              </li>
+              <li>
+                <span className="font-bold">Retention </span>
+                happens once someone becomes a customer, the business turns its
+                focus to satisfying the customer, so they return and perhaps
+                refer the company to friends and family.
+              </li>
             </ul>
+            <p className="mt-5 mb-5">
+              Although there are several marketing strategies you can use for
+              your business, here are 11 excellent marketing strategies you
+              should implement.
+            </p>
           </div>
-          <p className="mt-3 mb-2">
-            Demographic details vary from business to business. If the SME
-            example, the African skincare brand was based in Nairobi, we would
-            need to factor in income, marital status, and employment status.
-            However, a confectionery store might not be very concerned with
-            customers' education.{" "}
-          </p>
         </div>
         <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Understand Customer Psychographics
-          </h4>
-          <p className="mt-3 mb-2">
-            Customer Psychographics, according to Merriam Webster, is market
-            research or statistics classifying population groups according to
-            psychological variables (such as attitudes, values, or fears).
-            Whilst demographics help you to understand your target audience's
-            statistical attributes such as income and age, psychographics allows
-            you to learn more about their interests, activities, and opinions.
-            Using our example of the African skincare brand, by understanding if
-            some of your target audience has a bias against organic products,
-            you can create a marketing strategy to educate them. Some of your
-            future customers might love to spend time outdoors as an activity,
-            this detail can also help you market your product's sunscreen
-            properties. To understand your customer psychographics, you can use
-            a focus group to gather insights or social media to monitor
-            conversations and understand their interests.
-          </p>
-          <p className="mt-3 mb-2"></p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Identify Customers Needs, Pain Points, and Preferences
-          </h4>
-          <p className="mt-3 mb-2">
-            Once demographics and psychographics are done, you can identify your
-            target audience's needs, pain points, and preferences. Pain points
-            are problems faced by current or prospective customers. A good way
-            to identify pain points is how frustrating they are. Going by our
-            example, customers' pain points can be the high cost of skin care
-            products or lack of skin care education for users.
-          </p>
-          <p className="mt-3 mb-2">
-            By using insights gathered from focus group discussions, and social
-            media research, you can highlight users' pain points more easily.
-            You can also create surveys for your target demographics and
-            psychographics. These surveys should include questions that reveal
-            their pain points and preferences.{" "}
-          </p>
-          <Image
-            className=" w-full h-full mt-3 mb-4 relative bg-cover "
-            src={Hero1}
-            alt="home hero"
-            priority
-          />
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Create Buyer Personas
-          </h4>
-          <p className="mt-3 mb-2">
-            Buyer Personas are semi-fictional representations of your ideal
-            customers. Buyer Personas are created from data and research. They
-            contain demographic details including age and income. Also included
-            in the document are pain points and preferences. There are several
-            free buyer persona templates for SMEs on the internet. They help to
-            categorize the information and can be a guide for your marketing
-            strategy easily.
-          </p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Test and Analyze
-          </h4>
-          <p className="mt-3 mb-2">
-            You can test this by creating content and analyzing your engagement.
-            This will also help you to review your target audience and narrow it
-            down. Alternatively, you can create surveys to review customers'
-            needs. It's important to also review your target audience and
-            document updates that can gudeugour general marketing efforts or
-            product creation.
-          </p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Conclusion
-          </h4>
-          <p className="mt-3 mb-2">
-            Identifying the target audience is important for SMEs in Africa. It
-            saves time and research, allowing SMEs to understand their
-            customer's needs, pain points, and attributes. By implementing the
-            strategies above, SMEs can create streamlined and successful
-            marketing strategies, better products and services, and generally
-            increase business revenue.
-          </p>
+          <h2 className="font-bold text-2xl text-center mt-4 mb-4">
+            11 Marketing Strategies To Attract and Retain Customers.
+          </h2>
+
+          <div className="mt-5 mb-3">
+            <ul>
+              <li>
+                <span className="font-bold">
+                  Make the onboarding process effective:{" "}
+                </span>
+                Customers will certainly remember any problems with customer
+                service during their initial onboarding, such as information
+                being handled incorrectly or not having a defined point of
+                contact to guide them through the process. Even though your
+                company can rapidly resolve those points of contention, it could
+                still leave the customer with a negative impression. Beyond
+                providing excellent customer service, a strong onboarding
+                process should also consider how well the onboarding program
+                works. Workflows with timely email triggers, follow-up
+                messaging, self-service knowledge base access, and celebratory
+                messaging are necessary for your company if you want to enthrall
+                and impress potential customers.
+              </li>
+              <li>
+                <span className="font-bold">User-Generated Content (UGC):</span>
+                This type of content is created by customers or users on
+                products and services. This content might be a photo, video,
+                blog, review, discussion forum post, or comment made on a social
+                media post. Our Eden Life, a home service-based startup shares
+                tweet reviews by its customers to promote its services and build
+                credibility. UGCs are important for marketing. You can encourage
+                your customers to leave reviews or track their conversations
+                about you using social listening.
+              </li>
+              <li>
+                <span className="font-bold">Online directories:</span>A good
+                method to increase brand visibility is to get listed on online
+                directories. For example, an Agritech startup in Kampala would
+                be listed in different directories including a list of Agritech
+                startups in Africa, African business pages, or an Association
+                Directory. It's important to note that some directories might be
+                published as listicles on blog posts or articles. You might have
+                to reach out to PR agencies or partners on how to get listed.
+              </li>
+              <li>
+                <span className="font-bold">Referral Programs:</span>
+                These types of programs attract and retain customers more
+                rapidly. A good case study is Piggyvest, a Nigerian Fintech
+                startup that offers a referral program in which its users earn
+                specific amount for each new user that joins via their referral
+                code. This allows the business to track conversion rates and
+                have its existing customers do the marketing for them.
+              </li>
+              <li>
+                <span className="font-bold">Influencer marketing: </span>
+                Despite the popularity of the use of influencers for product
+                promotion, this strategy remains very important for marketing
+                success. It's important to consider factors like the type of
+                influencer, your marketing budget, and of course your content
+                plan for it. Influencer marketing can be in the form of a
+                challenge or an advert. Renowned brand, Hugo Boss had famous
+                movie star Chris Hemsworth create a Hugo Boss suit challenge in
+                an amazing video. This sparked #suitchallenge on social media
+                and increased engagement for the brand.
+              </li>
+              <div className="w-full h-full player-wrapper">
+                <ReactPlayer
+                  url="https://youtu.be/pLENOvUVbz8"
+                  className="react-player"
+                  width="100%"
+                  height="100%"
+                  controls={true}
+                />
+              </div>
+              <li>
+                <span className="font-bold">Video Marketing:: </span>
+                Video content is not only relevant on Instagram, short-form
+                videos are currently in high demand by users. These videos are
+                usually less than 5 minutes and can be informative or funny. For
+                Elan Africa, creating informative Instagram reels for founders
+                like the 95-5 rule in B2B marketing helped several individuals
+                understand the concept better.
+              </li>
+              <li>
+                <span className="font-bold">Outbound marketing: </span>
+                This relies on approaching consumers where they are and
+                interfering with their regular activities to promote your goods
+                and services. It can take the shape of spam, banner adverts, or
+                old-school TV commercials. This marketing paradigm is turned on
+                its head by inbound marketing. By providing useful material that
+                meets their needs in exchange, you may draw visitors to your
+                website. You may persuade visitors to provide their contact
+                information and turn it into leads by using blog articles,
+                videos, eBooks, reports, and other content types.
+              </li>
+              <li>
+                <span className="font-bold">SMS marketing: </span>
+                This is one of the simplest and most effective marketing
+                strategies for SMEs. Although SMS marketing is not often
+                employed, it helps to keep the brand in the customers' minds,
+                update them on promotions and discounts and also attract new
+                customers. MTN, a network provider in Africa and the Middle East
+                uses SMS marketing to promote its latest services to its
+                customers.
+              </li>
+              <li>
+                <span className="font-bold">
+                  Leveraging Social media campaigns:{" "}
+                </span>
+                Campaigns are coordinated marketing efforts that help a company
+                achieve its goals. Social media campaigns, unlike everyday
+                social media posts, are more targeted and measurable. Although
+                most brands use social media campaigns for product promotion,
+                they can also be used for engagement and brand awareness as
+                well. In 2018, The OMO's 'Father's Day campaign in South Africa
+                celebrated men who stood as father figures for non-biological
+                children. This campaign triggered a much-needed conversation and
+                garnered positive reviews.
+              </li>
+              <li>
+                <span className="font-bold">Content repurposing: </span>
+                This is a cost-effective strategy for product marketing. Content
+                repurposing simply means reusing the elements of content or
+                transforming its format. For example, a blog post could be
+                repurposed into infographics for social media content. You can
+                also convert video interviews into audio podcasts. This ensures
+                your content goes out through multiple channels and reaches a
+                larger audience.
+              </li>
+              <li>
+                <span className="font-bold">
+                  Answering questions on internet forums:{" "}
+                </span>
+                Whilst several businesses focus on creating their community,
+                leveraging internet forums like NairaLand and Quora are
+                effective marketing strategies. On these question-and-answer
+                forums, several individuals including your target audience often
+                seek answers that you can provide. By joining and actively
+                participating in conversations, you can place your value
+                proposition better to them.
+              </li>
+            </ul>
+            <p className="mt-5 mb-5">
+              Marketing strategies are usually most effective when properly
+              planned and implemented. It's also important to note that
+              constantly assessing the success of the strategy and reviewing
+              analytics and performance helps you make better-informed
+              decisions. For insights on how to create marketing strategies that
+              can help your business grow, book a free consultation with us at
+              Elan Africa.
+            </p>
+          </div>
         </div>
       </article>
 

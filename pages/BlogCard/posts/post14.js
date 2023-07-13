@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/propergrowthmarketing.jpg";
+import Hero from "../../../public/assets/mentalhealth.jpg";
 import Link from "next/link";
 
 function Post14() {
@@ -108,70 +108,22 @@ function Post14() {
 
       <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          Why your business needs proper growth marketing.
+          Mental Health in the Workplace: How To Build Safe Spaces...
         </h2>
-        <div className="w-full h-full object-cover">
-          <video className="w-full h-full" controls>
-            <source src="https://youtu.be/MXgCDM-GfRY" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
-        <p>
-          According to the European Union (EU), SMEs are micro, small, and
-          medium-sized enterprises which employ fewer than 250 persons and have
-          an annual turnover not exceeding 50 million Euros. In Nigeria, the
-          Central Bank of Nigeria monetary policies circular No. 22 of 1988
-          defined SMEs as enterprises that have an annual turnover not exceeding
-          Five Hundred Thousand Naira (N500,000).
+        <p className="mb-5 mt-7">
+          A few months ago in Nigeria, several employees took to Twitter to
+          express their frustrations about toxic workplaces and employers. These
+          work environments are usually marked with ill-treatment, verbal abuse,
+          and unreasonable work demands. The recent outcry has forced several
+          team leads and employers to question their work culture and style of
+          leadership.{" "}
         </p>
-        <p className="font-italics mt-4 mb-4">
-          <span className="font-bold ">A quick tip:</span>
-          While your business operations exist within the context of the CBN
-          policy above, aspire for goals that meet up with the more globally
-          accepted EU position. Yes, the peculiar challenges exist, but the
-          opportunities within the African context are much more.
-        </p>
-        <p className="mt-3 mb-3">
-          Essentially, business owners are risk takers who play a role in
-          driving economic and industrial transformation of any country while
-          reducing the unemployment rate.
-        </p>
-        <p className="mb-3 mt-3">
-          {" "}
-          In the past, many small businesses did not have a working marketing
-          strategy. This, no doubt has contributed to the stagnation (and in
-          many cases ‘the end’) of many SMEs in Africa. The knowledge gap and
-          unwillingness to test marketing tools that could propel their business
-          to the global market have also contributed to this.{" "}
-        </p>
-        <p className="mt-3 mb-3">
-          Businesses had varying ways of gaining customers, some of the
-          traditional techniques were:
-        </p>
-        <div className="mb-3 mt-3">
-          <ul>
-            <li>Use of flyers and handbills</li>
-            <li>Putting up posters and signages</li>
-            <li>Telemarketing (cold calling)</li>
-            <li>Word of mouth or referrals</li>
-            <li>Face-to-Face interactions.</li>
-          </ul>
-        </div>
-        <p className="mb-3">
-          Some of these methods are still effective today (if done right with
-          the right expertise). However, businesses employing these methods are
-          less likely to scale to unicorn status than those taking advantage of
-          the more modern growth, sales, and marketing techniques.
-        </p>
-        <p className="mb-2 mt-4 font-italics">
-          ‘Marketing attracts prospects, prospects become buyers, and buyers
-          provide profit.”{" "}
-        </p>
-        <p className="mt-5 mb-3">
-          Marketing is more than just putting your business name out into the
-          world. According to SME360, the primary aim of marketing for SMEs in
-          Africa and beyond is to generate more sales.{" "}
+        <p className="mb-2">
+          Interestingly, a survey carried out by WellNewMe shows that 4 in 5
+          employees are at risk of mental health issues. Not surprisingly,
+          anxiety disorders are fast becoming one of the top mental health
+          problems in the workplace. These disorders can range from panic, and
+          excessive fear to unnecessary worry and medication-induced anxiety.
         </p>
         <Image
           className=" w-full h-full mt-3 mb-4 relative  bg-cover "
@@ -179,44 +131,91 @@ function Post14() {
           alt="home hero"
           priority
         />
-        <p className="mt-3 mb-3">
-          After the pandemic in 2020, marketing became an integral part of many
-          businesses that had defined their growth goals. Small businesses in
-          Africa should employ growth marketing strategies to keep their
-          business afloat. Other benefits of having proper marketing for your
-          business are:
+        <p className="mt-4 mb-4">
+          As an employer or team leader, it is important to create a safe space
+          for your team. Every employee wants to be in a workplace that makes
+          them feel safe, understood, and appreciated. This, in turn, helps them
+          to increase their productivity and loyalty to their organizations.
+        </p>
+        <p className="mb-3 mt-4">
+          In this blog post, we will be sharing five top tips for creating a
+          safe mental health space for your employees.
+        </p>
+
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">
+            1. Create Safe Work Cultures
+          </span>
+          One of the major deterrents to creating a safe space at the workplace
+          is the lack of good work culture. In most organizations, there is no
+          structure protecting employees from verbal abuse, unreasonable work
+          demands, or ill-treatment. As a team leader, you should strive to
+          promote a good work culture. A good work culture should, for example,
+          promote transparency, a growth mindset, trust, respect, fairness, and
+          communication. If you are not certain about your employees' needs, you
+          can schedule meetings to have conversations with them to understand
+          their needs.
+        </p>
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">2. Be A Listener</span>
+          Employees value employers who are willing to listen to them and
+          understand them. This freedom of expression builds more loyalty in
+          them. Moreso, when employees struggle to express themselves, they tend
+          to withdraw emotionally, simply doing their jobs and nothing more. To
+          ensure this does not happen, it's important to create an environment
+          where everyone in your organization can feel heard. You can schedule
+          meetups or hangouts with your team, allowing them to express
+          themselves and share their concerns. You should also work on listening
+          more to them.
+        </p>
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">3. Understand Your Team</span>
+          It is important to understand your team and their needs. Do you have
+          more Gen Zs than Millennials? Are there also baby bloomers? There is a
+          wide difference in how Gen Z, millennials, and baby bloomers expect a
+          safe mental health space should look. For example, Gen Zs prefer a
+          space where they can discuss their fears without any judgment. On the
+          other hand, Millennials appreciate support but enjoy having control as
+          much as possible. Understanding your team can guide how you set up
+          structures or create a healthy work environment for them.
         </p>
         <div>
+          <p className="mb-4 mt-4">
+            <span className="font-bold text-xl">
+              4. Treat Mistakes Differently
+            </span>
+            Verbal abuse is usually triggered by mistakes made by employees. In
+            most cases, your employees are already overwhelmed by a sense of
+            guilt and shame when they make a mistake, shouting, screaming, or
+            insulting them only makes them feel more ashamed. When this happens,
+            they become afraid to fail or even try anything new for their
+            organization. This can cost your organization a lot as innovation
+            might reduce. You can create a safe space by treating mistakes or
+            errors differently. Here are a few tips on how to handle employee
+            mistakes:
+          </p>
           <ul>
-            <li>1. It aids your business to be more visible to Investors.</li>
-            <li>
-              2. It helps boost sales. Drives company growth across all areas,
-              as increased sales, equals improved business capacity.
-            </li>
-            <li>3. It helps you identify and focus on new opportunities.</li>
-            <li>4. It helps your business to stay relevant in the industry.</li>
-            <li>
-              5. It is a way of keeping your customers engaged in your brand.
-            </li>
-            <li>
-              6. It helps you to find out the needs of customers and provide
-              them.
-            </li>
-            <li>7. It helps to give you insight into your business.</li>
-            <li>
-              8. It educates your customers about your product and services.
-            </li>
+            <li>Teach them to focus on the lessons, not the guilt</li>
+            <li>Speak to them calmly and respectfully.</li>
+            <li>Practice empathy</li>
+            <li>Guide them on what to do.</li>
           </ul>
         </div>
-        <p className="mb-3 mt-3">
-          Your small business might be doing quite alright as it is still one
-          thing is sure, it can do way better with clearly thought-out growth
-          goals and proper marketing. Conduct thorough research on your target
-          market’s expectations and pain points, perfect your product offering,
-          and select the appropriate marketing channel to create awareness about
-          your products. You can rely on a creative growth marketing agency well
-          versed in helping small and medium enterprises scale to promote your
-          business.
+        <p className="mb-4 mt-4">
+          <span className="font-bold text-xl">
+            5. Educate Your Team on Mental Health
+          </span>
+          Several employees have little knowledge of their mental health. Sadly,
+          some of them are not aware of self-care steps to take. You can invite
+          mental health experts, psychologists, or psychiatrists to speak with
+          your team. These sessions can be quarterly or bi-annual and should
+          allow your employees to have one-on-one sessions with these experts.
+        </p>
+        <p className="mt-3 mb-3">
+          Creating a safe space for your team is a continuous process of
+          improvement and change. As you work to establish healthy structures,
+          your employees become aware that you care about them and can also grow
+          in a healthier work environment.{" "}
         </p>
       </article>
 

@@ -4,32 +4,34 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import ElanBlogHero from "../public/elanblog.jpg";
 import ElanBlog1 from "../public/assets/humanizingbrand.jpg";
-import ElanBlog2 from "../public/assets/socialmediaforsmallbusinesses.jpg";
-import ElanBlog3 from "../public/assets/deathbyai.jpg";
-import ElanBlog4 from "../public/assets/marketingplansthatwork.jpg";
-import ElanBlog5 from "../public/assets/maximizebudget.jpg";
-import ElanBlog6 from "../public/assets/11marketingstrategies.jpg";
-import ElanBlog7 from "../public/assets/deademailmarketing.jpg";
-import ElanBlog8 from "../public/assets/smetarget.jpg";
-import ElanBlog9 from "../public/assets/investwisely.jpg";
-import ElanBlog10 from "../public/assets/freecourses.jpg";
-import ElanBlog11 from "../public/assets/b2bgrowthhack.jpg";
-import ElanBlog12 from "../public/assets/mentalhealth.jpg";
-import ElanBlog13 from "../public/assets/remoteteams.jpg";
-import ElanBlog14 from "../public/assets/propergrowthmarketing.jpg";
-import ElanBlog15 from "../public/assets/perfectbusinessplan.jpg";
-import ElanBlog16 from "../public/assets/customerexperiencedirectmarketing.jpg";
+import ElanBlog2 from "../public/assets/humanizingbrand.jpg";
+import ElanBlog3 from "../public/assets/humanizingbrand.jpg";
+import ElanBlog4 from "../public/assets/socialmediaforsmallbusinesses.jpg";
+import ElanBlog5 from "../public/assets/deathbyai.jpg";
+import ElanBlog6 from "../public/assets/marketingplansthatwork.jpg";
+import ElanBlog7 from "../public/assets/maximizebudget.jpg";
+import ElanBlog8 from "../public/assets/11marketingstrategies.jpg";
+import ElanBlog9 from "../public/assets/deademailmarketing.jpg";
+import ElanBlog10 from "../public/assets/smetarget.jpg";
+import ElanBlog11 from "../public/assets/investwisely.jpg";
+import ElanBlog12 from "../public/assets/freecourses.jpg";
+import ElanBlog13 from "../public/assets/b2bgrowthhack.jpg";
+import ElanBlog14 from "../public/assets/mentalhealth.jpg";
+import ElanBlog15 from "../public/assets/remoteteams.jpg";
+import ElanBlog16 from "../public/assets/propergrowthmarketing.jpg";
+import ElanBlog17 from "../public/assets/perfectbusinessplan.jpg";
+import ElanBlog18 from "../public/assets/customerexperiencedirectmarketing.jpg";
 
 import { BiTimeFive } from "react-icons/bi";
 
 const posts = [
   {
     id: 1,
-    name: "Amabel Ukoko",
-    title: "Humanizing your brand",
+    name: "Ebuka Olisaemeka",
+    title: "Inside Elan Africa Series",
     description:
-      "In today’s digital age, it is more important than ever to humanize your brand. With so many options...",
-    date: "June 8",
+      "Inside Elan Africa Series: Creating A Brand Identity For SMEs - Elan lead designer, Ebuka.",
+    date: "July ",
     views: 152,
     comments: [
       {
@@ -49,11 +51,11 @@ const posts = [
   },
   {
     id: 2,
-    name: "Ruth Torty",
-    title: "How to Do Social Media Marketing for Small Businesses",
+    name: "Amabel Ukoko",
+    title: "TOP MOBILE EXTENSIONS TO BOOST SEO PERFORMANCE",
     description:
-      "According to Datareportal, there are now more than 5.18 billion internet individuals, making up...",
-    date: "May 31",
+      "In today's digital landscape, mobile optimization is paramount for any website aiming to succeed",
+    date: "June 20",
     views: 152,
     comments: [
       {
@@ -74,11 +76,11 @@ const posts = [
   {
     id: 3,
     name: "Amabel Ukoko",
-    title: "The death of SEO by AI (Debunking the myth)",
+    title: "Humanizing your brand",
     description:
-      "Search Engine Optimization (SEO) has been an integral part of digital marketing since the inception of search engines. SEO refers to the practice of ",
-    date: "May 17",
-    views: "",
+      "In today’s digital age, it is more important than ever to humanize your brand. With so many options...",
+    date: "June 8",
+    views: 152,
     comments: [
       {
         name: "Jane Doe",
@@ -98,10 +100,10 @@ const posts = [
   {
     id: 4,
     name: "Ruth Torty",
-    title: "How to create a Marketing Plan that Works.",
+    title: "How to Do Social Media Marketing for Small Businesses",
     description:
-      "Ignoring online marketing is like opening a business but not telling anyone. — KB Marketing Agency...",
-    date: "May 15",
+      "According to Datareportal, there are now more than 5.18 billion internet individuals, making up...",
+    date: "May 31",
     views: 152,
     comments: [
       {
@@ -122,11 +124,11 @@ const posts = [
   {
     id: 5,
     name: "Amabel Ukoko",
-    title: "How to maximize your marketing budget",
+    title: "The death of SEO by AI (Debunking the myth)",
     description:
-      "Marketing plays a crucial role in the growth and success of any business. However, with limited..",
-    date: "May 4",
-    views: 152,
+      "Search Engine Optimization (SEO) has been an integral part of digital marketing since the inception of search engines. SEO refers to the practice of ",
+    date: "May 17",
+    views: "",
     comments: [
       {
         name: "Jane Doe",
@@ -146,10 +148,10 @@ const posts = [
   {
     id: 6,
     name: "Ruth Torty",
-    title: "11 marketing strategies to attract and retain...",
+    title: "How to create a Marketing Plan that Works.",
     description:
-      "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-    date: "Apr 26",
+      "Ignoring online marketing is like opening a business but not telling anyone. — KB Marketing Agency...",
+    date: "May 15",
     views: 152,
     comments: [
       {
@@ -170,10 +172,10 @@ const posts = [
   {
     id: 7,
     name: "Amabel Ukoko",
-    title: "Is Email Marketing Dead?",
+    title: "How to maximize your marketing budget",
     description:
-      "Email marketing has been around for decades and continues to be one of the most cost-effective and a...",
-    date: "Apr 19",
+      "Marketing plays a crucial role in the growth and success of any business. However, with limited..",
+    date: "May 4",
     views: 152,
     comments: [
       {
@@ -194,10 +196,10 @@ const posts = [
   {
     id: 8,
     name: "Ruth Torty",
-    title: "A Guide to How SMEs Can Ideentify Their Target Audience",
+    title: "11 marketing strategies to attract and retain...",
     description:
-      "Small and medium-sized enterprises are currently on the rise. Aside from the crucial role...",
-    date: "Apr 12",
+      "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
+    date: "Apr 26",
     views: 152,
     comments: [
       {
@@ -218,10 +220,10 @@ const posts = [
   {
     id: 9,
     name: "Amabel Ukoko",
-    title: "Invest Wisely: 5 Things to Know Before You Start",
+    title: "Is Email Marketing Dead?",
     description:
-      "Invest Wisely: 5 Things to Know Before You Start Choosing what to invest in can be both daunting and",
-    date: "Apr 3",
+      "Email marketing has been around for decades and continues to be one of the most cost-effective and a...",
+    date: "Apr 19",
     views: 152,
     comments: [
       {
@@ -242,10 +244,10 @@ const posts = [
   {
     id: 10,
     name: "Ruth Torty",
-    title: "5 Free Courses Every Founder & Entrepreneur Should...",
+    title: "A Guide to How SMEs Can Ideentify Their Target Audience",
     description:
-      "To build a successful business in Africa, here are 5 free courses we recommend every founder and...",
-    date: "Feb 24",
+      "Small and medium-sized enterprises are currently on the rise. Aside from the crucial role...",
+    date: "Apr 12",
     views: 152,
     comments: [
       {
@@ -265,11 +267,11 @@ const posts = [
   },
   {
     id: 11,
-    name: "Ifeoma Okwy-Ejezie",
-    title: "B2B Growth Hacking Strategies",
+    name: "Amabel Ukoko",
+    title: "Invest Wisely: 5 Things to Know Before You Start",
     description:
-      "The way to hack growth in B2B involves understanding that a business’s main competition is the ",
-    date: "Nov 10, 2022",
+      "Invest Wisely: 5 Things to Know Before You Start Choosing what to invest in can be both daunting and",
+    date: "Apr 3",
     views: 152,
     comments: [
       {
@@ -290,10 +292,10 @@ const posts = [
   {
     id: 12,
     name: "Ruth Torty",
-    title: "Mental Health in The Workplace: How To Build Safe Spaces Fo...",
+    title: "5 Free Courses Every Founder & Entrepreneur Should...",
     description:
-      "Interestingly, a survey carried out by WellNewMe shows that 4 in 5 employees are at risk of mental",
-    date: "Oct 26, 2022",
+      "To build a successful business in Africa, here are 5 free courses we recommend every founder and...",
+    date: "Feb 24",
     views: 152,
     comments: [
       {
@@ -313,6 +315,54 @@ const posts = [
   },
   {
     id: 13,
+    name: "Ifeoma Okwy-Ejezie",
+    title: "B2B Growth Hacking Strategies",
+    description:
+      "The way to hack growth in B2B involves understanding that a business’s main competition is the ",
+    date: "Nov 10, 2022",
+    views: 152,
+    comments: [
+      {
+        name: "Jane Doe",
+        email: "janedoe@example.com",
+        comment:
+          "Great post, John! I couldn't agree more about the importance of exercise. I try to get at least 30 minutes of activity every day, and I've definitely noticed the benefits.",
+      },
+      {
+        name: "Bob Johnson",
+        email: "bjohnson@example.com",
+        comment:
+          "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
+      },
+    ],
+    image: ElanBlog13,
+  },
+  {
+    id: 14,
+    name: "Ruth Torty",
+    title: "Mental Health in The Workplace: How To Build Safe Spaces Fo...",
+    description:
+      "Interestingly, a survey carried out by WellNewMe shows that 4 in 5 employees are at risk of mental",
+    date: "Oct 26, 2022",
+    views: 152,
+    comments: [
+      {
+        name: "Jane Doe",
+        email: "janedoe@example.com",
+        comment:
+          "Great post, John! I couldn't agree more about the importance of exercise. I try to get at least 30 minutes of activity every day, and I've definitely noticed the benefits.",
+      },
+      {
+        name: "Bob Johnson",
+        email: "bjohnson@example.com",
+        comment:
+          "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
+      },
+    ],
+    image: ElanBlog14,
+  },
+  {
+    id: 15,
     name: "Ruth Torty",
     title: "11 Tips For Managing Remote Teams In Africa..",
     description:
@@ -333,10 +383,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog13,
+    image: ElanBlog15,
   },
   {
-    id: 14,
+    id: 16,
     name: "Ifeoma Okwy-Ejezie",
     title: "Why your business needs proper growth marketing",
     description:
@@ -357,10 +407,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog14,
+    image: ElanBlog16,
   },
   {
-    id: 15,
+    id: 17,
     name: "Team Elan",
     title: " All the talk about the perfect business plan for business growth!",
     description:
@@ -381,10 +431,10 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog15,
+    image: ElanBlog17,
   },
   {
-    id: 16,
+    id: 18,
     name: "Afam Anyika",
     title: "Customer experience that enhances direct marketing and...",
     description:
@@ -405,7 +455,7 @@ const posts = [
           "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
       },
     ],
-    image: ElanBlog16,
+    image: ElanBlog18,
   },
 ];
 

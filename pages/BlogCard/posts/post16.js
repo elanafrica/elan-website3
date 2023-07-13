@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/customerexperiencedirectmarketing.jpg";
+import Hero from "../../../public/assets/propergrowthmarketing.jpg";
 import Link from "next/link";
 
 function Post16() {
@@ -24,7 +24,6 @@ function Post16() {
   const handleLike = () => {
     setLikes((prevLikes) => (prevLikes ? prevLikes - 1 : prevLikes + 1));
   };
-
   return (
     <div>
       <div className="">
@@ -108,20 +107,71 @@ function Post16() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        {/* <p>
-          {post.name} . {post.date} . 2min read
-        </p> */}
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          Customer experience that enhances direct marketing and advocacy
+          Why your business needs proper growth marketing.
         </h2>
-        <p className="mt-4 mb-4">
-          Through the years, business giants have said that great customer
-          service helped their businesses to scale. At Elan, we are concerned
-          about helping small businesses scale and that is why this is a must
-          read for all businesses looking to hack their customer experience
-          game. It is worthy to note that research in South Africa estimated
-          that the cost of people switching from a company because of poor
-          customer service is worth USD47 billion.
+        <div className="w-full h-full object-cover">
+          <video className="w-full h-full" controls>
+            <source src="https://youtu.be/MXgCDM-GfRY" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <p>
+          According to the European Union (EU), SMEs are micro, small, and
+          medium-sized enterprises which employ fewer than 250 persons and have
+          an annual turnover not exceeding 50 million Euros. In Nigeria, the
+          Central Bank of Nigeria monetary policies circular No. 22 of 1988
+          defined SMEs as enterprises that have an annual turnover not exceeding
+          Five Hundred Thousand Naira (N500,000).
+        </p>
+        <p className="font-italics mt-4 mb-4">
+          <span className="font-bold ">A quick tip:</span>
+          While your business operations exist within the context of the CBN
+          policy above, aspire for goals that meet up with the more globally
+          accepted EU position. Yes, the peculiar challenges exist, but the
+          opportunities within the African context are much more.
+        </p>
+        <p className="mt-3 mb-3">
+          Essentially, business owners are risk takers who play a role in
+          driving economic and industrial transformation of any country while
+          reducing the unemployment rate.
+        </p>
+        <p className="mb-3 mt-3">
+          {" "}
+          In the past, many small businesses did not have a working marketing
+          strategy. This, no doubt has contributed to the stagnation (and in
+          many cases ‘the end’) of many SMEs in Africa. The knowledge gap and
+          unwillingness to test marketing tools that could propel their business
+          to the global market have also contributed to this.{" "}
+        </p>
+        <p className="mt-3 mb-3">
+          Businesses had varying ways of gaining customers, some of the
+          traditional techniques were:
+        </p>
+        <div className="mb-3 mt-3">
+          <ul>
+            <li>Use of flyers and handbills</li>
+            <li>Putting up posters and signages</li>
+            <li>Telemarketing (cold calling)</li>
+            <li>Word of mouth or referrals</li>
+            <li>Face-to-Face interactions.</li>
+          </ul>
+        </div>
+        <p className="mb-3">
+          Some of these methods are still effective today (if done right with
+          the right expertise). However, businesses employing these methods are
+          less likely to scale to unicorn status than those taking advantage of
+          the more modern growth, sales, and marketing techniques.
+        </p>
+        <p className="mb-2 mt-4 font-italics">
+          ‘Marketing attracts prospects, prospects become buyers, and buyers
+          provide profit.”{" "}
+        </p>
+        <p className="mt-5 mb-3">
+          Marketing is more than just putting your business name out into the
+          world. According to SME360, the primary aim of marketing for SMEs in
+          Africa and beyond is to generate more sales.{" "}
         </p>
         <Image
           className=" w-full h-full mt-3 mb-4 relative  bg-cover "
@@ -129,50 +179,45 @@ function Post16() {
           alt="home hero"
           priority
         />
-        <p className="text-center text-2xl font-bold">The simple facts...</p>
-        <p>
-          Treating your customers well will convert them from just customers to
-          advocates and this is how you can get referrals. One instance is the
-          case of Printivo whose success came when an International Journalist
-          tweeted about the great customer experience she had with the company.
+        <p className="mt-3 mb-3">
+          After the pandemic in 2020, marketing became an integral part of many
+          businesses that had defined their growth goals. Small businesses in
+          Africa should employ growth marketing strategies to keep their
+          business afloat. Other benefits of having proper marketing for your
+          business are:
         </p>
-        <p className="mb-4 mt-4">
-          Temitope Ekundayo, the co-CEO at Printivo had said, "customer service
-          is important to us. For us, it’s about improving the delight of our
-          customers and improving their experience when they order. We always
-          ensure that we keep to the agreement and will move mountains to get it
-          done. The customer experience starts before the order comes in, and
-          continues well after they’ve made their purchase. Whenever we go
-          wrong, we ensure that we make up for it. The goal is to get customers
-          to have such a good experience that makes them come back".
-        </p>
-        <p>
-          At any stage of a business, customer satisfaction is highly important
-          even more at the initial stage because bad reviews will dissuade
-          prospects.{" "}
-        </p>
-        <p className="mt-4 mb-4">
-          According to <i>Hubspot Research,</i>{" "}
-        </p>
-
-        <p className="mb-4">
-          "the amount it costs to acquire a new customer is more for a company
-          that doesn't invest a small percentage of its budget in customer
-          service. They also found out that 72% of customers will share a
-          positive experience with six or more people. "
-        </p>
-        <p className="mb-3">
-          In an infographic compiled by Experience Dynamics, it was noted that
-          “52% of users said that a bad mobile experience made them less likely
-          to engage with a company”, it was also stated that 79% of people who
-          don’t like what they find on one site will go back and search for
-          another site. Your UX is important for a good customer experience and
-          in turn, it is important for marketing and sales.
-        </p>
-
         <div>
-          <hr className="my-4 border-gray-300" />
+          <ul>
+            <li>1. It aids your business to be more visible to Investors.</li>
+            <li>
+              2. It helps boost sales. Drives company growth across all areas,
+              as increased sales, equals improved business capacity.
+            </li>
+            <li>3. It helps you identify and focus on new opportunities.</li>
+            <li>4. It helps your business to stay relevant in the industry.</li>
+            <li>
+              5. It is a way of keeping your customers engaged in your brand.
+            </li>
+            <li>
+              6. It helps you to find out the needs of customers and provide
+              them.
+            </li>
+            <li>7. It helps to give you insight into your business.</li>
+            <li>
+              8. It educates your customers about your product and services.
+            </li>
+          </ul>
         </div>
+        <p className="mb-3 mt-3">
+          Your small business might be doing quite alright as it is still one
+          thing is sure, it can do way better with clearly thought-out growth
+          goals and proper marketing. Conduct thorough research on your target
+          market’s expectations and pain points, perfect your product offering,
+          and select the appropriate marketing channel to create awareness about
+          your products. You can rely on a creative growth marketing agency well
+          versed in helping small and medium enterprises scale to promote your
+          business.
+        </p>
       </article>
 
       <div>

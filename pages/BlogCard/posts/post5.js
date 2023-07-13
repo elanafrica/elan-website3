@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/maximizebudget.jpg";
+import Hero from "../../../public/assets/deathbyai.jpg";
 import Link from "next/link";
 
 function Post5() {
@@ -26,266 +26,220 @@ function Post5() {
   };
 
   return (
-    <div>
-      <div className="">
-        <div className="mt-9 flex flex-wrap items-center justify-center ">
-          <Link
-            href="/Blog"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            All Posts
-          </Link>
-          <Link
-            href="/AboutUs"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Growth Marketing
-          </Link>
+    <div className="">
+      <div className="mt-9 flex flex-wrap items-center justify-center ">
+        <Link
+          href="/Blog"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          All Posts
+        </Link>
+        <Link
+          href="/AboutUs"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Growth Marketing
+        </Link>
 
-          <Link
-            href="/OurWork"
+        <Link
+          href="/OurWork"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Business Tips
+        </Link>
+        <Link
+          href="/Blog"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Growth Marketing Agency
+        </Link>
+        <Link
+          href="/Testimonials"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Traditional Marketing Methods
+        </Link>
+        <Link
+          href="/ContactUs"
+          className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >
+          Marketing Tips
+        </Link>
+        <div className="relative">
+          <button
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            onClick={() => setIsOpen(!isOpen)}
           >
-            Business Tips
-          </Link>
-          <Link
-            href="/Blog"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            More
+          </button>
+          <div
+            className={`${
+              isOpen ? "block" : "hidden"
+            } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
           >
-            Growth Marketing Agency
-          </Link>
-          <Link
-            href="/Testimonials"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Traditional Marketing Methods
-          </Link>
-          <Link
-            href="/ContactUs"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Marketing Tips
-          </Link>
-          <div className="relative">
-            <button
-              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              onClick={() => setIsOpen(!isOpen)}
+            <Link
+              href="/ElanAccelerate"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
-              More
-            </button>
-            <div
-              className={`${
-                isOpen ? "block" : "hidden"
-              } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
+              Business In Africa
+            </Link>
+            <Link
+              href="/ElanDev"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
-              <Link
-                href="/ElanAccelerate"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                Business In Africa
-              </Link>
-              <Link
-                href="/ElanDev"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                WorkPlace in Africa
-              </Link>
-              <Link
-                href="/ElanGrowth"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                Founders Care Column
-              </Link>
-              <Link
-                href="/ElanStudio"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              >
-                Business Guide
-              </Link>
-            </div>
+              WorkPlace in Africa
+            </Link>
+            <Link
+              href="/ElanGrowth"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            >
+              Founders Care Column
+            </Link>
+            <Link
+              href="/ElanStudio"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            >
+              Business Guide
+            </Link>
           </div>
         </div>
       </div>
 
-      <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          How to maximize your marketing budget
+      <article className="m-4 mt-9 container">
+        <h2 className="text-2xl text-center font-bold mb-4">
+          The death of SEO by AI (Debunking the myth)
         </h2>
+        <p className="mt-4 mb-4">
+          Search Engine Optimization (SEO) has been an integral part of digital
+          marketing since the inception of search engines. SEO refers to the
+          practice of optimizing a website's content and structure to rank
+          higher in search engine results pages (SERPs) for relevant search
+          queries. Over the years, there have been numerous debates about the
+          role of Artificial Intelligence (AI) in SEO and whether it will render
+          traditional SEO practices obsolete.{" "}
+        </p>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
+          className=" w-full h-full relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
-        <p className="mt-2 mb-5">
-          Marketing plays a crucial role in the growth and success of any
-          business. However, with limited resources and budgets, it can be
-          challenging to determine where to invest for maximum returns. In order
-          to get the most out of your marketing budget, it is essential to
-          carefully assess your options and prioritize your spending. One key
-          factor to consider is your target audience. Depending on who you are
-          trying to reach, certain marketing channels may be more effective than
-          others. For example, if you are targeting a younger demographic,
-          social media advertising may be the way to go. If your audience is
-          older, traditional advertising methods such as television or print ads
-          may still be effective.
+        <p className="mb-2 mt-2">
+          Search Engine Optimization (SEO) has been an integral part of digital
+          marketing since the inception of search engines. SEO refers to the
+          practice of optimizing a website's content and structure to rank
+          higher in search engine results pages (SERPs) for relevant search
+          queries. Over the years, there have been numerous debates about the
+          role of Artificial Intelligence (AI) in SEO and whether it will render
+          traditional SEO practices obsolete.
         </p>
-        <h4 className="font-bold text-xl text-center mt-4 mb-4">
-          Here are some tips on how to businesses can maximize their marketing
-          budget
-        </h4>
-        <div className="mt-4 mb-4">
-          <ul>
-            <li className="mt-2 mb-2">
-              Set clear and measurable marketing goals to help you track the
-              effectiveness of your marketing activities.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Determine your target audience and tailor your marketing efforts
-              specifically to them.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Invest in high-quality content that can be repurposed across
-              different channels, such as blogs or videos.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Use social media platforms strategically to reach a wider
-              audience. Utilize paid advertising options on these platforms to
-              target specific demographics.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Focus on search engine optimization (SEO) to increase your
-              visibility and rank higher in search engine results pages.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Leverage on email marketing campaigns to keep in touch with
-              existing customers and drive conversions.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Consider partnering with other businesses and influencers to reach
-              new audiences and increase brand awareness.{" "}
-            </li>
-            <li className="mt-2 mb-2">
-              Evaluate the effectiveness of your marketing campaigns regularly
-              and adjust your strategies as needed to ensure you are getting the
-              most out of your budget.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Ideas on where businesses can invest their marketing budget
-          </h4>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Social media advertising:</span>
-            Social media platforms offer a large audience reach and affordable
-            advertising options. Different social media platforms have different
-            demographics, so businesses should choose the platforms their target
-            audience is most active on. Social media ads, for example differ
-            from platform to platform. Linkedin ads are different from Facebook
-            ads.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Content marketing:</span>
-            Creating valuable, informative, and engaging content can attract
-            customers to a business's website or social media pages, and help
-            establish the business as a thought leader in their industry.
-            Content marketing can done using content in different formats
-            including blog posts, infographics, videos and more.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Email marketing:</span>
-            Email marketing is an effective way to maintain customer
-            relationships and encourage repeat business. Businesses can send
-            weekly or monthly newsletters, promotional emails, and automated
-            emails for abandoned carts or follow-ups after a purchase.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">
-              Search engine optimization (SEO):{" "}
-            </span>
-            SEO involves optimizing a website's content, structure, and metadata
-            to increase its visibility in search engine results pages (SERPs). A
-            higher ranking in SERPs can drive more organic traffic to a website
-            and generate more leads.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Influencer marketing:</span>
-            Businesses partner with social media influencers who have a large
-            following and influence in a particular industry or niche.
-            Influencers can promote a business' products or services to their
-            followers who trust their recommendations and are likely to
-            purchase.
-          </p>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Benefits of maximizing your marketing budget
-          </h4>
-          <Image
-            className=" w-72 h-full mt-3 mb-4 relative  bg-cover "
-            src={Hero}
-            alt="home hero"
-            priority
-          />
-          <p className="mt-5 mb-3">
-            Another consideration is the current market trends and competitors
-            in your industry. It is important to stay up to date with what is
-            working for others in your industry and adapt your own marketing
-            strategies accordingly. This may mean investing in new technology,
-            partnering with influencers, or focusing on content marketing.
-            Ultimately, the key to maximizing your marketing budget is to
-            constantly evaluate your efforts and adjust your strategies as
-            needed. By carefully considering your target audience and the trends
-            in your industry, you can make smart investments that will help you
-            achieve your marketing goals and grow your business.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Brand awareness: </span>
-            Effective marketing strategies can help increase brand awareness and
-            recognition. This is important because it can lead to increased
-            sales and customer loyalty.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Targeted marketing:</span>
-            Maximizing your marketing budget means that you can target your
-            marketing efforts to the right audience. This can help you reach the
-            people who are most likely to be interested in your products or
-            services, which can lead to higher conversion rates and sales.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">ROI:</span>
-            Maximizing your marketing budget means that you're getting the
-            greatest possible return on investment. By investing in strategies
-            that have a proven track record of success, you can ensure that
-            you're getting the most bang for your buck.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Limited resources: </span>
-            For most companies, marketing budgets are limited, so it's important
-            to make the most of them. If you're not maximizing your marketing
-            budget, you could be wasting money on ineffective strategies that
-            aren't reaching your target audience.
-          </p>
-          <p className="mt-4 mb-4">
-            <span className="font-bold ">Competition:</span>
-            Every business is competing for attention, so it's important to make
-            your marketing budget count. If you're not maximizing your budget,
-            your competitors will be able to outspend you and potentially steal
-            customers.
-          </p>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl text-center mt-4 mb-4">
-            Conclusion
-          </h4>
 
-          <p className="mt-5 mb-3">
-            Overall, businesses should prioritize marketing strategies that
-            align with their goals and target audience, and track and analyse
-            their marketing performance to optimize their spending.
+        <div className="mt-2 mb-2">
+          <p className="mb-2">
+            It is also important to understand what we mean by AI in the context
+            of SEO. AI refers to the use of machine learning algorithms to
+            analyze and optimize websites for search engines. These algorithms
+            can analyze large amounts of data and make predictions about which
+            content will perform best in search results.
           </p>
+          <p className="mb-2">
+            While AI is undoubtedly an important tool for SEO professionals, it
+            is important to note that AI is not a replacement for human
+            expertise. In this blog post, we will debunk the myth of the death
+            of SEO by AI and explain why SEO is still relevant in the age of AI.{" "}
+          </p>
+        </div>
+        <div className="mt-2 mb-2">
+          <h4 className="font-bold mt-4 mb-2 text-center">
+            AI and SEO: What's the Connection?{" "}
+          </h4>
+          <p className="mb-2">
+            Artificial Intelligence is a broad field that encompasses various
+            technologies, including machine learning, Natural Language
+            Processing (NLP), and deep learning. These technologies enable
+            machines to learn from data, recognize patterns, and make decisions
+            based on that data. In the context of SEO, AI can be used to analyze
+            search engine algorithms, understand user intent, and identify
+            patterns in user behaviour to optimize websites for better rankings.{" "}
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold mb-2 font-bold">SEO in the Age of AI </h4>
+          <p className="mb-2">
+            Some people believe that AI will completely replace SEO and render
+            traditional SEO practices obsolete. However, this is far from the
+            truth. While AI has undoubtedly changed the SEO landscape, SEO is
+            still essential for businesses to succeed in the digital world. Here
+            are some reasons why:{" "}
+          </p>
+          <div className="mb-2">
+            <p className="mb-2 font-bold">
+              1. AI is not a substitute for human intelligence{" "}
+            </p>
+            <p className="mb-2">
+              While AI can analyze vast amounts of data and identify patterns,
+              it cannot replace human intelligence when it comes to
+              understanding user intent and creating high-quality content. AI
+              can provide insights into user behavior and search engine
+              algorithms, but it cannot create content that resonates with users
+              on an emotional level.{" "}
+            </p>
+            <p className="mb-2 font-bold">
+              2. SEO is more than just keywords and rankings{" "}
+            </p>
+            <p className="mb-2">
+              Keywords and rankings are essential components of SEO, but they
+              are not the only factors that determine a website's success. Other
+              factors, such as user experience, website design, and content
+              quality, also play a crucial role in SEO. AI can help optimize
+              these factors, but it cannot replace them.{" "}
+            </p>
+            <p className="mb-2 font-bold">3. AI is not perfect</p>
+            <p className="mb-2">
+              AI technology is continually evolving, but it is far from perfect.
+              AI algorithms are susceptible to bias, and they can make mistakes.
+              For example, an AI algorithm may misinterpret user intent and
+              provide irrelevant search results. In such cases, human
+              intervention is necessary to correct the mistake and ensure that
+              the user's needs are met.{" "}
+            </p>
+            <p className="mb-2 font-bold">4. SEO is constantly evolving</p>
+            <p className="mb-2">
+              SEO is not a set of fixed rules that remain constant over time.
+              Search engine algorithms are continually evolving, and SEO
+              practices must evolve with them. AI can help SEO professionals
+              stay ahead of the curve, but it cannot replace them.{" "}
+            </p>
+          </div>
+          <div className="mb-2">
+            <p className="mb-3">
+              So, if SEO isn't dead, what can businesses do to improve their
+              SEO? Here are some tips: 1. Conduct keyword research to identify
+              relevant keywords and phrases to target. 2. Optimize on-page
+              elements like title tags, meta descriptions, and header tags. 3.
+              Create high-quality, relevant content that targets your chosen
+              keywords. 4. Build high-quality backlinks to your website from
+              other relevant websites. 5. Ensure that your website is
+              mobile-friendly, secure, and fast-loading.
+            </p>
+            <p className="font-bold mb-2 text-center text-xl">Conclusion </p>
+            <p className="mb-2">
+              In conclusion, the myth of the death of SEO by AI is just that - a
+              myth. While AI has undoubtedly changed the SEO landscape, SEO is
+              still essential for businesses to succeed in the digital world.
+              SEO professionals must continue to adapt and evolve their
+              practices to stay ahead of the curve and ensure that their
+              clients' websites rank high in search engine results pages. AI can
+              provide valuable insights and help optimize websites, but it
+              cannot replace human intelligence and creativity. Therefore, SEO
+              will continue to be relevant in the age of AI.{" "}
+            </p>
+          </div>
+          <div>
+            <hr className="my-4 border-gray-300" />
+          </div>
         </div>
       </article>
-
       <div>
         <h3>Comments:</h3>
         {comments.map((comment) => (

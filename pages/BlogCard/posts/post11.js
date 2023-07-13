@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Hero from "../../../public/assets/b2bgrowthhack.jpg";
+import Hero from "../../../public/assets/investwisely.jpg";
 import Link from "next/link";
 
 function Post11() {
@@ -109,172 +109,168 @@ function Post11() {
 
       <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          B2B Growth Hacking Strategies
+          Invest Wisely: 5 Things to Know Before You Start
         </h2>
-        <h4 className="font-bold text-xl">What is B2B marketing?</h4>
-        <p>
-          Business-to-Business marketing refers to the marketing of products or
-          services between companies. There are differences between B2B and B2C
-          marketing but also similarities. One similarity is that some B2B
-          markets will exhibit the same buying behaviors and competitive
-          attributes that many B2C markets depict.
-        </p>
-        <div>
-          <p className="font-bold mt-4 mb-4">What to focus on</p>
-          <p className="mt-2 mb-5">
-            The way to hack growth in B2B involves understanding that a
-            business’s main competition is the biggest brands in its category,
-            as shown by a new study from the Ehrenberg-Bass Institute. Another
-            way to drive B2B business growth is to target all customers within
-            the business category. Expanding the brand’s customer base is
-            therefore essential.{" "}
-          </p>
-        </div>
-        <div>
-          <p className="font-bold mt-4 mb-4">
-            Characteristics of B2B marketing:
-          </p>
-          <p className="mt-2 mb-5">
-            To hack B2B growth, the team responsible should know how B2B
-            marketing differs from marketing for other business types. They
-            should know the markers of B2B organizations and then create a
-            strategy that will drive rapid growth. Some characteristics to note
-            are
-          </p>
-          <ul>
-            <li>B2B companies usually have multiple decision makers</li>
-            <li>They have fewer customers</li>
-            <li>
-              Return-On-Investment (ROI) is a primary focus for corporate
-              decision-makers.
-            </li>
-            <li>
-              More focus is placed on knowing their customer’s pain points{" "}
-            </li>
-            <li>
-              The decision to patronize another business is reached rationally
-              and collectively{" "}
-            </li>
-            <li>Content strategy for B2B is more thorough than B2C</li>
-          </ul>
-        </div>
-        <div>
-          <p className="font-bold mt-4 mb-4">B2B Growth Strategy</p>
-          <p className="mt-2 mb-5">
-            Every B2B business needs a data-driven strategy that will contribute
-            to its growth. One important focus is to be placed on content
-            strategy. Elements of a B2B strategy include
-          </p>
-          <div>
-            <ul>
-              <li>
-                <span className="font-bold">Email marketing:</span>
-                B2B businesses can grow through email campaigns where they
-                market their products or services and at the same time build a
-                relationship with their customers. They get to learn about their
-                pain points and goals. This will make it easier to market the
-                right services to them.
-              </li>
-              <li>
-                <span className="font-bold">Content marketing:</span>
-                It typically consists of video, audio, and written content
-                published on an organization’s blog and then shared on its
-                social media for more organic traffic. On-page and Off-page SEO
-                activities are needed to improve site rank. This helps you reach
-                prospects who are ready to buy and you can offer them the
-                perfect solution before your competitors do.
-              </li>
-              <li>
-                <span className="font-bold">Influencer marketing:</span>
-                Most brands turn to individuals with a good engagement on social
-                media platforms. They hope to convert the reach and engagement
-                these influencers have into growth and visibility for their
-                business.
-              </li>
-              <li>
-                <span className="font-bold">Paid advertising:</span>
-                Brands can take advantage of paid ads to grow their brand. They
-                can use channels such as Google ads, Facebook ads, Bing ads, and
-                LinkedIn ads. These ads are used to generate sales-assured leads
-                and build brand engagement.
-              </li>
-              <li>
-                <span className="font-bold">Product marketing:</span>
-                This will include proper product positioning by the product
-                marketer. The marketing message is constructed in a manner that
-                helps the buyers make well-informed decisions.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="mt-7 mb-7">
-          <p className="font-bold text-xl text-center"></p>
-          <ol>
-            <li>
-              Take time to research the demographics, interview people in the
-              industry, and analyze your customers to come up with accurate
-              personas that you can build marketing strategies for.
-            </li>
-            <li>
-              Be intentional about writing good content. Make use of keywords
-              that can help you rank better. Use writing editing software to
-              proofread your content to ensure it is grammatically correct.
-            </li>
-            <li>
-              Use your insights. Refer to campaigns and check the analytics.
-              Have a team meeting and come up with new and creative solutions
-              based on past marketing results. Ensure to track B2B marketing
-              metrics and KPIs.
-            </li>
-            <li>
-              Build relationships with your target customers and even other
-              businesses and influencers. They’ll help you spread the word about
-              your brand.
-            </li>
-            <li>
-              Try to offer a service that is unique to your business. Something
-              they cannot get from a competitor. You can offer a freemium as a
-              means of getting users to become advocates the way Hubspot does.
-            </li>
-            <li>
-              Use Emotional campaigns that will have your prospects perceive
-              your brand positively. It is wise to find a mid-point between both
-              emotional and rational campaigns. This is because emotional
-              campaigns are great for brand building while rational campaigns
-              are good at short-term sales activation.
-            </li>
-          </ol>
-        </div>
         <Image
-          className=" w-full  mt-3 mb-4  relative  w-full bg-cover "
+          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
-
-        <h4 className="text-xl font-bold text-center">
-          Harness a team of experts to hack your business growth with
-          data-driven strategies and insight from years of experience working in
-          the B2B and startup scene- that's us
+        <h4 className="font-bold text-xl text-center mt-4 mb-4">
+          Invest Wisely: 5 Things to Know Before You Start
         </h4>
-        <p className="mt-5 mb-5">
-          Marketing your products and services to customers is difficult but
-          marketing to businesses is even harder. You’ll need to be more
-          thorough with content and more concerned about forming relationships
-          with prospects in order to properly appeal to them by bringing
-          solutions to their pain points.{" "}
+        <p className="mb-3">
+          Choosing what to invest in can be both daunting and exciting task.
+          However, knowing when and what to invest in can significantly increase
+          your chances of success. In this article, you'll discover 5 things to
+          keep in mind before seeking investments and how to do it right. So,
+          let's dive right into it.
         </p>
-        <p className="mt-5 mb-5">
-          This is why you should trust Elan Africa, an agency that helps your
-          business grow and helps you reach your customers wherever they may be.
-          Elan Africa offers a free consultation to small businesses, startups,
-          and tech firms to get them started on their journey to business
-          growth.{" "}
+        <h4 className="font-bold text-xl text-center mt-4 mb-4">
+          Understand your Investment Goals
+        </h4>
+        <p className="mb-3">
+          Before seeking investment options, you need to consider the following:
         </p>
-
-        <Link href="/Contact">
-          Here’s where you can book your free consultation.
-        </Link>
+        <div>
+          <ul>
+            <li className="mt-2 mb-2">
+              <span className="text-bold"> Investment Type: </span>
+              What are you investing in? Stocks, bonds or cash equivalent. For
+              example, when you buy stocks in a company, you become a partial
+              owner. This means when the company become more valuable, your
+              share of the company also increases in value. However, bonds are
+              loans where the investor is the creditor and receives a specific
+              percentage of yields. Whatever you decide, ensure you understand
+              it.
+            </li>
+            <li className="mt-2 mb-2">
+              <span className="text-bold"> Time frame: </span>
+              What is the duration of the investment? Is it short term (which is
+              less than three years) or long term? Knowing this will help you
+              know what to put in and your expected returns.
+            </li>
+            <li className="mt-2 mb-2">
+              <span className="text-bold"> Risk and Return Factor: </span>
+              How risky is the venture or business you're investing in? Are you
+              investing in stocks which have high risks with higher returns or
+              are you opting for low-risk investments such as savings accounts?
+              It is important to consider the risk while making any investment.
+            </li>
+            <li className="mt-2 mb-2">
+              <span className="text-bold"> Tax implications: </span>
+              What are the implications of your investments on tax? There are
+              certain investments that come with tax benefits that may improve
+              your returns. It would be wise to opt for such.
+            </li>
+            <li className="mt-2 mb-2">
+              <span className="text-bold"> Fees and charges: </span>
+              Depending on what you're investing in, fees and charges may vary.
+              Opting for investments with low fees upfront during any sales
+              process is recommended and can save you more money.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Research Your Investment Options
+          </h4>
+          <p className="mt-2 mb-2">
+            Before you decide to invest your hard-earned money, do a thorough
+            research and choose the investment option that is best for you.
+            Investigate the past performance of any potential investments by
+            looking at the historical data for a particular asset before
+            investing in it. You can also contact other investors in that
+            industry for more insights. The value of due diligence cannot be
+            overemphasized.{" "}
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Calculate the Cost of Investing
+          </h4>
+          <p className="mt-2 mb-2">
+            It's essential to calculate the cost of investing before venturing
+            into it. These costs can vary depending on the type of investment,
+            the amount you invest and whether or not you use a broker.
+          </p>
+          <p className="mt-2 mb-2">
+            Since brokerage firms use fees and commissions to charge for their
+            services, it is important to look for a broker with competitive fees
+            and commissions so that your investments remain profitable.
+          </p>
+          <p className="mt-2 mb-2">
+            Another thing to consider is the management fee.{" "}
+          </p>
+          <p className="mt-2 mb-2">
+            This is what mutual funds or other managed investments charge for
+            their services. These fees may range from 0.5 percent to 2 percent
+            and can significantly reduce your returns if not carefully accounted
+            for.
+          </p>
+          <p className="mt-2 mb-2">
+            It is also important to investigate any applicable taxes before
+            moving forward with an investment plan. Depending on where you live,
+            taxes may be applicable when buying or selling investments as well
+            as when withdrawing profits from an investment account. Therefore,
+            taxes should also be taken into consideration when calculating the
+            cost of investing.
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Find the Right Financial Professional
+          </h4>
+          <p className="mt-2 mb-2">
+            When it comes to investments, all financial professionals are not
+            created equal. Before you even start to consider any investment
+            opportunities, take the time to find the right financial
+            professional for you. Make sure that the financial professional has
+            years of experience in the field and that you trust their judgment
+            and knowledge. You can also ask for references from other clients so
+            that you can get an idea of how the financial professional works
+            with others and handles customer service issues.
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Know When to Get Professional Advice
+          </h4>
+          <p className="mt-2 mb-2">
+            Although it is possible to manage your investments on your own,
+            getting professional advice can be an invaluable resource.
+            Professional advisors have in-depth knowledge of the markets,
+            expertise in managing portfolios and access to additional tools and
+            resources that you may not have access to.
+          </p>
+          <p className="mt-2 mb-2">
+            So, once you understand your investment goals, risk tolerance and
+            your current financial situation, you can begin the search for a
+            qualified financial advisor. Keep in mind that the advisor must put
+            your interests first when providing advice or making
+            recommendations. With the right adviser on your side, your
+            investments will be managed responsibly.
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Conclusion
+          </h4>
+          <p className="mt-2 mb-2">
+            In conclusion, making sensible investments involves meticulous
+            planning. By investing the time to study the fundamentals, you will
+            be prepared for success in everything from trend research to market
+            analysis to hiring knowledgeable financial advisers.
+          </p>
+          <p className="mt-2 mb-2">
+            It is crucial to take the necessary precautions to make sure your
+            investments will produce the best returns while safeguarding your
+            hard-earned money because investing can be a risky venture. By being
+            diligent and consulting experts, you can achieve your financial
+            goals.
+          </p>
+        </div>
       </article>
 
       <div>

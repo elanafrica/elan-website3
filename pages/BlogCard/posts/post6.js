@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import ReactPlayer from "react-player";
 import Image from "next/image";
-import Hero from "../../../public/assets/11marketingstrategies.jpg";
+import Hero from "../../../public/assets/marketingplansthatwork.jpg";
 import Link from "next/link";
 
 function Post6() {
@@ -26,7 +25,6 @@ function Post6() {
     setLikes((prevLikes) => (prevLikes ? prevLikes - 1 : prevLikes + 1));
   };
 
-  const src = "https://youtu.be/pLENOvUVbz8";
   return (
     <div>
       <div className="">
@@ -111,244 +109,283 @@ function Post6() {
 
       <article className="m-4 mt-9 container mb-5 ">
         <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          11 Marketing Strategies To attract and Retain...
+          How to create a Marketing Plan that Works.
         </h2>
-        <p className="mt-2 mb-5">
-          Increasing revenue is principal to the growth of any business. It's
-          not enough to have a viable product, build an excellent team or even
-          receive the right investment for your business–marketing allows your
-          target audience to know you exist. As with different aspects of
-          business growth and development, having a strategy for every form of
-          marketing allows you to maximize opportunities better.
-        </p>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
+          className=" w-full h-full mt-3 mb-4 relative bg-cover "
           src={Hero}
           alt="home hero"
           priority
         />
-        <p className="mt-2 mb-3">But first, what is a marketing strategy?</p>
-        <p className="mt-5 mb-3">
-          A marketing strategy is defined as an organization's promotional
-          efforts to increase sales and achieve its business goals. It
-          encompasses all the marketing efforts on different platforms and
-          channels to achieve the company's goals. It's important to have more
-          than one marketing strategy to diversify marketing efforts.{" "}
+        <p className="mt-2 mb-5 font-italics">
+          gnoring online marketing is like opening a business but not telling
+          anyone. — KB Marketing Agency
         </p>
-        <p className="mt-5 mb-3">
-          A company must understand its target market to appeal to them, as well
-          as how they behave and make decisions. Companies can create a
-          marketing plan to achieve certain goals by keeping them in mind. The
-          goals of a corporation are encapsulated in a marketing plan, and the
-          marketing strategy consists of the plan's constituent parts and
-          executes them. Because they feature value propositions and brand
-          dynamics that don't vary much over time, marketing strategies often
-          have longer lifespans and serve as an advisor to the marketing plan.
+        <p className="mt-4 mb-4">
+          Several entrepreneurs and businesses are often too focused on building
+          a viable and amazing product or service. While this is good, a major
+          pitfall is that most of them ignore or put less effort into their
+          marketing plan.
         </p>
-        <div>
-          <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-            How does a marketing strategy work?
-          </h2>
-
-          <Image
-            className=" w-full h-full mt-3 mb-4 relative  bg-cover "
-            src={Hero}
-            alt="home hero"
-            priority
-          />
-          <p className="mt-2 mb-5">
-            The AIDAR model shows how a marketing strategy works:
+        <p className="mt-4 mb-4">
+          Although the term 'marketing' is broad, it is generally defined as the
+          process of promoting and selling products or services. Marketing
+          includes traditional advertising, social media marketing, blogging,
+          influencer marketing, and podcast as well. To create a good plan, it's
+          important to find a good marketing framework to guide you.
+        </p>
+        <h4 className="font-bold text-xl text-center mt-4 mb-4">
+          But first, what's a marketing framework or mix?
+        </h4>
+        <p className="mt-4 mb-4">
+          Marketing involves different tools that businesses use to achieve
+          their objectives. The mixture of these tools is known as a marketing
+          mix. These mixes help us to understand the product and guide the
+          marketing plan. Although there are several marketing mixes including
+          5Ps, 7Ps, and 8Ps, the 4Ps are the foundational framework for most
+          marketing plans.
+        </p>
+        <p className="mt-2 mb-4">
+          The 4Ps of the marketing mix are product, price, placement, and
+          promotion.
+        </p>
+        <div className="mt-4 mb-4">
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">1. Product:</span>
+            This involves a service or product that is designed to satisfy a
+            user's needs and wants. Before creating your marketing plan, you
+            will need to understand the product or service. Here are some
+            questions that can be a guide:
           </p>
-          <div className="mt-5 mb-3">
-            <ul>
-              <li>
-                <span className="font-bold">Awareness </span>
-                is the act of creating attention for the brand or service
-                through various mediums
-              </li>
-              <li>
-                <span className="font-bold">Interest</span>
-                is the step of generating interest to encourage buyers to want
-                to know more
-              </li>
-              <li>
-                <span className="font-bold">Desire </span>
-                means creating an emotional connection to the buyer so they want
-                the product or like the brand
-              </li>
-              <li>
-                <span className="font-bold">Action </span>
-                can be different things for the company. It could be a step when
-                the buyer picks up a brochure, calls to learn more, or makes a
-                purchase
-              </li>
-              <li>
-                <span className="font-bold">Retention </span>
-                happens once someone becomes a customer, the business turns its
-                focus to satisfying the customer, so they return and perhaps
-                refer the company to friends and family.
-              </li>
-            </ul>
-            <p className="mt-5 mb-5">
-              Although there are several marketing strategies you can use for
-              your business, here are 11 excellent marketing strategies you
-              should implement.
-            </p>
-          </div>
+          <ul>
+            <li className="mt-2 mb-2">
+              Is it a specific product or a service?
+            </li>
+            <li className="mt-2 mb-2">What problem does the product solve?</li>
+            <li className="mt-2 mb-2">
+              Who are the target customers for the product/service?
+            </li>
+            <li className="mt-2 mb-2">What makes the product stand out?</li>
+          </ul>
+        </div>
+        <div className="mt-4 mb-4">
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">2. Price: </span>
+            This is the cost a customer pays for the product or service. Several
+            businesses focus only on their competitors' prices rather than
+            evaluating their customer's needs and product value. To understand
+            pricing in marketing, it's essential to ask these questions:
+          </p>
+          <ul>
+            <li className="mt-2 mb-2">
+              What value does the product or service offer?
+            </li>
+            <li className="mt-2 mb-2">
+              How much do the competitors charge for similar products?
+            </li>
+            <li className="mt-2 mb-2">
+              What can your target consumers afford?
+            </li>
+            <li className="mt-2 mb-2">
+              What is the lowest and highest price that the product can sell
+              for?
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4 mb-4">
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">3. Placement: </span>
+            This answers the question of where the product or service can be
+            found or marketed. Several years ago, products would be in a store
+            or a TV Ad, however, digital innovations have changed marketing and
+            distribution. Products can be marketed on social media, magazines,
+            or even podcasts. For this part of the framework, you will need to
+            consider where your product would be placed. Here are some questions
+            to guide you:
+          </p>
+          <ul>
+            <li className="mt-2 mb-2">
+              Where is your target audience (online and offline)?
+            </li>
+            <li className="mt-2 mb-2">
+              Where will products and services be placed?
+            </li>
+            <li className="mt-2 mb-2">
+              How accessible are the products and services?
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4 mb-4">
+          <p className="mt-4 mb-4">
+            <span className="font-bold ">4. Promotion:</span>
+            The last of the 4Ps framework is promotion. This covers all the
+            tactics and efforts involved in reaching the right audience at the
+            right time. For example, an African e-commerce store that sells
+            back-to-school items would have its peak sales just before school
+            resumption. To use the promotion framework, increasing their
+            marketing efforts to parents and guardians a few weeks before
+            resumption would boost sales. This is the effect of reaching the
+            right audience at the right time. Promotion tactics include word of
+            mouth, blogging, paid advertising, and email marketing.
+          </p>
         </div>
         <div>
-          <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-            11 Marketing Strategies To Attract and Retain Customers.
-          </h2>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            5 Steps To Building A Marketing Plan That Works.
+          </h4>
+          <p className="mt-4 mb-4">
+            Once you understand the framework, it becomes easier to market the
+            product and service. Marketing plans are developed with different
+            goals in mind, depending on the business objectives and product
+            nature.
+          </p>
+          <p className="mt-4 mb-4">
+            For example, the marketing goal of a fashion brand during the
+            holiday season would be sales while a confectionery store yet to
+            launch might want engagement and awareness.
+          </p>
+          <p className="mt-4 mb-4">
+            Here are 5 steps to creating a marketing plan that works.
+          </p>
+        </div>
+        <div className="mt-5 mb-5">
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Conduct a SWOT Analysis
+          </h4>
+          <p className="mt-4 mb-4">
+            You should analyze both the business and its past marketing efforts.
+            SWOT analyses are quite detailed and help you to focus on important
+            details. Were the past marketing efforts successful? If not, you
+            will need to understand what went wrong in order to prevent it from
+            happening again. For example, if a KidsWear brand has had
+            unsuccessful marketing campaigns for footwear products, you might
+            have to review the product, the marketing tactics, and most
+            importantly the audience's reaction to it. A detailed SWOT analysis
+            can provide this.{" "}
+          </p>
+        </div>
+        <div className="mt-5 mb-5">
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Define Your Goals
+          </h4>
+          <p className="mt-4 mb-4">
+            Your goals are what you hope to achieve through the marketing plan.
+            To create a marketing plan that works, your goals should be SMART.
+            SMART goals are specific, measurable, attainable, relevant, and
+            time-bound.{" "}
+          </p>
+          <p className="mt-4 mb-4">
+            "Increase email subscribers" is not a SMART goal.
+          </p>
+          <p className="mt-4 mb-4">
+            "Increase email subscribers by 10% in 3 months." is a SMART goal.
+          </p>
+          <p className="mt-4 mb-4">
+            It is specific, measurable, and can be achieved within a time frame.
+            It's important to note that a marketing plan can have more than one
+            goal and your goals should define what tactic you employ.
+          </p>
+        </div>
+        <div className="mt-5 mb-5">
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Define Your Target Audience.{" "}
+          </h4>
+          <p className="mt-4 mb-4">
+            Your target audience are your potential customers. These are the
+            people you want to attract to your product or service. Oftentimes,
+            your target audience cuts across a wide demographic and can be a lot
+            to document. Using buyer personas can save time and help you gain
+            clarity on customer needs.
+          </p>
+          <p className="mt-4 mb-4">
+            Buyer personas show at a glance, information about your customer,
+            their pain points, and needs. These are several free buyer persona
+            templates you can use in your marketing plan.
+          </p>
+        </div>
+        <div className="mt-5 mb-5">
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Plan Your Strategy
+          </h4>
+          <p className="mt-4 mb-4">
+            Once you define your target audience and goals, you can set your
+            marketing strategy. Strategies involve the right channels, content,
+            and action items for your marketing.{" "}
+          </p>
+          <p className="mt-4 mb-4">
+            For example, if your goal is to increase email subscribers, you can
+            create a free resource, a personalized quiz, or award points for
+            email referrals.
+          </p>
+          <p className="mt-4 mb-4">
+            For example, Piggyvest, a Nigerian tech startup created a comic
+            series showcasing the lives of young Nigerians and how they navigate
+            their finances. This content strategy increased Ad clicks for the
+            brand. It also shows their target audience enjoys good storytelling
+            and Piggyvest created a creative platform to share it.
+          </p>
+          <p className="mt-4 mb-4">
+            Adding a creative touch and keeping your target audience in mind
+            while creating these strategies help you build a successful
+            marketing plan.
+          </p>
+        </div>
+        <div className="mt-5 mb-5">
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Set Your Budget
+          </h4>
+          <p className="mt-3 mb-4">
+            This defines what can run and what strategy might have to be
+            adjusted.{" "}
+          </p>
+          <p className="mt-4 mb-4">
+            Your marketing budget should include the cost of running each
+            strategy and marketing efforts. For example, your budget can include
+            Ad costs, influencer rates, the cost of marketing tools like SEMrush
+            payment, and much more.
+          </p>
+          <p className="mt-4 mb-4">
+            A budget also helps you to know how much you are investing in the
+            marketing plan.
+          </p>
+        </div>
+        <div className="mt-5 mb-5">
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Measuring Success{" "}
+          </h4>
+          <p className="mt-2 mb-4">
+            It's important to note that marketing plans differ in goals and what
+            success metrics are used to run them. A marketing plan designed for
+            boosting engagement and awareness should not use sales success
+            metrics as a tool.{" "}
+          </p>
+          <p className="mt-4 mb-4">
+            It's important to identify what tools work for which plan. For
+            example, marketing plans for awareness are often measured by social
+            media metrics, search ranking on search engines, and brand mentions.
+          </p>
+          <p className="mt-4 mb-4">
+            Finally, once you get your results, you should analyze them and make
+            changes to improve your work.
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold text-xl text-center mt-4 mb-4">
+            Conclusion
+          </h4>
 
-          <div className="mt-5 mb-3">
-            <ul>
-              <li>
-                <span className="font-bold">
-                  Make the onboarding process effective:{" "}
-                </span>
-                Customers will certainly remember any problems with customer
-                service during their initial onboarding, such as information
-                being handled incorrectly or not having a defined point of
-                contact to guide them through the process. Even though your
-                company can rapidly resolve those points of contention, it could
-                still leave the customer with a negative impression. Beyond
-                providing excellent customer service, a strong onboarding
-                process should also consider how well the onboarding program
-                works. Workflows with timely email triggers, follow-up
-                messaging, self-service knowledge base access, and celebratory
-                messaging are necessary for your company if you want to enthrall
-                and impress potential customers.
-              </li>
-              <li>
-                <span className="font-bold">User-Generated Content (UGC):</span>
-                This type of content is created by customers or users on
-                products and services. This content might be a photo, video,
-                blog, review, discussion forum post, or comment made on a social
-                media post. Our Eden Life, a home service-based startup shares
-                tweet reviews by its customers to promote its services and build
-                credibility. UGCs are important for marketing. You can encourage
-                your customers to leave reviews or track their conversations
-                about you using social listening.
-              </li>
-              <li>
-                <span className="font-bold">Online directories:</span>A good
-                method to increase brand visibility is to get listed on online
-                directories. For example, an Agritech startup in Kampala would
-                be listed in different directories including a list of Agritech
-                startups in Africa, African business pages, or an Association
-                Directory. It's important to note that some directories might be
-                published as listicles on blog posts or articles. You might have
-                to reach out to PR agencies or partners on how to get listed.
-              </li>
-              <li>
-                <span className="font-bold">Referral Programs:</span>
-                These types of programs attract and retain customers more
-                rapidly. A good case study is Piggyvest, a Nigerian Fintech
-                startup that offers a referral program in which its users earn
-                specific amount for each new user that joins via their referral
-                code. This allows the business to track conversion rates and
-                have its existing customers do the marketing for them.
-              </li>
-              <li>
-                <span className="font-bold">Influencer marketing: </span>
-                Despite the popularity of the use of influencers for product
-                promotion, this strategy remains very important for marketing
-                success. It's important to consider factors like the type of
-                influencer, your marketing budget, and of course your content
-                plan for it. Influencer marketing can be in the form of a
-                challenge or an advert. Renowned brand, Hugo Boss had famous
-                movie star Chris Hemsworth create a Hugo Boss suit challenge in
-                an amazing video. This sparked #suitchallenge on social media
-                and increased engagement for the brand.
-              </li>
-              <div className="w-full h-full player-wrapper">
-                <ReactPlayer
-                  url="https://youtu.be/pLENOvUVbz8"
-                  className="react-player"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                />
-              </div>
-              <li>
-                <span className="font-bold">Video Marketing:: </span>
-                Video content is not only relevant on Instagram, short-form
-                videos are currently in high demand by users. These videos are
-                usually less than 5 minutes and can be informative or funny. For
-                Elan Africa, creating informative Instagram reels for founders
-                like the 95-5 rule in B2B marketing helped several individuals
-                understand the concept better.
-              </li>
-              <li>
-                <span className="font-bold">Outbound marketing: </span>
-                This relies on approaching consumers where they are and
-                interfering with their regular activities to promote your goods
-                and services. It can take the shape of spam, banner adverts, or
-                old-school TV commercials. This marketing paradigm is turned on
-                its head by inbound marketing. By providing useful material that
-                meets their needs in exchange, you may draw visitors to your
-                website. You may persuade visitors to provide their contact
-                information and turn it into leads by using blog articles,
-                videos, eBooks, reports, and other content types.
-              </li>
-              <li>
-                <span className="font-bold">SMS marketing: </span>
-                This is one of the simplest and most effective marketing
-                strategies for SMEs. Although SMS marketing is not often
-                employed, it helps to keep the brand in the customers' minds,
-                update them on promotions and discounts and also attract new
-                customers. MTN, a network provider in Africa and the Middle East
-                uses SMS marketing to promote its latest services to its
-                customers.
-              </li>
-              <li>
-                <span className="font-bold">
-                  Leveraging Social media campaigns:{" "}
-                </span>
-                Campaigns are coordinated marketing efforts that help a company
-                achieve its goals. Social media campaigns, unlike everyday
-                social media posts, are more targeted and measurable. Although
-                most brands use social media campaigns for product promotion,
-                they can also be used for engagement and brand awareness as
-                well. In 2018, The OMO's 'Father's Day campaign in South Africa
-                celebrated men who stood as father figures for non-biological
-                children. This campaign triggered a much-needed conversation and
-                garnered positive reviews.
-              </li>
-              <li>
-                <span className="font-bold">Content repurposing: </span>
-                This is a cost-effective strategy for product marketing. Content
-                repurposing simply means reusing the elements of content or
-                transforming its format. For example, a blog post could be
-                repurposed into infographics for social media content. You can
-                also convert video interviews into audio podcasts. This ensures
-                your content goes out through multiple channels and reaches a
-                larger audience.
-              </li>
-              <li>
-                <span className="font-bold">
-                  Answering questions on internet forums:{" "}
-                </span>
-                Whilst several businesses focus on creating their community,
-                leveraging internet forums like NairaLand and Quora are
-                effective marketing strategies. On these question-and-answer
-                forums, several individuals including your target audience often
-                seek answers that you can provide. By joining and actively
-                participating in conversations, you can place your value
-                proposition better to them.
-              </li>
-            </ul>
-            <p className="mt-5 mb-5">
-              Marketing strategies are usually most effective when properly
-              planned and implemented. It's also important to note that
-              constantly assessing the success of the strategy and reviewing
-              analytics and performance helps you make better-informed
-              decisions. For insights on how to create marketing strategies that
-              can help your business grow, book a free consultation with us at
-              Elan Africa.
-            </p>
-          </div>
+          <p className="mt-2 mb-3">
+            Creating a marketing plan that works involves understanding and
+            implementing the right framework. Applying the 4Ps marketing mix to
+            understand the product, price, placement, and promotion guides your
+            plans. It's important to understand how to create a marketing plan
+            that works and use the right tools to measure and analyze your
+            progress.
+          </p>
+          <p className="mt-3 mb-5">
+            Want to create a marketing plan that works? Contact us to learn
+            more.
+          </p>
         </div>
       </article>
 
