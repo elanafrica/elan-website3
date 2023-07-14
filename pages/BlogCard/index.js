@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { AiOutlineEye } from "react-icons/ai";
@@ -8,10 +9,15 @@ function BlogCard() {
   const router = useRouter();
   const { post } = router.query || {};
 
+  const [views, setViews] = useState(0);
+
+  useEffect(() => {
+    setViews((prevViews) => prevViews + 1);
+  }, []);
+
   if (!post || !post.title) {
     return null;
   }
-
   return (
     <div
       key={post.id}
