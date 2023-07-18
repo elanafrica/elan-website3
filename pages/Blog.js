@@ -298,13 +298,13 @@ const Blog = () => {
               Business Tips
             </Link>
             <Link
-              href="/Blog"
+              href="/ElanGrowth"
               className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Growth Marketing Agency
             </Link>
             <Link
-              href="/Testimonials"
+              href="/ElanAccelerate"
               className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm md:text-base font-medium"
             >
               Traditional Marketing Methods
