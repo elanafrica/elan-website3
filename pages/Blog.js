@@ -355,8 +355,8 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="mt-9">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-9 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-5">
             {posts.map((post) => (
               <div
                 key={post.id}
@@ -372,7 +372,12 @@ const Blog = () => {
                 <h2>{post.title}</h2>
                 <p>{post.description}</p>
                 <p className="mt-4 mb-4">
-                  <Link href={`/BlogCard/${post.id}`}>Read More ...</Link>
+                  <Link
+                    href={`/BlogCard/${post.id}`}
+                    className="text-[rgb(7,39,78)]"
+                  >
+                    Read More ...
+                  </Link>
                 </p>
                 <p>Views: {post.views}</p>
                 <p>Comments: {post.comments}</p>

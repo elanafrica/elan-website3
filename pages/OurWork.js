@@ -12,8 +12,8 @@ import ElanWork4 from "../public/egomarket.jpg";
 import ElanWork5 from "../public/eeace.jpg";
 import ElanWork6 from "../public/entel.jpg";
 import ElanWork7 from "../public/epaj.jpg";
-import ElanWork8 from "../public/erma.jpg";
-import ElanWork9 from "../public/erma.jpg";
+// import ElanWork8 from "../public/erma.jpg";
+// import ElanWork9 from "../public/erma.jpg";
 import ElanWork10 from "../public/errfl1.jpg";
 
 import Image from "next/image";
@@ -116,7 +116,7 @@ function OurWork() {
               priority
             />
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             <Image
               className="w-full rounded-lg shadow-md transition-transform duration-500 transform hover:scale-105"
               src={ElanWork8}
@@ -131,7 +131,7 @@ function OurWork() {
               alt="Work 9"
               priority
             />
-          </div>
+          </div> */}
           <div className="relative">
             <Image
               className="w-full rounded-lg shadow-md transition-transform duration-500 transform hover:scale-105"
