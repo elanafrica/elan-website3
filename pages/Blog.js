@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import ElanBlogHero from "../public/elanblog.jpg";
-import ElanBlog1 from "../public/assets/series.jpg";
+import ElanBlog1 from "../public/assets/brandidentity.jpg";
 import ElanBlog2 from "../public/assets/mobileseo.jpg";
 import ElanBlog3 from "../public/assets/humanizingbrand.jpg";
 import ElanBlog4 from "../public/assets/socialmediaforsmallbusinesses.jpg";
@@ -226,7 +226,7 @@ const Blog = () => {
   ]);
 
   const [isOpen, setIsOpen] = useState(false);
-  const [commentInputs, setCommentInputs] = useState({});
+  // const [commentInputs, setCommentInputs] = useState({});
 
   const incrementViews = (postId) => {
     setPosts((prevPosts) =>
@@ -236,28 +236,28 @@ const Blog = () => {
     );
   };
 
-  const addComment = (postId, comment) => {
-    if (comment.trim() !== "") {
-      const newComment = {
-        name: "John Doe",
-        comment: comment,
-      };
+  // const addComment = (postId, comment) => {
+  //   if (comment.trim() !== "") {
+  //     const newComment = {
+  //       name: "John Doe",
+  //       comment: comment,
+  //     };
 
-      setPosts((prevPosts) =>
-        prevPosts.map((post) =>
-          post.id === postId
-            ? { ...post, comments: [...post.comments, newComment] }
-            : post
-        )
-      );
+  //     setPosts((prevPosts) =>
+  //       prevPosts.map((post) =>
+  //         post.id === postId
+  //           ? { ...post, comments: [...post.comments, newComment] }
+  //           : post
+  //       )
+  //     );
 
-      // Clear comment input
-      setCommentInputs((prevCommentInputs) => ({
-        ...prevCommentInputs,
-        [postId]: "",
-      }));
-    }
-  };
+  //     // Clear comment input
+  //     setCommentInputs((prevCommentInputs) => ({
+  //       ...prevCommentInputs,
+  //       [postId]: "",
+  //     }));
+  //   }
+  // };
 
   return (
     <Layout title="Blog">
@@ -371,12 +371,12 @@ const Blog = () => {
                 />
                 <h2>{post.title}</h2>
                 <p>{post.description}</p>
-                <p>
-                  <Link href={`/BlogCard/${post.id}`}>Read More</Link>
+                <p className="mt-4 mb-4">
+                  <Link href={`/BlogCard/${post.id}`}>Read More ...</Link>
                 </p>
                 <p>Views: {post.views}</p>
-                <h3>Comments</h3>
-                <ul>
+                <p>Comments: {post.comments}</p>
+                {/* <ul>
                   {post.comments.map((comment, index) => (
                     <li key={index}>{comment.comment}</li>
                   ))}
@@ -395,7 +395,7 @@ const Blog = () => {
                   onClick={() => addComment(post.id, commentInputs[post.id])}
                 >
                   Add Comment
-                </button>
+                </button> */}
               </div>
             ))}
           </div>
