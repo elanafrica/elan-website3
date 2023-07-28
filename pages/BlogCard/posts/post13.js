@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/b2bgrowthhack.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post13() {
   const [comments, setComments] = useState([]);
@@ -28,6 +29,7 @@ function Post13() {
   return (
     <div>
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -108,7 +110,7 @@ function Post13() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
+        <h2 className="font-bold text-xl text-center mt-4 mb-4">
           B2B Growth Hacking Strategies
         </h2>
         <h4 className="font-bold text-xl">What is B2B marketing?</h4>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/mobileseo.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post2() {
   const [comments, setComments] = useState([]);
@@ -27,6 +28,7 @@ function Post2() {
 
   return (
     <div className="">
+      <Navbar />
       <div className="mt-9 flex flex-wrap items-center justify-center ">
         <Link
           href="/Blog"
@@ -106,15 +108,15 @@ function Post2() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="text-3xl font-bold text-center">
-          TOP MOBILE EXTENSIONS TO BOOST SEO PERFORMANCE
-        </h2>
         <Image
-          className=" w-full h-full relative  bg-cover "
+          className=" w-full h-full relative"
           src={Hero}
           alt="home hero"
           priority
         />
+        <h2 className="text-xl font-bold text-center">
+          Top Mobile Extensions to boost SEO Performance
+        </h2>
         <p className="mt-5 mb-2">
           In today&#39;s digital landscape, mobile optimization is paramount for
           any website aiming to succeed in search engine rankings. With more

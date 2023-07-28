@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import Image from "next/image";
 import Hero from "../../../public/assets/freecourses.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post12() {
   const [comments, setComments] = useState([]);
@@ -28,6 +29,7 @@ function Post12() {
   return (
     <div>
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -112,7 +114,7 @@ function Post12() {
           5 Free Courses Every Founder & Entrepreneur Should ...
         </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative  bg-cover  "
+          className=" w-full h-full mt-3 mb-4 relative"
           src={Hero}
           alt="home hero"
           priority

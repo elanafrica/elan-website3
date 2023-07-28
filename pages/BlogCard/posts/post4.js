@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/socialmediaforsmallbusinesses.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post4() {
   const [comments, setComments] = useState([]);
@@ -27,6 +28,7 @@ function Post4() {
 
   return (
     <div className="">
+      <Navbar />
       <div className="mt-9 flex flex-wrap items-center justify-center ">
         <Link
           href="/Blog"
@@ -106,15 +108,15 @@ function Post4() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="text-3xl font-bold text-center">
-          How to Do Social Media Marketing for Small Businesses.
-        </h2>
         <Image
-          className=" w-full h-full relative  bg-cover "
+          className=" w-full h-full relative "
           src={Hero}
           alt="home hero"
           priority
         />
+        <h2 className="text-xl font-bold text-center">
+          How to Do Social Media Marketing for Small Businesses.
+        </h2>
         <p className="mt-5 mb-2">
           According to Datareportal, there are now more than 5.18 billion
           internet individuals, making up almost 65% of the world’s population!

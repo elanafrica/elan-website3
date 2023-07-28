@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/brandidentity.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post1() {
   const [comments, setComments] = useState([]);
@@ -27,6 +28,7 @@ function Post1() {
 
   return (
     <div className="">
+      <Navbar />
       <div className="mt-9 flex flex-wrap items-center justify-center ">
         <Link
           href="/Blog"
@@ -106,16 +108,16 @@ function Post1() {
       </div>
 
       <article className="m-4 mt-9 container mb-5">
-        <h2 className="text-3xl font-bold text-center">
-          Inside Elan Africa Series: Creating A Brand Identity For SMEs - Elan
-          lead designer, Ebuka.
-        </h2>
         <Image
-          className=" w-full h-full relative  bg-cover  "
+          className=" w-full h-full relative"
           src={Hero}
           alt="home hero"
           priority
         />
+        <h2 className="text-xl font-bold text-center">
+          Inside Elan Africa Series: Creating A Brand Identity For SMEs - Elan
+          lead designer, Ebuka.
+        </h2>
         <p className="mt-5 mb-2">
           The <span className="font-bold">Inside Elan Africa</span> Series
           delves into the world of digital marketing through the eyes and

@@ -24,16 +24,10 @@ function BlogCard() {
       className="singleCareer group group/item w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#0b2546] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg"
     >
       {post.image && (
-        <Image
-          src={post.image}
-          alt={post.title}
-          width={500}
-          height={300}
-          priority
-        />
+        <Image src={post.image} alt={elan} width={500} height={300} priority />
       )}
 
-      <h2 className="text-[16px] font-semibold text-black group-hover:text-white">
+      <h2 className="text-xl bold text-black group-hover:text-white">
         {post.title}
       </h2>
       <p className="text-[13px]">

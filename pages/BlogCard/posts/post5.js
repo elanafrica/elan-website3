@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/deathbyai.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post5() {
   const [comments, setComments] = useState([]);
@@ -27,6 +28,7 @@ function Post5() {
 
   return (
     <div className="">
+      <Navbar />
       <div className="mt-9 flex flex-wrap items-center justify-center ">
         <Link
           href="/Blog"
@@ -106,7 +108,13 @@ function Post5() {
       </div>
 
       <article className="m-4 mt-9 container">
-        <h2 className="text-2xl text-center font-bold mb-4">
+        <Image
+          className=" w-full h-full relative "
+          src={Hero}
+          alt="home hero"
+          priority
+        />
+        <h2 className="text-xl text-center font-bold mb-4">
           The death of SEO by AI (Debunking the myth)
         </h2>
         <p className="mt-4 mb-4">
@@ -118,12 +126,6 @@ function Post5() {
           role of Artificial Intelligence (AI) in SEO and whether it will render
           traditional SEO practices obsolete.{" "}
         </p>
-        <Image
-          className=" w-full h-full relative  bg-cover "
-          src={Hero}
-          alt="home hero"
-          priority
-        />
         <p className="mb-2 mt-2">
           Search Engine Optimization (SEO) has been an integral part of digital
           marketing since the inception of search engines. SEO refers to the

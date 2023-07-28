@@ -38,7 +38,7 @@ const Blog = () => {
     {
       id: 2,
       name: "Amabel Ukoko",
-      title: "TOP MOBILE EXTENSIONS TO BOOST SEO PERFORMANCE",
+      title: "  Top Mobile Extensions to boost SEO Performance",
       description:
         "In today's digital landscape, mobile optimization is paramount for any website aiming to succeed",
       date: "June 20",
@@ -369,18 +369,28 @@ const Blog = () => {
                   height={300}
                   priority
                 />
-                <h2>{post.title}</h2>
+                <h2 className="font-bold mt-4 mb-2">{post.title}</h2>
+                <p className="text-[13px]">
+                  <span>By {post.name} </span>
+                </p>
+                <p className="text-[13px]">{post.date}</p>
                 <p>{post.description}</p>
                 <p className="mt-4 mb-4">
                   <Link
                     href={`/BlogCard/${post.id}`}
                     className="text-[rgb(7,39,78)]"
                   >
-                    Read More ...
+                    <button
+                      className="px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                      data-aos="fade-down"
+                      data-aos-delay="400"
+                    >
+                      Read More...
+                    </button>
                   </Link>
                 </p>
-                <p>Views: {post.views}</p>
-                <p>Comments: {post.comments}</p>
+                {/* <p>Views: {post.views}</p>
+                <p>Comments: {post.comments}</p> */}
                 {/* <ul>
                   {post.comments.map((comment, index) => (
                     <li key={index}>{comment.comment}</li>

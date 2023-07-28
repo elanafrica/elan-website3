@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/perfectbusinessplan.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post17() {
   const [comments, setComments] = useState([]);
@@ -28,6 +29,7 @@ function Post17() {
   return (
     <div className="container">
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -108,15 +110,15 @@ function Post17() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          All the Talk about the perfect business plan for business growth!
-        </h2>
         <Image
-          className="  w-full h-full mt-3 mb-4 relative bg-cover  "
+          className="  w-full h-full mt-3 mb-4 relative "
           src={Hero}
           alt="home hero"
           priority
         />
+        <h2 className="font-bold text-xl text-center mt-4 mb-4">
+          All the Talk about the perfect business plan for business growth!
+        </h2>
         <p>
           Everyone refers to a business plan as a road map that guides a
           business in the right direction. The importance Elan places on your

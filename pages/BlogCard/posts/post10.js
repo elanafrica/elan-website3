@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from "../../../public/assets/smetarget.jpg";
 import Hero1 from "../../../public/assets/elanblog4.png";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post10() {
   const [comments, setComments] = useState([]);
@@ -29,6 +30,7 @@ function Post10() {
   return (
     <div>
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -109,15 +111,15 @@ function Post10() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          A Guide to How SMEs can identify Their Target Audience
-        </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative bg-cover "
+          className=" w-full h-full mt-3 mb-4 relative"
           src={Hero}
           alt="home hero"
           priority
         />
+        <h2 className="font-bold text-xl text-center mt-4 mb-4">
+          A Guide to How SMEs can identify Their Target Audience
+        </h2>
         <p className="mt-4 mb-4">
           Small and medium-sized enterprises are currently on the rise. Aside
           from the crucial role they play in the economy, SMEs are effective for

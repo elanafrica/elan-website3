@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Layout from "../components/Layout";
+import Logo from "../public/logo.png";
 import Home1 from "../public/africanmap.jpg";
 import Home2 from "../public/egrowth.jpg";
 import Home3 from "../public/edev.jpg";
@@ -35,7 +36,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Home() {
-  // slide effect animation
+  const videoRef = useRef();
+
+  useEffect(() => {
+    setTimeout(() => {
+      videoRef.current.play();
+    }, 5000);
+  }, []);
   useEffect(() => {
     Aos.init({
       duration: 1800,
@@ -130,7 +137,7 @@ function Home() {
               </div>
 
               <div
-                className="max-w-7xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 px-2 mt-7 "
+                className="max-w-7xl  w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-9  mt-7 "
                 style={{ animation: "fadeIn 1s ease-in-out" }}
               >
                 <div className="col-span-1 w-full h-full">
@@ -212,7 +219,7 @@ function Home() {
                   </div>
                   <div
                     style={{ animation: "slideIn 1s ease-in-out" }}
-                    className="ml-6"
+                    className="ml-6 mb-4"
                   >
                     We are driven by <span className="font-bold">Passion</span>{" "}
                     and <span className="font-bold">Performance,</span> made for
@@ -221,11 +228,16 @@ function Home() {
                   </div>
                   <div
                     style={{ animation: "slideIn 1s ease-in-out" }}
-                    className="ml-6"
+                    className="ml-6 mb-2"
                   >
                     Our techniques focus on a measurable and clear understanding
                     of the basics that make a remarkable difference to your
                     business, whoever and wherever you are.
+                  </div>
+                  <div
+                    style={{ animation: "slideIn 1s ease-in-out" }}
+                    className="ml-6 mb-4"
+                  >
                     We are passionate about growing your business and putting it
                     on the map.
                   </div>
@@ -375,6 +387,17 @@ function Home() {
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
+                    <div className="mt-7 player-wrapper">
+                      <video ref={videoRef} loop muted controls>
+                        <source src={"/videos/elanvideo.mp4"} />
+                      </video>
+                    </div>
+                  </div>
+                  <div
+                    className="flex flex-col w-full sm:w-1/3 mb-4 px-2"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
                     <div className="rounded-lg shadow-lg p-6 text-center mb-4">
                       <Image
                         className="w-full homepage22"
@@ -405,15 +428,18 @@ function Home() {
             </div>
 
             <div className="bg-black text-white mt-5 text-center">
-              <div className="p-6 text-3xl font-bold">
+              <div className="p-6 text-xl font-bold">
                 MADE FOR EVERY BUSINESS
+                <p className="p-6 text-xl font-bold">
+                  We are driven by two things... Passion and Performance.
+                </p>
               </div>
-              <div className="p-6 text-3xl font-bold">
+              {/* <div className="p-6 text-xl font-bold">
                 We are driven by two things... Passion and Performance.
-              </div>
+              </div> */}
               <div className="space-y-3 sm:space-y-0 sm:flex sm:justify-center animate-scale-in">
-                <Link href="/">
-                  <button className="block mt-5 mb-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto animate-fade-in">
+                <Link href="/AboutUs">
+                  <button className="block  mb-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto animate-fade-in">
                     Learn more
                   </button>
                 </Link>
@@ -421,15 +447,20 @@ function Home() {
             </div>
 
             <div className="bg-[#00626F]  text-white mt-5  mb-7 text-center homepage22">
-              <div className=" p-6 text-4xl font-bold ">******</div>
+              <div className=" p-6 text-4xl font-bold text-[#E2B659] ">
+                ******
+              </div>
               <div className=" p-6 text-xl font-bold ">
                 It is rare to find an agency that is both creative and
                 analytical, ELAN certainly is both. We saw significant
                 improvement with ELAN and we recommend working with them if you
                 are seeking for a growth team
               </div>
-              <div className=" p-6 text-3xl font-bold">Jonathan O.</div>
-              <div className="text-xl mb-7">JRIP UK</div>
+              <div className="mb-7 p-6">
+                <p className=" text-3xl font-bold">Jonathan O.</p>
+
+                <p className="text-xl ">JRIP UK</p>
+              </div>
             </div>
 
             <div className="mt-7  ">
@@ -448,7 +479,7 @@ function Home() {
                 {/* <div className="p-6 text-3xl font-bold text-center">
                   What we get up to!
                 </div> */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pr-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pr-5">
                   <Image
                     className="w-full homepage22"
                     src={Show1}

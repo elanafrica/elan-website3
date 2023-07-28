@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/customerexperiencedirectmarketing.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post18() {
   const [comments, setComments] = useState([]);
@@ -28,6 +29,7 @@ function Post18() {
   return (
     <div>
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -111,7 +113,7 @@ function Post18() {
         {/* <p>
           {post.name} . {post.date} . 2min read
         </p> */}
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
+        <h2 className="font-bold text-xl text-center mt-4 mb-4">
           Customer experience that enhances direct marketing and advocacy
         </h2>
         <p className="mt-4 mb-4">
@@ -124,7 +126,7 @@ function Post18() {
           customer service is worth USD47 billion.
         </p>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
+          className=" w-full h-full mt-3 mb-4 relative "
           src={Hero}
           alt="home hero"
           priority

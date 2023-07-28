@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import Image from "next/image";
 import Hero from "../../../public/assets/11marketingstrategies.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post8() {
   const [comments, setComments] = useState([]);
@@ -30,6 +31,7 @@ function Post8() {
   return (
     <div>
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -110,7 +112,13 @@ function Post8() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
+        <Image
+          className=" w-full h-full mt-3 mb-4 relative "
+          src={Hero}
+          alt="home hero"
+          priority
+        />
+        <h2 className="font-bold text-xl text-center mt-4 mb-4">
           11 Marketing Strategies To attract and Retain...
         </h2>
         <p className="mt-2 mb-5">
@@ -121,12 +129,6 @@ function Post8() {
           business growth and development, having a strategy for every form of
           marketing allows you to maximize opportunities better.
         </p>
-        <Image
-          className=" w-full h-full mt-3 mb-4 relative  bg-cover "
-          src={Hero}
-          alt="home hero"
-          priority
-        />
         <p className="mt-2 mb-3">But first, what is a marketing strategy?</p>
         <p className="mt-5 mb-3">
           A marketing strategy is defined as an organization's promotional

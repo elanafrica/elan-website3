@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Hero from "../../../public/assets/deademailmarketing.jpg";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 function Post9() {
   const [comments, setComments] = useState([]);
@@ -28,6 +29,7 @@ function Post9() {
   return (
     <div>
       <div className="">
+        <Navbar />
         <div className="mt-9 flex flex-wrap items-center justify-center ">
           <Link
             href="/Blog"
@@ -108,15 +110,15 @@ function Post9() {
       </div>
 
       <article className="m-4 mt-9 container mb-5 ">
-        <h2 className="font-bold text-2xl text-center mt-4 mb-4">
-          Is Email Marketing Dead?
-        </h2>
         <Image
-          className=" w-full h-full mt-3 mb-4 relative bg-cover "
+          className=" w-full h-full mt-3 mb-4 relative"
           src={Hero}
           alt="home hero"
           priority
         />
+        <h2 className="font-bold text-xl text-center mt-4 mb-4">
+          Is Email Marketing Dead?
+        </h2>
         <p className="mt-3 mb-2">
           Email marketing has been around for decades and continues to be one of
           the most cost-effective and measurable methods for businesses to reach

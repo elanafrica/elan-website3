@@ -55,9 +55,9 @@ function ContactUs() {
           <h3 className="font-bold text-4xl mb-7">
             Let's explore business opportunities together.
           </h3>
-          <p className="text-xl">
+          {/* <p className="text-xl">
             Tell us where you are and where you want to be.
-          </p>
+          </p> */}
           <p className="text-xl">We’ll be glad to take you there.</p>
         </div>
         <div className="flex w-full min-h-screen justify-center items-center">
@@ -65,11 +65,9 @@ function ContactUs() {
             <div className="flex flex-col justify-around">
               <div>
                 <h3 className="font-bold text-4xl">
-                  Reinvent your experience with us
+                  Tell us where you are and where you want to be.
                 </h3>
-              </div>
-              <div className="flex flex-col space-y-5">
-                <div className="flex items-center space-x-2">
+                <div className="mt-4 flex items-center space-x-2">
                   <span className="text-2xl">
                     <GoLocation />
                   </span>
@@ -84,6 +82,8 @@ function ContactUs() {
                   <p className="text-xl">team@elanafrica.com</p>
                 </div>
               </div>
+
+              <div className="flex flex-col space-y-5"></div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl text-gray-600 md:w-100">
               <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
