@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Layout from "../components/Layout";
-import Logo from "../public/logo.png";
+
 import Home1 from "../public/africanmap.jpg";
 import Home2 from "../public/egrowth.jpg";
 import Home3 from "../public/edev.jpg";
@@ -34,6 +34,7 @@ import playns from "../public/assets/playns.png";
 
 import Image from "next/image";
 import Link from "next/link";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 function Home() {
   const videoRef = useRef();
@@ -547,6 +548,7 @@ function Home() {
                     </button>
                   </Link>
                 </div>
+                <WhatsAppWidget />
               </div>
               <div className="slider my-10 ">
                 <div className="slideTrack">
